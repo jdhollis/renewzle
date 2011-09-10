@@ -1,0 +1,18 @@
+<div class="span-7 last">
+  <fieldset class="results">
+  	<legend>Recommended System</legend>
+
+  	<table cellspacing="0" cellpadding="0" border="0" class="results bottom">
+  		<tr>
+  			<th>System size:</th>
+        <td><%= number_with_delimiter(number_with_precision(profile.nameplate_rating, 1)) %> DC kW</td>
+  		</tr>
+  		<tr>
+        <th>Annual output:</th>
+        <td><%= number_with_delimiter(number_with_precision(profile.annual_output, 0)) %> <abbr title="kilowatt-hours">kWh</abbr></td>
+      </tr>
+  	</table>	
+  </fieldset>
+</div>
+
+<%= with_and_without_solar %>

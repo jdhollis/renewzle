@@ -1,0 +1,45 @@
+<fieldset class="results">
+  <legend>RFQ</legend>
+	
+  <table border="0" cellspacing="0" cellpadding="0" class="results bottom">
+	  <tr>
+	    <th>Nameplate rating:</th>
+	    <td><%= number_with_delimiter(number_with_precision(profile.nameplate_rating, 1)) %> DC kW</td>
+	  </tr>
+	  <tr>
+	    <th>CEC rating:</th>
+	    <td><%= number_with_delimiter(number_with_precision(profile.cec_rating, 1)) %> AC kW</td>
+	  </tr>
+	  <tr>
+	    <th>Annual output:</th>
+	    <td><%= number_with_delimiter(number_with_precision(profile.annual_output, 0)) %> kWh</td>
+	  </tr>
+	  <tr class="hr">
+			<th>Estimated project cost:</th>
+			<td><%= number_to_currency(profile.project_cost, :precision => 0) %></td>
+		</tr>
+		<tr>
+			<th>
+				Cash outlay:<br/>
+				<small>(after incentives)</small>
+			</th>
+			<td><%= number_to_currency(profile.net_system_cost, :precision => 0) %></td>
+		</tr>
+	  <tr class="hr">
+			<th>Monthly savings:</th>
+			<td><%= number_to_accounting(profile.average_monthly_savings, :precision => 0) %></td>
+		</tr>
+		<tr>
+			<th>Lifetime savings:</th>
+			<td><%= number_to_accounting(profile.lifetime_savings, :precision => 0) %></td>
+		</tr>
+		<tr>
+			<th>Increased home value:</th>
+			<td><%= number_to_currency(profile.increase_in_home_value, :precision => 0) %></td>
+		</tr>
+		<tr class="hr">
+	    <th>City:</th>
+	    <td><%= h(profile.city) %></td>
+	  </tr>
+	</table>
+</fieldset>

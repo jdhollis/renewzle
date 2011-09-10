@@ -1,0 +1,23 @@
+profile:
+  id: 1
+  percentage_to_offset: 1
+  city: Cupertino
+  updated_at: 2008-01-10 23:29:12
+  postal_code: 95014
+  region: 
+  filing_status: Married
+  solar_rating_id: 57151
+  state_income_tax_bracket_id: 65
+  system_performance_derate: 0.2
+  rfq: 1
+  street_address: 
+  customer_id: 1
+  utility_id: 359
+  lead_id: 1
+  federal_income_tax_bracket_id: 9
+  income: 100000
+  loan_term: 25
+  average_monthly_bill: 150
+  created_at: 2008-01-10 23:28:53
+  annual_interest_rate: 0.06
+  state: CA

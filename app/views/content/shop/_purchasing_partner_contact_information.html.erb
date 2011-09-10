@@ -1,0 +1,15 @@
+<div class="span-7">
+  <fieldset class="results">
+    <legend>Retailer Contact Information</legend>
+  
+    <p style="margin-left:1em">
+      <strong class="large"><a href="mailto:<%= h(partner.email) %>" title="Email <%= h(partner.full_name) %>"><%= h(partner.full_name) %></a></strong><br />
+      <%= h(partner.company.name) %><br />
+      <%= h(partner.street_address) %><br />
+      <%= h(partner.city) %>, <%= h(partner.state) %> <%= h(partner.postal_code) %><br />
+      <%= h(partner.phone_number) %><br />
+    </p>
+  </fieldset>
+</div>
+
+<hr />

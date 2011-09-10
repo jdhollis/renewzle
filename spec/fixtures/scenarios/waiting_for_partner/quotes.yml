@@ -1,0 +1,14 @@
+quote:
+  id: 1
+  profile_id: 1
+  partner_id: 2
+  photovoltaic_module_id: 1
+  number_of_modules: 10
+  photovoltaic_inverter_id: 1
+  number_of_inverters: 10
+  system_price: 500000.00
+  installation_estimate: 500000.00
+  installation_available: 1
+  will_accept_rebate_assignment: 1
+  created_at: <%= 1.days.ago.to_s :db %>
+  updated_at: <%= 1.days.ago.to_s :db %>

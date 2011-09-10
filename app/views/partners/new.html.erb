@@ -1,0 +1,83 @@
+<%= javascript_include_tag('lowpro') %>
+
+<script type="text/javascript">
+<!--
+Event.addBehavior.reassignAfterAjax = true;
+Event.addBehavior({
+	'div.pagination a' : Remote.Link
+})
+-->
+</script>
+
+<div id="how-do-i-use-renewzle" class="span-14 append-1">
+  <h2>How do I use Renewzle?</h2>
+  
+  <ol>
+    <li>Sign up as a retailer.</li>
+    <li>Submit quotes for opportunities in your area.</li>
+    <li>Purchase leads when customers accept your quotes.</li>
+  </ol>
+  
+  <div class="submit">
+    <p class="bottom"><a href="#" onclick="new Effect.ScrollTo('step_1'); return false;"><%= image_tag('btn_sign_up_now.gif', :alt => 'Sign Up Now!') %></a></p>
+    <p>Already signed up? <%= link_to("Login here &raquo;", login_url) %></p>
+  </div>
+</div>
+
+<div id="try-renewzle" class="span-9 last">
+  <h3>Try Renewzle today!</h3>
+  
+  <ul>
+    <li>Signing up only takes a minute.</li>
+    <li>No upfront commitment.</li>
+    <li>Pay only $1 for your first lead.</li>
+  </ul>
+</div>
+
+<hr />
+
+<div id="step_1" class="span-14 append-1">                                                                                                                                                                                                                                                                                          
+  <h3>Step 1: Find your company in our database</h3>
+
+  <p>Start typing the name of your company in the box, click Search, and you will see a list of matches in our database. When you see your company's name, click on the name to select it. If you don't see your company, try typing <em>less</em> in the search box so that you see more matches.</p>
+
+  <% form_remote_tag(:url => company_list_path, :loading => "showItemLoadingFor('company_search');", :success => "hideItemLoadingFor('company_search');") do %>
+    <fieldset>
+      <legend>Company Name</legend>
+      
+      <p>
+        <%= text_field_tag(:search_term, @company_name, :class => 'text') %>
+        <span class="submit">
+          <input type="image" src="<%= image_path('partner/btn_search.png') %>" alt="Search" id="search_button" class="button" />
+          <%= loading_span_of_size(24, :for => 'company_search') %>
+        </span>
+      </p>
+      
+      <p class="bottom"><em>We only work with California Energy Commission certified photovoltaic retailers. If your firm is registered with the CEC and you cannot locate your company in our database, please use the Customer Support link to send us a message and we will get things straightened out. To receive updates when we expand to other states and add new features, and to stay up to date with renewable energy news, please <a href="https://app.streamsend.com/public/CaUn/YGr/subscribe">sign up for our mailing list</a>.</em></p>
+    </fieldset>
+  <% end %>
+  
+  <div id="companies"></div>
+  
+  <div id="registration">
+    <%= registration_for(@partner, @company) %>
+  </div>
+</div>
+  
+<div class="span-9 last">
+  <div class="callout">
+    <div class="top-left">
+      <div class="bottom-right">
+  	    <h3 class="top-right">Need expert help?</h3>
+
+  	    <div class="bottom-left">
+  	      <p>Not sure how to sign up for Renewzle? Check out <%= link_to('Using Renewzle: Instructions for Retailers', retailer_help_url, :title => 'How to Use Renewzle') %> to learn how to sign up for and work with Renewzle.</p>
+  	      
+  	      <p>More questions? Check out our <%= link_to('Retailer FAQ', retailer_faq_url) %> page for answers to frequently asked questions.</p>
+  	      
+          <p>You can always email us at <a href="mailto:support@renewzle.com">support@renewzle.com</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

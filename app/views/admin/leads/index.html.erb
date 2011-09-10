@@ -1,0 +1,22 @@
+<h1>Leads</h1>
+
+<%= will_paginate(@leads) %>
+
+<table class="data">
+  <tr>
+    <th>Customer</th>
+    <th>Partner</th>
+    <th>Purchased</th>
+    <th></th>
+  </tr>
+  <% @leads.each do |lead| %>
+    <tr class="<%= cycle('odd', 'even') %>">
+      <td><%= link_to(lead.customer.full_name, admin_user_url(lead.customer)) %></td>
+      <td><%= link_to(lead.partner.full_name, admin_user_url(lead.partner)) %></td>
+      <td><%= (lead.purchased) ? "Yes" : "No" %></td>
+      <td><%= link_to('Show', admin_lead_url(lead)) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= will_paginate(@leads) %>

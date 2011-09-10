@@ -1,0 +1,37 @@
+city_of_amory:
+  id: 359
+  percent_geothermal: 0
+  percent_other: 0.19
+  percent_hydro: 5.19
+  oct: 0.06
+  name: City of Amory
+  mercury_rate: 2.50887e-08
+  jul: 0.1
+  jan: 0.09
+  percent_wind: 0.01
+  percent_biomass: 1.77
+  percent_oil: 2.08
+  so2_rate: 0.0065306
+  summer_ending_month: 10
+  dec: 0.08
+  co2_rate: 1.39321
+  jun: 0.08
+  apr: 0.06
+  feb: 0.08
+  rate: 0.08
+  percent_nuclear: 23.91
+  may: 0.06
+  summer_starting_month: 5
+  percent_solar: 0
+  utility_id: 571
+  nox_rate: 0.00223439
+  sep: 0.09
+  aug: 0.11
+  mar: 0.08
+  percent_unknown: 0.19
+  percent_gas: 9.39
+  percent_coal: 57.34
+  nov: 0.06
+  state: MS
+  created_at: 2008-01-11 20:28:19
+  updated_at: 2008-01-11 20:28:19

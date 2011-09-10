@@ -1,0 +1,6 @@
+<div id="cumulative_annual_savings_chart_container" class="chart_container"></div>
+<script type="text/javascript">
+  var annualCostChart = new FusionCharts('/FusionCharts/MSArea.swf', 'cumulative_annual_savings_chart', '100%', '275px', '0', '0');
+  annualCostChart.setDataURL("<%= cumulative_annual_savings_chart_data_path %>");
+  annualCostChart.render('cumulative_annual_savings_chart_container');
+</script>

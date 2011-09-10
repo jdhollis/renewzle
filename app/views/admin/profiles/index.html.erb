@@ -1,0 +1,37 @@
+<h1>Profiles</h1>
+
+<ul id="<%= @filter.blank? ? 'all' : @filter %>" class="filters">
+	<li class="all"><%= link_to("All", :filter => "all") %></li>
+	<li class="rfq"><%= link_to("RFQs", :filter => "rfqs") %></li>
+</ul>
+
+<%= will_paginate(@profiles, :params => { :filter => @filter }) %>
+
+<table class="data">
+  <tr>
+    <th>Average Bill</th>
+    <th>City</th>
+    <th>State</th>
+    <th>RFQ</th>
+    <th>Waiting Approval</th>
+    <th>Approved</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <% @profiles.each do |profile| %>
+    <tr class="<%= cycle('odd', 'even') %>">
+      <td><%= profile.average_monthly_bill %></td>
+      <td><%= profile.city %></td>
+      <td><%= profile.state %></td>
+      <td><%= (profile.rfq) ? "Yes" : "No" %></td>
+      <td><%= (profile.waiting_approval?) ? "Yes" : "No" %></td>
+      <td><%= (profile.approved) ? "Yes" : "No" %></td>
+      <td><%= link_to('Show', admin_profile_url(profile)) %></td>
+      <td><%= link_to('Edit', edit_admin_profile_path(profile)) %></td>
+      <td><% if profile.rfq? && profile.approved? -%><%= link_to('Withdraw', admin_profile_url(profile), :method => :delete) %><% end -%></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= will_paginate(@profiles) %>

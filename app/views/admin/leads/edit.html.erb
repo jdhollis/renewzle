@@ -1,0 +1,82 @@
+<h1>Editing incentive</h1>
+
+<%= error_messages_for :incentive %>
+
+<% form_for(:incentive, :url => admin_incentive_path) do |f| %>
+
+  <%= hidden_field_tag("_method", "put") %>
+
+  <div class="fieldgrp">
+    <%= f.label(:name) %>
+    <div class="field">
+      <%= f.text_field(:description) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:city) %>
+    <div class="field">
+      <%= f.text_field(:city) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:state) %>
+    <div class="field">
+      <%= f.text_field(:state) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:source) %>
+    <div class="field">
+      <%= f.text_field(:source) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:notes) %>
+    <div class="field">
+      <%= f.text_field(:notes) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:rate) %>
+    <div class="field">
+      <%= f.text_field(:rate) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:minimum_system_size) %>
+    <div class="field">
+      <%= f.text_field(:minimum_system_size) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:maximum_system_size) %>
+    <div class="field">
+      <%= f.text_field(:maximum_system_size) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:maximum_amount) %>
+    <div class="field">
+      <%= f.text_field(:maximum_amount) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:maximum_percentage) %>
+    <div class="field">
+      <%= f.text_field(:maximum_percentage) %>
+    </div>
+  </div>
+
+  <div class="controls">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>

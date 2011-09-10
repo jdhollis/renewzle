@@ -1,0 +1,35 @@
+star_energy:
+  id: 1
+  name: "1 Star Energy"
+  street_address: 1 Infinite Loop
+  state: CA
+  city: Cupertino
+  postal_code: 95014
+  distance: 
+  lat: 37.331886
+  lng: -122.031112
+  geocodable: 1
+  phone_number: "(530) 888-1894"
+  fax_number: "(530) 888-8897"
+  country: United States
+  url: "http://www.1stareneergy.com/"
+  created_at: 2008-01-10 23:52:01
+  updated_at: 2008-01-10 23:52:01
+
+au_inc:
+  id: 2
+  name: "1AU Inc"
+  street_address: 1 Infinite Loop
+  state: CA
+  city: Cupertino
+  postal_code: 95014
+  distance: 
+  lat: 37.331886
+  lng: -122.031112
+  geocodable: 1
+  phone_number: "(760) 888-1894"
+  fax_number: "(760) 888-8897"
+  country: United States
+  url: "http://www.1auinc.com/"
+  created_at: 2008-01-10 23:52:01
+  updated_at: 2008-01-10 23:52:01

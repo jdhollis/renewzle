@@ -1,0 +1,10 @@
+<h2>Quote from <%= @quote.partner.full_name %></h2>
+
+<dl>
+  <dd>System Price: <%= @quote.system_price %></dd>
+  <dd>Installation Estimate: <%= @quote.installation_estimate %></dd>
+  <dd>Installation Available: <%= @quote.installation_available %></dd>
+  <dd>Will Accept Rebate Assignment: <%= (@quote.will_accept_rebate_assignment) ? "Yes" : "No" %></dd>
+</dl>
+
+<%= link_to 'Back', admin_quotes_path %>

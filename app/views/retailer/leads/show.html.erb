@@ -1,0 +1,26 @@
+<div class="span-14 append-1">
+  <h2><%= h(@view_title) %></h2>
+  
+  <%= render(:partial => 'retailer/leads/rfq_and_quote', :locals => { :lead => @lead }) %>
+</div>
+
+<div class="span-9 last">
+  <% customer = @lead.customer -%>
+  
+  <div class="callout">
+    <div class="top-left">
+      <div class="bottom-right">
+  	    <h3 class="top-right">Customer Contact Information</h3>
+
+  	    <div class="bottom-left">
+          <ul class="plain address vcard">
+            <li><a href="mailto:<%= h(customer.email) %>" class="email" title="Email <%= h(customer.full_name) %>"><span class="fn"><%= h(customer.full_name) %></span></a></li>
+            <li><span class="street-address"><%= h(customer.street_address) %></span></li>
+            <li><span class="locality"><%= h(customer.city) %></span>, <span class="region"><%= h(customer.state) %></span> <span class="postal-code"><%= h(customer.postal_code) %></span></li>
+            <li class="tel"><%= h(customer.phone_number) %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

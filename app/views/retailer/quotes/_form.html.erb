@@ -1,0 +1,87 @@
+<% labelled_form_for(@quote, :url => retailer_quote_path(@quote)) do |quote_form| -%>
+  <%= quote_form.hidden_field(:profile_id) %>
+  
+  <div class="span-13 append-1">
+    <fieldset>
+      <legend>Module</legend>
+    
+      <div class="field required">
+        <label for="quote_photovoltaic_module_manufacturer">Manufacturer</label>
+        <%= quote_form.collection_select(:photovoltaic_module_manufacturer, module_manufacturers, :manufacturer, :manufacturer, { :include_blank => true }, :onchange => "showItemLoadingFor('photovoltaic_module_manufacturer');") %>
+        <%= loading_span_of_size(24, :for => 'photovoltaic_module_manufacturer') %>
+      </div>
+    
+      <%= observe_field(:quote_photovoltaic_module_manufacturer, :with => "Form.serialize('#{dom_id(quote)}') + '&update=modules'", :url => { :action => 'create' }) %>
+    
+      <div id="photovoltaic_module_fields">
+        <%= module_fields_for(quote) %>
+      </div>
+    </fieldset>
+  
+    <fieldset>
+      <legend>Inverter</legend>
+    
+      <div class="field required">
+        <label for="quote_photovoltaic_inverter_manufacturer">Manufacturer</label>
+        <%= quote_form.collection_select(:photovoltaic_inverter_manufacturer, inverter_manufacturers, :manufacturer, :manufacturer, { :include_blank => true }, :onchange => "showItemLoadingFor('photovoltaic_inverter_manufacturer');") %>
+        <%= loading_span_of_size(24, :for => 'photovoltaic_inverter_manufacturer') %>
+      </div>
+    
+      <%= observe_field(:quote_photovoltaic_inverter_manufacturer, :with => "Form.serialize('#{dom_id(quote)}') + '&update=inverters'", :url => { :action => 'create' }) %>
+    
+      <div id="photovoltaic_inverter_fields">
+        <%= inverter_fields_for(quote) %>
+      </div>
+    </fieldset>
+  </div>
+  
+  <div class="span-9 last">
+    <fieldset>
+  		<legend>Pricing</legend>
+		
+  		<%= quote_form.required_dollar_text_field(:system_price, :onblur => "Quote.updateRFQ('#{dom_id(quote)}', 'system_price');", :with_loading_span_of_size => 24) %>
+  		<br />
+  		<%= quote_form.labelled_inverted_check_box(:installation_available, :onchange => "Quote.toggleInstallationFields(); Quote.updateRFQ('#{dom_id(quote)}', 'installation_available');", :with_loading_span_of_size => 18) %>
+		
+  		<div id="installation_fields"<%= quote.installation_available? ? '' : " style='display:none'" %>>
+  		  <%= quote_form.required_dollar_text_field(:installation_estimate, :label => "Typical installation cost", :onblur => "Quote.updateRFQ('#{dom_id(quote)}', 'installation_estimate');", :with_loading_span_of_size => 24) %>
+  		</div>
+  		<br />
+  		<%= quote_form.labelled_inverted_check_box(:will_accept_rebate_assignment, :label => 'My firm will accept rebate assignment', :onchange => "Quote.updateRFQ('#{dom_id(quote)}', 'will_accept_rebate_assignment');", :with_loading_span_of_size => 18) %>
+    </fieldset>
+  </div>
+
+  <% if !company_backgrounders.empty? %>
+  <div class="span-10">
+    <fieldset>
+      <legend>Company Backgrounder</legend>
+      
+      <p>Would you like to attach a backgrounder to this quote?</p>
+      
+      <ul class="quote_company_backgrounders" style="list-style-type: none;">
+        <li>
+          <%=  quote_form.radio_button :company_backgrounder_id, nil, :checked => (@quote.company_backgrounder == nil) %>
+          None
+        </li>
+        <% for backgrounder in company_backgrounders %>
+          <li>
+            <%= quote_form.radio_button :company_backgrounder_id, backgrounder.id, :checked => (@quote.company_backgrounder_id == backgrounder.id) %>
+            <%= link_to(backgrounder.title, backgrounder.doc.url) %>
+          </li>
+        <% end %>
+      </ul>
+    </fieldset>
+  </div>
+  <% end %>
+  
+  <div class="clear submit">
+    <p>
+      <%= link_to(image_tag('btn_cancel.png', :alt => 'Cancel'), retailer_dashboard_url) %>
+      <input type="image" src="<%= image_path('partner/btn_submit_quote.png') %>" alt="Submit Quote" class="button" />
+      <span id="save_as_template_field" class="check_box field">
+        <%= check_box_tag('save_as_template', "1", @save_as_template) %>
+        <label for="save_as_template">Save as a template</label>
+      </span>
+    </p>
+  </div>
+<% end -%>

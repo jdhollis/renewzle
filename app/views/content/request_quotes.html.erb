@@ -1,0 +1,91 @@
+<div id="request_quotes" class="span-14 append-1">
+  <h2><%= h(@view_title) %></h2>
+  
+  <ol>
+    <li>
+      <h4><strong>Step 1. Make sure you&rsquo;re happy with your system</strong></h4>
+      
+      <p>Here&rsquo;s the system you&rsquo;ve selected:</p>
+      
+      <div class="span-14">
+        <fieldset class="span-7 results">
+        	<legend><%= number_with_delimiter(number_with_precision(@profile.nameplate_rating, 1)) %> DC kW Solar Electric System</legend>
+
+        	<table cellspacing="0" cellpadding="0" border="0" class="results bottom">
+        		<tr>
+              <th>Estimated annual output:</th>
+              <td><%= number_with_delimiter(number_with_precision(@profile.annual_output, 0)) %> kWh</td>
+            </tr>
+            <tr>
+              <th>Estimated project cost:</th>
+        			<td><%= number_to_currency(@profile.project_cost, :precision => 0) %></td>
+            </tr>
+            <tr>
+              <th>Estimated first year savings:</th>
+              <td><%= number_to_accounting(@profile.first_year_savings, :precision => 0) %></td>
+            </tr>
+            <tr>
+              <th>Estimated lifetime savings:</th>
+              <td><%= number_to_accounting(@profile.lifetime_savings, :precision => 0) %></td>
+            </tr>
+        	</table>	
+        </fieldset>
+      </div>
+      
+      <p>Want to refine your system size or cost? No problem! Just <%= link_to("go back", explore_url) %> and change your <strong>Current Settings</strong>.</p>
+      
+      <hr />
+    </li>
+    <li>
+      <h4><strong>Step 2. Request quotes from installers in your area</strong></h4>
+      
+      <h5 class="bottom">Why request quotes?</h5>
+      <ul style="margin-bottom:1.5em">
+        <li>Find out how much installers would charge to install your system WITHOUT contacting each individually.</li>
+        <li><strong>Renewzle will NOT release your information</strong> unless you choose to accept one of the quotes you receive.</li>
+      </ul>
+      
+      <h5 class="bottom">Ready to go?</h5>
+      <p>Fill out the form on the right and start receiving quotes today!</p>
+    </li>
+  </ol>
+</div>
+
+<div class="span-9 last">
+  <%= render(:partial => 'content/request_quotes_expert_help') %>
+  
+  <div id="register">
+    <h3>Register</h3>
+    
+    <% @page_javascript << "Form.focusFirstElement('#{dom_id(@customer)}');" -%>
+    <% labelled_form_for(@customer, :url => customer_path) do |customer_form| -%>
+      <fieldset>
+        <legend>Name &amp; Login</legend>
+        
+        <%= hidden_field_tag('request_quotes', '1') %>
+        
+        <%= customer_form.required_text_field(:first_name) %>
+        <%= customer_form.required_text_field(:last_name) %>
+        <%= customer_form.required_text_field(:email) %>
+        <%= customer_form.required_password_fields(:password) %>
+        <br />
+        <%= customer_form.required_text_field(:phone_number) %>
+      </fieldset>
+
+      <fieldset>
+        <legend>Site Address</legend>
+
+        <%= customer_form.required_text_field(:street_address) %>
+        <%= customer_form.required_text_field(:city) %>
+        <%= customer_form.required_text_field(:state) %>
+        <%= customer_form.required_text_field(:postal_code) %>
+      </fieldset>
+      
+      <p class="submit">
+        <input type="image" src="<%= image_path('customer/btn_request_quotes.gif') %>" alt="Request Quotes" class="button" />
+      </p>
+      
+      <p>Renewzle will NOT release your personal information when you request quotes.</p>
+    <% end -%>
+  </div>
+</div>

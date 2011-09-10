@@ -1,0 +1,12 @@
+<h1>New discount</h1>
+
+<%= error_messages_for :discount %>
+
+<% form_for(:discount, :url => admin_discounts_url) do |f| %>
+
+  <%= render(:partial => "form", :locals => { :f => f }) %>
+
+  <div class="controls">
+    <%= f.submit "Save" %>
+  </div>
+<% end %>

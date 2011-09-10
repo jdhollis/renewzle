@@ -1,0 +1,41 @@
+<fieldset class="results">
+  <legend>Your Quote</legend>
+	
+  <table border="0" cellspacing="0" cellpadding="0" class="results bottom">
+    <tr>
+	    <th>Nameplate rating:</th>
+	    <td><%= number_with_delimiter(number_with_precision(quote.nameplate_rating, 1)) %> DC kW</td>
+	  </tr>
+	  <tr>
+	    <th>CEC rating:</th>
+	    <td><%= number_with_delimiter(number_with_precision(quote.cec_rating, 1)) %> AC kW</td>
+	  </tr>
+	  <tr>
+	    <th>Annual output:</th>
+	    <td><%= number_with_delimiter(number_with_precision(quote.annual_output, 0)) %> kWh</td>
+	  </tr>
+	  <tr class="hr">
+			<th>Estimated project cost:</th>
+			<td><%= number_to_accounting(quote.project_cost, :precision => 0) %></td>
+		</tr>
+		<tr>
+			<th>
+				Cash outlay:<br/>
+				<small>(after incentives)</small>
+			</th>
+			<td><%= number_to_accounting(quote.cash_outlay, :precision => 0) %></td>
+		</tr>
+	  <tr class="hr">
+			<th>Monthly savings:</th>
+			<td><%= number_to_accounting(quote.average_monthly_savings, :precision => 0) %></td>
+		</tr>
+		<tr>
+			<th>Lifetime savings:</th>
+			<td><%= number_to_accounting(quote.lifetime_savings, :precision => 0) %></td>
+		</tr>
+		<tr>
+			<th>Increased home value:</th>
+			<td><%= number_to_accounting(quote.increase_in_home_value, :precision => 0) %></td>
+		</tr>
+	</table>
+</fieldset>

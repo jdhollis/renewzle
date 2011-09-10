@@ -1,0 +1,67 @@
+level,state,filing_status,income_min,income_max,rate
+Federal,,Single,0,7825,0.1
+Federal,,Single,7826,31850,0.15
+Federal,,Single,31851,77100,0.25
+Federal,,Single,77101,160850,0.28
+Federal,,Single,161851,349700,0.33
+Federal,,Single,349701,,0.35
+Federal,,Married,1,15650,0.1
+Federal,,Married,15651,63700,0.15
+Federal,,Married,63701,128500,0.25
+Federal,,Married,128501,195850,0.28
+Federal,,Married,195851,349700,0.33
+Federal,,Married,349701,,0.35
+Federal,,Married filing separately,0,7825,0.1
+Federal,,Married filing separately,7826,31850,0.15
+Federal,,Married filing separately,31851,64250,0.25
+Federal,,Married filing separately,64251,97925,0.28
+Federal,,Married filing separately,97926,174850,0.33
+Federal,,Married filing separately,174851,,0.35
+Federal,,Head of household,0,11200,0.1
+Federal,,Head of household,11201,42650,0.15
+Federal,,Head of household,42651,110100,0.25
+Federal,,Head of household,110101,178350,0.28
+Federal,,Head of household,178351,349700,0.33
+Federal,,Head of household,349701,,0.35
+State,AL,Single,0,500,0.02
+State,AL,Single,501,3000,0.04
+State,AL,Single,3001,,0.05
+State,AL,Married,0,1000,0.02
+State,AL,Married,1001,6000,0.04
+State,AL,Married,6001,,0.05
+State,AZ,Single,0,10000,0.0273
+State,AZ,Single,10001,25000,0.0304
+State,AZ,Single,25001,50000,0.0355
+State,AZ,Single,50001,150000,0.0448
+State,AZ,Single,150001,,0.0479
+State,AZ,Married,0,20000,0.0273
+State,AZ,Married,20001,50000,0.0304
+State,AZ,Married,50001,100000,0.0355
+State,AZ,Married,100001,300000,0.0448
+State,AZ,Married,300001,,0.0479
+State,AR,Single,0,3599,0.01
+State,AR,Single,3600,7199,0.025
+State,AR,Single,7200,10799,0.035
+State,AR,Single,10800,17999,0.045
+State,AR,Single,18000,30099,0.06
+State,AR,Single,30100,,0.07
+State,AR,Married,0,3599,0.01
+State,AR,Married,3600,7199,0.025
+State,AR,Married,7200,10799,0.035
+State,AR,Married,10800,17999,0.045
+State,AR,Married,18000,30099,0.06
+State,AR,Married,30100,,0.07
+State,CA,Single,0,6622,0.01
+State,CA,Single,6623,15698,0.02
+State,CA,Single,15699,24776,0.04
+State,CA,Single,24777,34394,0.06
+State,CA,Single,34395,43467,0.08
+State,CA,Single,43468,1000000,0.093
+State,CA,Single,1000001,,0.103
+State,CA,Married,0,13244,0.01
+State,CA,Married,13245,31396,0.02
+State,CA,Married,31397,49552,0.04
+State,CA,Married,49553,68788,0.06
+State,CA,Married,68789,86934,0.08
+State,CA,Married,86935,1000000,0.093
+State,CA,Married,1000001,,0.103

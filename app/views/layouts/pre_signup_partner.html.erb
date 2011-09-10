@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <!-- <%= server_name %> -->
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <%= meta_description %>
+  <%= meta_keywords %>
+
+  <title><%= view_title %></title>
+  
+  <%= stylesheet_link_tag('screen', :media => 'screen, projection') %>
+  <%= stylesheet_link_tag('print', :media => 'print') %>
+  <!--[if IE]>
+    <%= stylesheet_link_tag('ie', :media => 'screen, projection') %>
+  <![endif]-->
+</head>
+
+<body id="shared" class="top">
+  <%= masquerade_panel %>
+  
+  <div class="container"<%= dom_id_from(@location) %>>
+    <div id="header" class="span-24">
+      <div class="span-6">
+        <h1><%= link_to('Renewzle', home_url) %></h1>
+      </div>
+      
+      <div id="retailer_tagline" class="span-16 prepend-2 last">
+			  <h2 id="tagline"><%= image_tag('retailer_tagline.png', :alt => 'Find highly qualified sales leads and grow your solar business.') %></h2>
+			</div>
+    </div>
+  
+    <div id="content">
+      <div id="messages">
+        <%= message_from(flash) %>
+      </div>
+    
+      <%= yield %>
+    </div>
+    
+    <div id="footer" class="span-24">
+      <hr />
+      
+      <div class="span-8">
+        <p class="bottom">Copyright &copy; 2008 Renewzle, Inc. All rights reserved.</p>
+      </div>
+      
+      <div class="span-16 last">
+        <ul id="courtesy_navi" class="bottom">
+          <li><%= link_to('About Us', about_url) %> <%= separator %></li>
+          <li><%= link_to('Press', press_url) %> <%= separator %></li>
+          <li><%= link_to('Customer FAQ', faq_url) %> <%= separator %></li>
+          <li><%= link_to('Retailer FAQ', retailer_faq_url) %> <%= separator %></li>
+          <li><%= link_to('Privacy Policy', privacy_policy_url) %> <%= separator %></li>
+          <li><%= link_to('Terms of Service', tos_url) %> <%= separator %></li>
+          <li><%= link_to('Help', retailer_help_url, :title => 'How to Use Renewzle') %></li>
+        </ul>
+      </div>
+  </div>
+  
+  <%= page_javascript %>
+  <%= google_analytics %>
+</body>
+</html>

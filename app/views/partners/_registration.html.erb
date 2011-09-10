@@ -1,0 +1,56 @@
+<hr />
+
+<% labelled_form_for(partner, :url => partner_path) do |partner_form| -%>
+  <h3>Step 2: Review and update your company profile</h3>
+
+  <p>Please look over the information below and make any changes if you see anything that is blank, inaccurate, or out of date.</p>
+  
+  <fieldset>
+    <legend>Your Company Profile</legend>
+    
+  <% labelled_fields_for(:company, company) do |company_form| -%>
+    <%= company_form.hidden_field(:id) %>
+    <%= company_form.required_text_field(:name) %>
+    <%= company_form.labelled_text_field(:email) %>
+    <%= company_form.labelled_text_field(:url, :label => 'URL', :error_label => 'URL') %>
+    <br />
+    <%= company_form.required_text_field(:street_address, :field_class => 'block_error') %>
+    <%= company_form.required_text_field(:city) %>
+    <%= company_form.required_text_field(:state, :label => 'State / province', :error_label => 'State / province') %>
+    <%= company_form.required_text_field(:postal_code) %>
+    <%= company_form.required_country_select(:country) %>
+    <br />
+    <%= company_form.required_text_field(:phone_number) %>
+    <%= company_form.labelled_text_field(:fax_number) %>
+    <br />
+    <%= company_form.labelled_check_box(:installs, :label => "Are you an installer?", :onchange => 'Partner.toggleInstallerFields();') %>
+    <div id="installer_fields"<%= company.installs? ? '' : ' style="display:none"' %>>
+      <%= company_form.required_kW_text_field(:total_kw_installed, :label => "Total kilowatts installed", :error_label => "Total kilowatts installed") %>
+      <%= company_form.required_text_field(:contractors_license_number, :label => "Contractor&rsquo;s license number", :error_label => "Contractor&rsquo;s license number") %>
+    </div>
+    <br />
+    <%= company_form.required_text_field(:in_business_since) %>
+  <% end -%>
+  </fieldset>
+  
+  <hr />
+  
+  <h3 id="step_3">Step 3: Enter your contact information</h3>
+  
+  <fieldset>
+    <legend>Your Information</legend>
+    
+    <%= partner_form.required_text_field(:first_name, :input_class => 'name', :onfocus => "new Effect.ScrollTo('step_3');") %>
+    <%= partner_form.required_text_field(:last_name, :input_class => 'name') %>
+    <%= partner_form.required_text_field(:email, :input_class => 'email') %>
+    <br />
+    <%= partner_form.required_password_fields(:password, :input_class => 'password') %>
+    <br />
+    <%= partner_form.required_text_field(:phone_number, :input_class => 'phone_number') %>
+    <%= partner_form.labelled_text_field(:fax_number, :input_class => 'fax_number') %>
+  </fieldset>
+  
+  <div class="submit">
+    <p><input type="image" src="<%= image_path('btn_register.png') %>" alt="Register" class="button" /></p>
+  </div>
+<% end -%>

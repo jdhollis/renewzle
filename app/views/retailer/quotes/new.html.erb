@@ -1,0 +1,40 @@
+<div class="span-15 append-1">
+  <h2><%= h(@view_title) %></h2>
+  
+  <p>Use the boxes below to build your quote. As you make your equipment choices, the box on the right will show you the overall specifications for your system. You can compare those to the customer&rsquo;s requested specifications shown to the left. When you are through, hit the <em>Submit Quote</em> button and your quote will be delivered to the customer.</p>
+</div>  
+
+<div class="span-8 last">
+  <%= render(:partial => 'retailer/shared/expert_help') %>
+</div>
+
+<% unless @quote_templates.blank? -%>
+<div class="span-7 last">
+  <% form_tag(retailer_quote_path(@quote), :id => 'select_quote_template') do -%>
+    <%= hidden_field_tag('profile_id', @profile.id) %>
+    <div class="required field">
+      <label for="quote_template">Start with a saved template?</label>
+      <% options = [ content_tag('option', '', :value => '') ] + @quote_templates.collect { |qt| content_tag('option', qt.description, :value => qt.id) } %>
+      <%= select_tag('quote_template', options.join(''), :onchange => "Quote.applyTemplate('select_quote_template', 'quote_template', '#{retailer_quote_path(@quote)}');") %>
+      <%= loading_span_of_size(24, :for => 'quote_template') %>
+    </div>
+  <% end -%>
+</div>
+
+<br class="clear" />
+<br />
+<% end -%>
+
+<div class="span-7 append-1">
+  <%= render(:partial => 'retailer/quotes/rfq', :locals => { :profile => @profile }) %>
+</div>
+
+<div id="quote" class="span-7 last">
+  <%= render(:partial => 'retailer/quotes/quote', :locals => { :quote => @quote }) %>
+</div>
+
+<hr />
+
+<div id="quote_form">
+  <%= render(:partial => 'retailer/quotes/form', :locals => { :quote => @quote, :module_manufacturers => @module_manufacturers, :inverter_manufacturers => @inverter_manufacturers, :company_backgrounders => @company_backgrounders }) %>
+</div>

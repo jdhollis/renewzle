@@ -1,0 +1,16 @@
+<fieldset id="energy_provider">
+  <h4>Energy Provider <span id="provider_tip_toggle" class="tip_toggle">(<a href="#" onclick="return Profile.toggleTip('provider_tip');">?</a>)</span></h4>
+  
+  <%= utility_select_for(profile_form) unless profile.utility.blank? %>
+  <%= region_select_for(profile_form) unless profile.region.blank? && !profile.has_tariff? %>
+
+  <div id="provider_tip" class="tip" style="display:none">
+    <p>Choose your electric utility from the drop-down list above.</p>
+  
+    <p>After you choose your electric utility, you may be asked for your utility region. You can find the region specified on your utility bill, but make your best guess if you don&rsquo;t have the bill handy. Renewzle will pull up your exact utility rates for use in the financial calculations.</p>
+  
+    <p class="bottom"><a href="#" onclick="return Profile.toggleTip('provider_tip');">Hide this tip</a></p>
+  </div>
+</fieldset>
+
+<hr />

@@ -1,0 +1,13 @@
+<% backgrounder = backgrounders_waiting_approval %>
+<div id="<%= dom_id(backgrounder) %>" style="padding-bottom: 10px; border-bottom: 1px solid #ccc;">
+  <div>Company Backgrounder: <%= link_to(backgrounder.title, backgrounder.doc.url) %></div>
+  <div>File: <%= backgrounder.doc.filename %> (<%= number_to_human_size(backgrounder.doc.size) %>, <%= backgrounder.doc.content_type %>)</div>
+  <div>Claiming Company: <%= link_to(backgrounder.company.name, admin_company_url(backgrounder.company)) %></div>
+  <div style="padding-top: 10px;">
+    <% form_remote_tag :url => admin_backgrounder_path(backgrounder), :method => :put do %>
+      <%= hidden_field_tag('backgrounder_id', backgrounder.id) %>
+      <%= select_tag('backgrounder[waiting_approval]', "<option value='approve'>Approve</option><option value='decline'>Decline</option>") %>
+      <%= submit_tag %>
+    <% end %>
+  </div>
+</div>

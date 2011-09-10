@@ -1,0 +1,18 @@
+<h1>Reject Company Backgrounder</h1>
+
+<% labelled_form_for(:company_backgrounder, :url => confirm_reject_admin_backgrounder_path) do |f| %>
+
+  <h3>Reason Comments</h3>
+  <div id="company_backgrounder" class="fieldgrp">
+    <%= f.label(:Comments) %>
+    <div class="field">
+      <%= f.text_area(:comments) %>
+    </div>
+  </div>
+
+  <div class="controls">
+    <%= f.submit "Confirm" %>
+  </div>
+<% end %>
+
+<%= link_to 'Back', admin_backgrounders_path %>

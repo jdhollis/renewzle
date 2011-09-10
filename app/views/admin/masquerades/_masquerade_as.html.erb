@@ -1,0 +1,39 @@
+<% unless @masquerade_as_profiles.blank? -%>
+<% form_tag(start_masquerading_url(:protocol => masquerade_protocol), :method => :post, :id => 'masquerade_as_profile') do -%>
+  <div class="field">
+    <label for="profile_id">Masquerade as an unregistered customer with a</label>
+    <%= select_tag(:profile_id, @masquerade_as_profiles.collect { |p| content_tag('option', "#{number_with_delimiter(number_with_precision(p.nameplate_rating, 1))} DC kW system in #{p.city.blank? ? p.postal_code : p.city}", :value => p.id, :selected => p == @user.mask) }) -%>
+  </div>
+  
+  <div class="submit">
+    <input type="submit" value="Start" class="button" />
+  </div>
+<% end -%>
+<% end -%>
+
+
+<% unless @masquerade_as_customers.blank? -%>
+<% form_tag(start_masquerading_url(:protocol => masquerade_protocol), :method => :post, :id => 'masquerade_as_customer') do -%>
+  <div class="field">
+    <label for="customer_id">Masquerade as customer</label>
+    <%= select_tag(:customer_id, @masquerade_as_customers.collect { |c| content_tag('option', "#{c.full_name} &lt;#{c.email}&gt;", :value => c.id, :selected => c == @user.mask) }) -%>
+  </div>
+  
+  <div class="submit">
+    <input type="submit" value="Start" class="button" />
+  </div>
+<% end -%>
+<% end -%>
+
+<% unless @masquerade_as_partners.blank? -%>
+<% form_tag(start_masquerading_url(:protocol => masquerade_protocol), :method => :post, :id => 'masquerade_as_partner') do -%>
+  <div class="field">
+    <label for="partner_id">Masquerade as partner</label>
+    <%= select_tag(:partner_id, @masquerade_as_partners.collect { |p| content_tag('option', "#{p.full_name} &mdash; #{p.company.name}", :value => p.id, :selected => p == @user.mask) }) -%>
+  </div>
+  
+  <div class="submit">
+    <input type="submit" value="Start" class="button" />
+  </div>
+<% end -%>
+<% end -%>

@@ -1,0 +1,21 @@
+<div class="span-15 append-1">
+  <h2><%= h(@view_title) %></h2>
+  
+  <p>Use the boxes below to build your quote template. As you make your equipment choices, the <em>Your Quote</em> box below will show you the overall specifications for your system.</p>
+  
+  <p>After you have created a quote template, you can choose it from a drop-down list when making a quote. The template will pre-populate the form, but you will still be able to edit any of the specifications or pricing for that particular quote. You can create as many templates as you want.</p>
+  
+  <div id="quote_template" class="span-7">
+    <%= render(:partial => 'retailer/quote_templates/quote_template', :locals => { :quote_template => @quote_template }) %>
+  </div>
+</div>  
+
+<div class="span-8 last">
+  <%= render(:partial => 'retailer/shared/expert_help') %>
+</div>
+
+<hr />
+
+<div id="quote_template_form">
+  <%= render(:partial => 'retailer/quote_templates/form', :locals => { :quote_template => @quote_template, :module_manufacturers => @module_manufacturers, :inverter_manufacturers => @inverter_manufacturers, :company_backgrounders => @company_backgrounders }) %>
+</div>

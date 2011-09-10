@@ -1,0 +1,61 @@
+<h1>Editing User</h1>
+
+<%= error_messages_for :user %>
+
+<% form_for(:user, :url => admin_user_path) do |f| %>
+
+  <%= hidden_field_tag("_method", "put") %>
+
+  <div class="fieldgrp">
+    <%= f.label(:full_name) %>
+    <div class="field">
+      <%= f.text_field(:full_name) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:street_address) %>
+    <div class="field">
+      <%= f.text_field(:street_address) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:city) %>
+    <div class="field">
+      <%= f.text_field(:city) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:state) %>
+    <div class="field">
+      <%= f.text_field(:state) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:postal_code) %>
+    <div class="field">
+      <%= f.text_field(:postal_code) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:phone_number) %>
+    <div class="field">
+      <%= f.text_field(:phone_number) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:fax_number) %>
+    <div class="field">
+      <%= f.text_field(:fax_number) %>
+    </div>
+  </div>
+
+  <div class="controls">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>

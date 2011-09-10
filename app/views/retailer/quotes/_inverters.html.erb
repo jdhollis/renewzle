@@ -1,0 +1,11 @@
+<div class="field required">
+  <label for="quote_photovoltaic_inverters_id">Model</label>
+  <%= select(:quote, :photovoltaic_inverter_id, inverters.collect { |i| [ i.model_and_description, i.id ] }, { :selected => quote.photovoltaic_inverter_id }, :onchange => "Quote.updateRFQ('new_quote', 'photovoltaic_inverter');" ) %>
+  <%= loading_span_of_size(24, :for => 'photovoltaic_inverter') %>
+</div>
+
+<div class="field required">
+  <label for="quote_photovoltaic_number_of_inverters">Quantity</label>
+  <%= text_field(:quote, :number_of_inverters, :value => quote.number_of_inverters, :onblur => "Quote.updateRFQ('new_quote', 'number_of_inverters');", :class => 'text') %>
+  <%= loading_span_of_size(24, :for => 'number_of_inverters') %>
+</div>

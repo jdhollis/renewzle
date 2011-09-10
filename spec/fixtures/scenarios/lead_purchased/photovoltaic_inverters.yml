@@ -1,0 +1,9 @@
+photovoltaic_inverter:
+  id: 1
+  power_rating: 333000
+  description: 333 kW 480 Vac Three Phase Utility Interactive Inverter
+  manufacturer: Advanced Energy Industries, INC.
+  model_number: 3159000-104
+  weighted_efficiency: 0.97
+  created_at: 2008-01-11 00:01:39
+  updated_at: 2008-01-11 00:01:39

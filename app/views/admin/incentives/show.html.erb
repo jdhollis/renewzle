@@ -1,0 +1,18 @@
+<h2><%= @incentive.description %></h2>
+
+<dl>
+  <dt><%= @incentive.description %></dt>
+  <dd>Type: <%= @incentive.type.to_s.underscore.humanize %></dd>
+  <dd>City: <%= @incentive.city %></dd>
+  <dd>State: <%= @incentive.state %></dd>
+  <dd>Source: <%= @incentive.source %></dd>
+  <dd>Notes: <%= @incentive.notes %></dd>
+  <dd>Derate: <%= @incentive.derate %></dd>
+  <dd>Rate: <%= @incentive.rate %></dd>
+  <dd>Minimum System Size: <%= @incentive.minimum_system_size %></dd>
+  <dd>Maximum System Size: <%= @incentive.maximum_system_size %></dd>
+  <dd>Maximum Amount: <%= @incentive.maximum_amount %></dd>
+  <dd>Maximum Percentage: <%= @incentive.maximum_percentage %></dd>
+</dl>
+
+<%= link_to 'Edit', edit_admin_incentive_path(@incentive) %> | <%= link_to 'Back', admin_incentives_path %>

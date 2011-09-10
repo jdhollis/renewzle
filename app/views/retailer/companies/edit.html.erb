@@ -1,0 +1,50 @@
+<div class="span-14 append-1">
+  <h2><%= h(@view_title) %></h2>
+  
+  <p>Please review the information we have on file for your company and make any changes/updates that are needed. The information you provide is shown to consumers along with quote information, so please make sure you fill out everything completly so that your experience stands out.</p>
+  
+  <% labelled_form_for(@company, :url => retailer_company_path) do |company_form| -%>
+    <fieldset>
+      <legend>Company Profile</legend>
+        <%= company_form.required_text_field(:name) %>
+        <%= company_form.labelled_text_field(:email) %>
+        <%= company_form.labelled_text_field(:url, :label => 'URL', :error_label => 'URL') %>
+        <br />
+        <%= company_form.required_text_field(:street_address) %>
+        <%= company_form.required_text_field(:city) %>
+        <%= company_form.required_text_field(:state, :label => 'State / province', :error_label => 'State / province') %>
+        <%= company_form.required_text_field(:postal_code) %>
+        <%= company_form.required_country_select(:country) %>
+        <br />
+        <%= company_form.required_text_field(:phone_number) %>
+        <%= company_form.labelled_text_field(:fax_number) %>
+        <br />
+        <%= company_form.labelled_check_box(:installs, :label => "Are you an installer?", :onchange => 'Partner.toggleInstallerFields();') %>
+        <div id="installer_fields"<%= @company.installs? ? '' : ' style="display:none"' %>>
+          <%= company_form.required_kW_text_field(:total_kw_installed, :label => "Total kilowatts installed", :error_label => "Total kilowatts installed") %>
+          <%= company_form.required_text_field(:contractors_license_number, :label => "Contractor&rsquo;s license number", :error_label => "Contractor&rsquo;s license number") %>
+        </div>
+        <br />
+        <%= company_form.required_text_field(:in_business_since) %>
+      
+        <div class="submit">
+          <p class="bottom"><input type="image" src="<%= image_path('btn_save_changes.png') %>" alt="Save Changes" class="button" /></p>
+        </div>
+    </fieldset>
+  <% end -%>
+  
+  <hr />
+
+  <h3>Manage Users</h3>
+  
+  <p>Renewzle supports mulitple users and afford you control over what each user can do. Use the buttons to add a new user or modify an existing user.</p>
+  
+  <ul id="partners">
+    <%= render(:partial => 'retailer/partners/partner', :collection => @company.partners) %>
+    <%= render(:partial => 'retailer/partners/new_partner', :locals => { :company => @company, :partner => @company.partners.build }) %>
+  </ul>
+</div>
+
+<div class="span-9 last">
+  <%= render(:partial => 'retailer/shared/expert_help') %>
+</div>

@@ -1,0 +1,11 @@
+<tr id="<%= dom_id(purchased_lead) %>" class="<%= (purchased_lead_counter + 1) % 2 == 0 ? 'even ' : '' %><%= dom_class(purchased_lead) %> purchased">
+  <td><%= h(purchased_lead.city) %></td>
+  <td><%= number_with_delimiter(number_with_precision(purchased_lead.nameplate_rating, 1)) %> kW</td>
+  <td><%= number_with_delimiter(number_with_precision(purchased_lead.cec_rating, 1)) %> kW</td>
+  <td><%= number_to_currency(purchased_lead.total_price, :precision => 0) %></td>
+  <td class="button">
+    <% if @partner.can_purchase_leads? %>
+      <%= link_to('View', retailer_lead_url(purchased_lead)) %>
+    <% end %>
+  </td>
+</tr>

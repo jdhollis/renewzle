@@ -1,0 +1,111 @@
+<%= quote_request_link %>
+  
+<% labelled_form_for(profile, :url => profile_path, :html => { :id => "edit_profile_form" }) do |profile_form| -%>
+  <%= next_required_field(profile_form) %>
+  
+  <div id="settings">
+    <div class="top-left">
+      <div class="bottom-right">
+        <h3 class="top-right">Your Current Settings</h3>
+        
+        <fieldset id="system_size" class="highlight">
+          <p><em>Adjust the electric output and cost of your system here:</em></p>
+          
+          <h4>System Size <span id="size_tip_toggle" class="tip_toggle">(<a href="#" onclick="return Profile.toggleTip('size_tip');">?</a>)</span></h4>
+
+          <%= profile_form.labelled_percentage_text_field(:percentage_to_offset, :label => "How much of your energy usage do you want to offset with solar?") %>
+
+          <div id="size_tip" class="tip" style="display:none">
+            <p>The &ldquo;% from solar&rdquo; is the percentage of your total electricity consumption that the solar energy system will provide.</p>
+
+            <p id="more_on_size_toggle"><a href="#" onclick="return Profile.toggleTip('more_on_size');">Want to know more?</a></p>
+
+      	    <div id="more_on_size" style="display:none">
+      	      <p>Oftentimes it is not possible to fit a system large enough to eliminate all of your electric use, or it might be too costly. Try changing the percentage and system size - financial and environmental calculations will change accordingly. Also, while the largest system possible will usually provide the greatest lifetime savings, the chart at the right shows you what your monthly costs will be throughout the range of percentages. Trying different percentages to see how the figures change is the best way to find the system that&rsquo;s exactly right for you!</p>
+            </div>
+
+            <p class="bottom"><a href="#" onclick="return Profile.toggleTip('size_tip');">Hide this tip</a></p>
+          </div>
+        </fieldset>
+        
+        <hr />
+        
+        <% unless @profile.customer_has_not_reported_any_electricity_usage? -%>
+        <fieldset id="energy_usage">
+          <h4>Energy Usage <span id="energy_tip_toggle" class="tip_toggle">(<a href="#" onclick="return Profile.toggleTip('energy_tip');">?</a>)</span></h4>
+
+          <%= profile_form.labelled_dollar_text_field(:average_monthly_bill) %>
+
+          <div id="energy_tip" class="tip" style="display:none">
+            <p>Renewzle will estimate your monthly usage and bills throughout the year based on average consumption rates for your electric utility.</p>
+
+            <p class="bottom"><a href="#" onclick="return Profile.toggleTip('energy_tip');">Hide this tip</a></p>
+          </div>
+        </fieldset>
+
+        <hr />
+        <% end -%>
+        
+        <fieldset id="tax_status">
+          <h4>Tax Status <span id="tax_tip_toggle" class="tip_toggle">(<a href="#" onclick="return Profile.toggleTip('tax_tip');">?</a>)</span></h4>
+
+          <%= profile_form.labelled_dollar_text_field(:income, :precision => 0) %>
+          <%= profile_form.labelled_select(:filing_status, possible_filing_statuses) %>
+
+          <div id="tax_tip" class="tip" style="display:none">
+            <p>Some incentives for solar (including the Federal credit) are in the form of tax credits. For Renewzle to accurately determine the value of these credits, it needs to know your income and filing status. Don&rsquo;t worry, your information is completely confidential and is only used to calculate the financial measures shown to you by Renewzle.</p>
+
+            <p class="bottom"><a href="#" onclick="return Profile.toggleTip('tax_tip');">Hide this tip</a></p>
+          </div>
+        </fieldset>
+        
+        <hr />
+        
+        <fieldset id="financing">
+          <h4>Financing <span id="financing_tip_toggle" class="tip_toggle">(<a href="#" onclick="return Profile.toggleTip('financing_tip');">?</a>)</span></h4>
+
+          <%= profile_form.labelled_text_field(:loan_term, :label => "Loan term in years", :size => "15") %>
+          <%= profile_form.labelled_percentage_text_field(:annual_interest_rate, :size => "20") %>
+
+          <div id="financing_tip" class="tip" style="display:none">
+            <p>Most people finance their solar energy purchase. It&rsquo;s also a lot easier to compare a monthly payment to an electric bill, so that&rsquo;s what Renewzle does.</p>
+
+            <p>The interest rate and term below are typical, but feel free to change them if you think loan terms in your area are a little different or if you just want to see how different loans will affect the overall finances.</p>
+
+            <p class="bottom"><a href="#" onclick="return Profile.toggleTip('financing_tip');">Hide this tip</a></p>
+          </div>
+        </fieldset>
+        
+        <hr />
+        
+        <%= provider_fields(profile_form) %>
+        
+        <fieldset id="location">
+          <h4>Location <span id="derate_tip_toggle" class="tip_toggle">(<a href="#" onclick="return Profile.toggleTip('derate_tip');">?</a>)</span></h4>
+
+          <%= profile_form.labelled_text_field(:postal_code, :label => "Zip", :size => "10") unless profile.postal_code.blank? %>
+
+          <%= profile_form.labelled_percentage_text_field(:system_performance_derate, :label => "Solar output adjustment", :size => "13") %>
+
+          <div id="derate_tip" class="tip" style="display:none">
+            <p>The solar output adjustment is meant to account for less than perfect solar installations. In the real world, a solar system is typically mounted on your roof and your roof may not point directly south and may not have the perfect angle.</p>
+
+            <p id="more_on_derate_toggle"><a href="#" onclick="return Profile.toggleTip('more_on_derate');">Want to know more?</a></p>
+
+            <div id="more_on_derate" style="display:none">
+              <p>Solar systems deliver the highest performance when facing directly south and at a specific tilt and, of course, are entirely free of shading throughout the day.</p>
+
+              <p>Keep in mind that a solar contractor will come to your house and do a careful site evaluation before you purchase a system and they can tell you if your estimate was on the mark.</p>
+            </div>
+
+            <p class="bottom"><a href="#" onclick="return Profile.toggleTip('derate_tip');">Hide this tip</a></p>
+          </div>
+        </fieldset>
+        
+        <div class="submit bottom-left">
+          <input type="image" src="<%= image_path('customer/btn_update_profile.gif') %>" alt="Update Profile" class="button" />
+        </div>
+      </div>
+    </div>
+  </div>
+<% end -%>

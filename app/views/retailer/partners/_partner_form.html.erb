@@ -1,0 +1,32 @@
+<% errors = errors.blank? ? false : errors -%>
+<div id="<%= dom_id(partner) %>_link"<%= errors ? ' style="display:none"' : '' %>>
+  <h4><%= mail_to(partner.email, partner.full_name) %> <%= administrator_title_for(partner) %></h4>
+  <span class="actions"><a href="#<%= dom_id(partner) %>_form" onclick="Company.showUserFormFor('<%= dom_id(partner) %>');">Edit</a></span>
+</div>
+
+<div id="<%= dom_id(partner) %>_form"<%= errors ? '' : ' style="display:none"' %>>
+  <% labelled_remote_form_for(partner, :url => retailer_partner_path(partner), :loading => "showItemLoadingFor('#{dom_id(partner)}');") do |partner_form| -%>
+    <fieldset>
+      <legend><%= h(partner.full_name) %></legend>
+      
+      <%= partner_form.indexed_hidden_field(:id, :index => partner.id) %>
+      
+      <%= partner_form.required_text_field(:first_name, :index => partner.id, :input_class => 'name') %>
+      <%= partner_form.required_text_field(:last_name, :index => partner.id, :input_class => 'name') %>
+      <%= partner_form.required_text_field(:email, :index => partner.id, :input_class => 'email') %>
+      <br />
+      <%= partner_form.required_password_fields(:password, :index => partner.id, :input_class => 'password') %>
+      <br />
+      <%= partner_form.required_text_field(:phone_number, :index => partner.id, :input_class => 'phone_number') %>
+      <%= partner_form.labelled_text_field(:fax_number, :index => partner.id, :input_class => 'fax_number') %>
+      
+      <%= permission_inputs_for(partner, partner_form) %>
+      
+      <div class="submit bottom">
+        <a class="cancel button" href="#" onclick="return Company.hideUserFormFor('<%= dom_id(partner) %>');"><%= image_tag('btn_cancel.png', :alt => 'Cancel') %></a>
+        <input type="image" src="<%= image_path('btn_save_changes.png') %>" alt="Save" class="button" />
+        <%= loading_span_of_size(24, :for => dom_id(partner)) %>
+      </div>
+    </fieldset>
+  <% end -%>
+</div>

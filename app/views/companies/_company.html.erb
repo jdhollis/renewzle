@@ -1,0 +1,9 @@
+<li class="span-5 append-1<%= company_counter % 2 == 0 ? ' clear-left' : '' %>">
+  <h3 class="bottom"><%= link_to_function(h(company.cec_name), "Partner.updateRegistration(#{company.id})") %></h3>
+  
+  <p>
+    <%= h(company.cec_street_address) %><br />
+    <%= h(company.cec_city) %>, <%= h(company.cec_state) %> <%= h(company.cec_postal_code) %><br />
+    <%= h(company.cec_country) %>
+  </p>
+</li>

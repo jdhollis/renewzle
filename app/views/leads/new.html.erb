@@ -1,0 +1,86 @@
+<div class="span-17 append-1">
+  <h2><%= @view_title %></h2>
+  
+  <div class="span-7 append-1">
+    <fieldset class="results">
+    	<legend>Recommended System</legend>
+
+    	<table cellspacing="0" cellpadding="0" border="0" class="results bottom">
+    		<tr>
+    			<th>System size:</th>
+          <td><%= number_with_delimiter(number_with_precision(@profile.cec_rating, 1)) %> AC kW</td>
+          <td><%= number_with_delimiter(number_with_precision(@profile.nameplate_rating, 1)) %> DC kW</td>
+    		</tr>
+    		<tr>
+          <th>Annual output:</th>
+          <td><%= number_with_delimiter(number_with_precision(@profile.annual_output, 0)) %> kWh</td>
+        </tr>
+    	</table>	
+    </fieldset>
+  </div>
+  
+  <div class="span-9 pull-half">
+    <fieldset class="results">
+      <legend>Quote</legend>
+    
+      <table border="0" cellspacing="0" cellpadding="0" class="results bottom">
+        <tr>
+    			<th>System size:</th>
+          <td><%= number_with_delimiter(number_with_precision(@quote.cec_rating, 1)) %> AC kW</td>
+          <td><%= number_with_delimiter(number_with_precision(@quote.nameplate_rating, 1)) %> DC kW</td>
+    		</tr>
+    		<tr>
+          <th>Annual output:</th>
+          <td><%= number_with_delimiter(number_with_precision(@quote.annual_output, 0)) %> kWh</td>
+        </tr>
+       	<tr>
+      		<th>System price:</th>
+      		<td><%= number_to_accounting(@quote.system_price, :precision => 0) %></td>
+      	</tr>
+      	<tr>
+      		<th>
+      		  Installation estimate:<br />
+      		  <small><%= @quote.installation_available? ? 'Installation available' : 'Installation unavailable' %></small>
+      		</th>
+      		<td><%= number_to_accounting(@quote.installation_estimate, :precision => 0) %></td>
+      	</tr>
+      	<tr>
+      		<th>Project cost:</th>
+      		<td><%= number_to_accounting(@quote.project_cost, :precision => 0) %></td>
+      	</tr>
+      	<tr>
+      		<th>
+      		  Upfront cost / cash outlay:<br />
+      		  <small><%= @quote.will_accept_rebate_assignment? ? 'Rebate assignment accepted' : 'Rebate assignment not accepted' %></small>
+      		</th>
+      		<td><%= number_to_accounting(@quote.cash_outlay, :precision => 0) %></td>
+      	</tr>
+      </table>
+    </fieldset>
+  </div>
+  
+  <hr />
+  
+  <div class="span-12">
+    <% form_for(@lead) do |lead_form| -%>  
+      <p>Are you certain you want to accept the above quote and <em class="highlight">allow the partner access to your contact information</em>?</p>
+  
+      <div>
+        <% labelled_fields_for(:profile, @profile) do |profile_fields| -%>
+          <%= profile_fields.hidden_field(:id) %>
+        <% end -%>
+        
+        <%= lead_form.hidden_field(:quote_id) %>
+        <%= lead_form.hidden_field(:partner_id) %>
+      </div>
+  
+      <div class="submit">
+        <p><%= submit_button('Yes, I accept') %> <span class="or">or <%= link_to('No, thanks', shop_url) %></span></p>
+      </div>
+    <% end -%>
+  </div>
+</div>
+
+<div class="span-6 last">
+  <%= render(:partial => 'shared/expert_help') %>
+</div>

@@ -1,0 +1,13 @@
+<h1>Editing Company</h1>
+
+<%= error_messages_for :company %>
+
+<% form_for(:company, :url => admin_company_path) do |f| %>
+
+  <%= hidden_field_tag("_method", "put") %>
+  <%= render(:partial => "form", :locals => { :f => f }) %>
+
+  <div class="controls">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>

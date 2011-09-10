@@ -1,0 +1,35 @@
+<h1>Discounts</h1>
+
+<ul class="filters">
+  <li><%= link_to("Add Discount", admin_discount_new_url(:type => 'discount')) %></li>
+  <li><%= link_to("Add First Lead Discount", admin_discount_new_url(:type => 'first_lead_discount')) %></li>
+</ul>
+
+<%= will_paginate(@discounts) %>
+
+<table class="data">
+  <tr>
+    <th>Company</th>
+    <th>Discount</th>
+    <th>First Lead Only?</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <% @discounts.each do |discount| %>
+    <tr class="<%= cycle('odd', 'even') %>">
+      <td><%= (discount.company.nil?) ? 'Global' : discount.company.name %></td>
+      <% if discount.price %>
+        <td>$<%= number_with_precision(discount.price, 2) %></td>
+      <% else %>
+        <td><%= discount.percentage %>%</td>
+      <% end %>
+      <td><%= (discount.kind_of? FirstLeadDiscount) ? 'Yes' : 'No' %></td>
+      <td><%= link_to('Show', admin_discount_url(discount)) %></td>
+      <td><%= link_to('Edit', edit_admin_discount_path(discount)) %></td>
+      <td><%= link_to('Destroy', admin_discount_path(discount), :confirm => 'Are you sure?', :method => :delete) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= will_paginate(@discounts) %>

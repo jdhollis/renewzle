@@ -1,0 +1,21 @@
+<% @page_javascript << "Form.focusFirstElement('#{dom_id(@user)}');" -%>
+<% labelled_form_for(@user, :url => session_path, :html => { :onsubmit => 'preventFormResubmission(this);' }) do |login_form| -%>
+  <fieldset class="bottom">
+    <legend><%= h(@view_title) %></legend>
+    
+    <div class="field">
+      <label for="email">Email</label>
+      <%= text_field_tag('email', flash[:previously_submitted_email], :class => 'text') %>
+    </div>
+  
+    <div class="field">
+      <label for="password">Password</label>
+      <%= password_field_tag('password', nil, :class => 'text') %>
+      <p><small><%= link_to('Forget your password?', forgot_password_url) %></small></p>
+    </div>
+    
+    <div class="submit">
+      <input type="submit" value="Login" />
+    </div>
+  </fieldset>
+<% end -%>

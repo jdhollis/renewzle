@@ -1,0 +1,7 @@
+<p>A customer in <%= @profile.city %> has requested a quote for a <%= number_with_delimiter(number_with_precision(@profile.nameplate_rating, 1)) %> kW PV system.</p>
+<p>This consumer has used Renewzle to get a detailed financial analysis of installing a solar energy system for their home and is now requesting quotes.</p> 
+<p>Don&rsquo;t wait; this customer is a hot prospect.  You can review this customer&rsquo;s request and all of the quote opportunities in your service area by <a href="<%= @dashboard_url %>">clicking here</a>.</p>
+<p>Remember, Renewzle provides extremely qualified leads by educating consumers and providing accurate, interactive financial calculations. Renewzle does a lot of the sales work for you and greatly reduces the chances of a consumer experiencing sticker shock.</p>
+<p>There is no charge to <a href="<%= @dashboard_url %>">submit a quote</a>. We require only that retailers pay us a small commission for accepted quotes.</p>
+<p>If you have any trouble logging into Renewzle or have any questions, please email <a href="mailto:info@renewzle.com">info@renewzle.com</a>.</p>
+<p>Thank you,<br />The Renewzle Team</p>

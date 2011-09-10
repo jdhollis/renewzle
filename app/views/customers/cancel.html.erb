@@ -1,0 +1,15 @@
+<div id="cancel_account" class="span-14 append-1">
+  <h2>Do you really want to cancel your account?</h2>
+
+  <p>Cancelling your account will immediately and permanently delete your profile and all quotes.</p>
+
+  <p><strong class="highlight">There is no undo.</strong></p>
+
+  <p><em>Your account will not be deleted until you click the button below.</em></p>
+
+  <% form_for(@user, :url => { :controller => 'customers', :action => 'destroy' }, :html => { :method => :delete }) do |customer_form| -%>
+    <div class="submit">
+      <p><%= submit_button('Yes, permanently cancel my account') %> <span class="or">or <%= link_to('Go back', account_url) %></span></p>
+    </div>
+  <% end -%>
+</div>

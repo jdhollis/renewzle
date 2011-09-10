@@ -1,0 +1,15 @@
+<div class="span-14 append-1">
+  <ol id="get_started_fields">
+    <%= render(:partial => 'profiles/learn/get_started_postal_code', :locals => { :profile => @profile })%>
+    <%= render(:partial => "profiles/learn/get_started_utility", :locals => { :profile => @profile }) if @profile.at_or_beyond_utility_stage? %>
+    <%= render(:partial => "profiles/learn/get_started_region", :locals => { :profile => @profile }) if !@profile.single_tariff? && @profile.at_or_beyond_region_stage? %>
+    <%= render(:partial => "profiles/learn/get_started_usage", :locals => { :profile => @profile }) if @profile.getting_started_with_usage? %>
+  </ol>
+</div>
+
+<div style="display:none">
+  <p>Preloading bullets:</p>
+<% 1.upto(4) do |i| -%>
+  <img src="/images/customer/inactive_bul_<%= i %>.png" />
+<% end -%>
+</div>

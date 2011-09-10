@@ -1,0 +1,17 @@
+<hr />
+
+<div class="span-14">
+  <h3>Fresh Leads</h3>
+
+  <table border="0" cellspacing="0" cellpadding="0" class="accounting">
+    <tr class="header">
+      <th>City</th>
+      <th>System Size</th>
+      <th>CEC Rating</th>
+      <th>Your Quote</th>
+      <th>Price</th>
+      <th class="actions"></th>
+    </tr>
+    <%= render(:partial => 'retailer/leads/unpurchased_lead', :collection => unpurchased_leads) %>
+  </table>
+</div>

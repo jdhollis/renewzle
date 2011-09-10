@@ -1,0 +1,94 @@
+<form>
+  <%= label(:lead, "Status") %>
+  <% unless lead.closed? %>
+    <%= select(:lead, 'closed', [ [ 'Closed', true ], [ 'Open', false ] ], { :selected => lead.closed }, :onchange => remote_function(:url => lead_path(lead), :method => 'put', :with => 'Form.Element.serialize(this)')) %>
+  <% else %>
+    Closed
+  <% end %>
+</form>
+
+<div class="span-12">
+  <% quote = lead.quote -%>
+  <% profile = lead.profile -%>
+  <fieldset class="results">
+    <table border="0" cellspacing="0" cellpadding="0" class="results bottom">
+      <tr class="header">
+        <th></th>
+        <th>Quote</th>
+        <th>RFQ</th>
+      </tr>
+      <tr>
+  	    <th>Nameplate rating:</th>
+  	    <td><%= number_with_delimiter(number_with_precision(quote.nameplate_rating, 1)) %> DC kW</td>
+  	    <td><%= number_with_delimiter(number_with_precision(profile.nameplate_rating, 1)) %> DC kW</td>
+  	  </tr>
+  	  <tr>
+  	    <th>CEC rating:</th>
+  	    <td><%= number_with_delimiter(number_with_precision(quote.cec_rating, 1)) %> AC kW</td>
+  	    <td><%= number_with_delimiter(number_with_precision(profile.cec_rating, 1)) %> AC kW</td>
+  	  </tr>
+  	  <tr>
+  	    <th>Annual output:</th>
+  	    <td><%= number_with_delimiter(number_with_precision(quote.annual_output, 0)) %> kWh</td>
+  	    <td><%= number_with_delimiter(number_with_precision(profile.annual_output, 0)) %> kWh</td>
+  	  </tr>
+  	  <tr>
+    	  <th style="vertical-align:top">Module:</th>
+    		<td colspan="2"><%= number_with_delimiter(quote.number_of_modules) %> &times; <%= quote.module_type %></td>
+    	</tr>
+    	<tr>
+    		<th style="vertical-align:top">Inverter:</th>
+    		<td colspan="2"><%= number_with_delimiter(quote.number_of_inverters) %> &times; <%= quote.inverter_type %></td>
+    	</tr>
+    	<tr class="hr">
+    		<th>System price:</th>
+    		<td><%= number_to_accounting(quote.system_price, :precision => 0) %></td>
+    		<td></td>
+    	</tr>
+    	<tr>
+    		<th style="width:170px;">
+    		  Installation estimate:<br />
+    		  <small><%= quote.installation_available? ? 'Installation available' : 'Installation unavailable' %></small>
+    		</th>
+    		<td><%= number_to_accounting(quote.installation_estimate, :precision => 0) %></td>
+    	</tr>
+  	  <tr>
+  			<th>Estimated project cost:</th>
+  			<td><%= number_to_accounting(quote.project_cost, :precision => 0) %></td>
+  			<td><%= number_to_currency(profile.project_cost, :precision => 0) %></td>
+  		</tr>
+  		<tr>
+  			<th>
+  				Cash outlay:<br/>
+  				<small>(after incentives)</small>
+  			</th>
+  			<td><%= number_to_accounting(quote.cash_outlay, :precision => 0) %></td>
+  			<td><%= number_to_currency(profile.net_system_cost, :precision => 0) %></td>
+  		</tr>
+  	  <tr class="hr">
+  			<th>Monthly savings:</th>
+  			<td><%= number_to_accounting(quote.average_monthly_savings, :precision => 0) %></td>
+  			<td><%= number_to_accounting(profile.average_monthly_savings, :precision => 0) %></td>
+  		</tr>
+  		<tr>
+  			<th>Lifetime savings:</th>
+  			<td><%= number_to_accounting(quote.lifetime_savings, :precision => 0) %></td>
+  			<td><%= number_to_accounting(profile.lifetime_savings, :precision => 0) %></td>
+  		</tr>
+  		<tr>
+  			<th>Increased home value:</th>
+  			<td><%= number_to_accounting(quote.increase_in_home_value, :precision => 0) %></td>
+  			<td><%= number_to_currency(profile.increase_in_home_value, :precision => 0) %></td>
+  		</tr>
+  	</table>
+  </fieldset>
+</div>
+
+<hr />
+
+<h3>Receipt</h3>
+
+<p>
+  You purchased this lead for <strong class="highlight">$<%= number_to_currency(@lead.selling_price, :precision => 2) %></strong>.<br />
+  Your confirmation number is <strong class="highlight"><%= h(@lead.confirmation_number) %></strong>.
+</p>

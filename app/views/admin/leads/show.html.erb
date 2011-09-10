@@ -1,0 +1,10 @@
+<h2>Lead for <%= @lead.partner.full_name %></h2>
+
+<dl>
+  <dd>Confirmation Number: <%= @lead.confirmation_number %></dd>
+  <dd>Authorization: <%= @lead.authorization %></dd>
+  <dd>IP Address: <%= @lead.ip_address %></dd>
+  <dd>Purchased: <%= (@lead.purchased) ? "Yes" : "No" %></dd>
+</dl>
+
+<%= link_to 'Back', admin_leads_path %>

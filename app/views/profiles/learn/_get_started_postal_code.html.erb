@@ -1,0 +1,17 @@
+<% initially_hidden = !initially_hidden.blank? -%>
+<li id="postal_code" class="one<%= profile.beyond_postal_code_stage? ? ' complete' : '' %>"<%= initially_hidden ? ' style="display:none"' : '' %>>
+  <p>Enter your zip code to get started. If you make a mistake, don&rsquo;t worry&mdash;you can change any of these values once you&rsquo;re finished.</p>
+
+  <% labelled_remote_form_for(profile, :url => profile_path, :loading => "showItemLoadingFor('profile');", :html => { :id => "edit_#{dom_id(@profile)}_postal_code" }) do |profile_form| -%>
+  <% unless profile.beyond_postal_code_stage? -%>
+    <p class="tip">Renewzle is currently only available to California homeowners. To be updated when we expand to other states, please sign up for <a href="https://app.streamsend.com/public/CaUn/YGr/subscribe">our mailing list</a>.</p>
+  <% end -%>
+  
+    <p>
+      <%= profile_form.hidden_field(:street_address) %>
+      <%= profile_form.labelled_text_field(:postal_code, :label => 'Zip', :error_label => 'Zip', :disabled => profile.beyond_postal_code_stage?) %>
+    </p>
+    
+    <%= next_step_submit if profile.getting_started_with_postal_code? %>
+  <% end -%>
+</li>

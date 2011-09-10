@@ -1,0 +1,12 @@
+<% partner = partners_waiting_approval %>
+<div id="<%= dom_id(partner) %>" style="padding-bottom: 10px; border-bottom: 1px solid #ccc;">
+  <div>Partner: <%= link_to(partner.full_name, admin_user_url(partner)) %></div>
+  <div>Claiming Company: <%= link_to(partner.company.name, admin_company_url(partner.company)) %></div>
+  <div style="padding-top: 10px;">
+    <% form_remote_tag :url => admin_user_path(partner), :method => :put do %>
+      <%= hidden_field_tag('partner_id', partner.id) %>
+      <%= select_tag('partner[waiting_approval]', "<option value='approve'>Approve</option><option value='decline'>Decline</option>") %>
+      <%= submit_tag %>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="span-14 append-1">
+  <h2><%= h(@view_title) %></h2>
+  
+  <p>This is where you can find opportunities to provide quotes to interested solar shoppers in your sales territory. As sales opportunities become available in your area, they will appear here (you will also receive emails as opportunities become available).</p>
+  
+  <p>See a sales opportunity in your area? Just click the Create a Quote link to respond.</p>
+  
+  <p>Renewzle allows you to provide as many quotes as you want in response to a request. If a consumer has requested an unusual system size and you want to provide them with a couple of alternatives, you can do so. If you make a mistake, have a pricing change or otherwise wish to take back or change an outstanding quote, just click the Withdraw quote button.</p>
+  
+  <h3>Are you new to Renewzle?</h3>
+  
+  <p>Check our <%= link_to('Retailer FAQ', retailer_faq_url) %> page to learn more about how Renewzle can generate more new sales for your firm.</p>
+</div>
+
+<div class="span-9 last">
+  <%= render(:partial => 'retailer/shared/expert_help') %>
+</div>
+
+<div class="span-24">
+	<%= render(:partial => 'retailer/leads/rfqs_and_quotes_by_rfq', :locals => { :rfqs => @partner.rfqs, :quotes_by_rfq => @partner.quotes_by_rfq }) unless @partner.rfqs.blank? %>
+	<%= render(:partial => 'retailer/leads/unpurchased_leads', :locals => { :unpurchased_leads => @partner.unpurchased_leads }) unless @partner.unpurchased_leads.blank? %>
+</div>

@@ -1,0 +1,112 @@
+<h1>Editing Profile</h1>
+
+<%= error_messages_for :profile %>
+
+<% form_for(:profile, :url => admin_profile_path) do |f| %>
+
+  <%= hidden_field_tag("_method", "put") %>
+
+  <div class="fieldgrp">
+    <%= f.label(:street_address) %>
+    <div class="field">
+      <%= f.text_field(:street_address) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:city) %>
+    <div class="field">
+      <%= f.text_field(:city) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:state) %>
+    <div class="field">
+      <%= f.text_field(:state) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:postal_code) %>
+    <div class="field">
+      <%= f.text_field(:postal_code) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:average_monthly_bill) %>
+    <div class="field">
+      <%= f.text_field(:average_monthly_bill) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:annual_interest_rate) %>
+    <div class="field">
+      <%= f.text_field(:annual_interest_rate) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:percentage_to_offset) %>
+    <div class="field">
+      <%= f.text_field(:percentage_to_offset) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:loan_term) %>
+    <div class="field">
+      <%= f.text_field(:loan_term) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:rfq) %>
+    <div class="field">
+      <%= f.radio_button(:rfq, 'true') %> Yes
+      <%= f.radio_button(:rfq, 'false') %> No
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:approved) %>
+    <div class="field">
+      <%= f.radio_button(:approved, 'true') %> Yes
+      <%= f.radio_button(:approved, 'false') %> No
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:filing_status) %>
+    <div class="field">
+      <%= f.text_field(:filing_status) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:income) %>
+    <div class="field">
+      <%= f.text_field(:income) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:region) %>
+    <div class="field">
+      <%= f.text_field(:region) %>
+    </div>
+  </div>
+
+  <div class="fieldgrp">
+    <%= f.label(:system_performance_derate) %>
+    <div class="field">
+      <%= f.text_field(:system_performance_derate) %>
+    </div>
+  </div>
+
+  <div class="controls">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>

@@ -1,0 +1,23 @@
+<% if @profile.is_owned? -%>
+<h2>Profile for <%= @profile.customer.full_name %></h2>
+<% else -%>
+<h2>Profile <%= @profile.id %></h2>
+<% end -%>
+
+<dl>
+  <dd>Street Address: <%= @profile.street_address %></dd>
+  <dd>City: <%= @profile.city %></dd>
+  <dd>State: <%= @profile.state %></dd>
+  <dd>Postal Code: <%= @profile.postal_code %></dd>
+  <dd>Average Monthly Bill: <%= @profile.average_monthly_bill %></dd>
+  <dd>Annual Interest Rate: <%= @profile.annual_interest_rate %></dd>
+  <dd>Percentage to Offset: <%= @profile.percentage_to_offset %></dd>
+  <dd>Loan Term: <%= @profile.loan_term %></dd>
+  <dd>RFQ: <%= (@profile.rfq) ? "Yes" : "No" %></dd>
+  <dd>Filing Status: <%= @profile.filing_status %></dd>
+  <dd>Income: <%= @profile.income %></dd>
+  <dd>Region: <%= @profile.region %></dd>
+  <dd>System Performance Derate: <%= @profile.system_performance_derate %></dd>
+</dl>
+
+<%= link_to 'Edit', edit_admin_profile_path(@profile) %> | <%= link_to 'Back', admin_profiles_path %>

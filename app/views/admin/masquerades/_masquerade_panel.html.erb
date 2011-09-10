@@ -1,0 +1,25 @@
+<div id="masquerade_panel_wrapper">
+  <% masquerading = @user.masquerading? -%>
+  <div id="masquerade_panel"<% if masquerading -%> style="display:none"<% end -%>>
+    <div>
+      <p id="return_to_dashboard"><%= link_to('Return to the <strong>Dashboard</strong>', admin_dashboard_url) %></p>
+      <h1>Masquerade</h1>
+      
+      <br />
+      
+      <%= masquerade_as %>
+    </div>
+  </div>
+</div>
+
+<div id="masquerade_panel_toggle_wrapper">
+  <div id="masquerade_panel_toggle">
+    <div id="masquerade_status">
+      <%= masquerade_status %>
+    </div>
+
+    <div id="panel_toggle" onclick="return MasqueradePanel.toggle();">
+      <span><small><span id="toggle_open" class="toggle_me"<% unless masquerading -%> style="display:none"<% end -%>>Open</span><span id="toggle_close" class="toggle_me"<% if masquerading -%> style="display:none"<% end -%>>Close</span> the masquerade panel</small></span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="span-19 almost">
+  <ul<%= dom_id_from(@tab) %>>
+    <li class="profile_overview"><%= link_to('Solar Overview', explore_url) %><%= separator %></li>
+    <li class="financial_overview"><%= link_to('Financial Overview', profile_financial_overview_url) %><%= separator %></li>
+    <li class="environmental_overview"><%= link_to('Environmental Overview', profile_environmental_overview_url) %><%= separator %></li>
+    <li class="system_output_and_electric_use"><%= link_to(h('System Output & Electric Use'), profile_system_output_and_electric_use_url) %></li>
+  </ul>
+</div>

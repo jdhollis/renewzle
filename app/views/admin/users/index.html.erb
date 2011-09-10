@@ -1,0 +1,28 @@
+<h1>Users</h1>
+
+<%= will_paginate(@users) %>
+
+<table class="data">
+  <tr>
+    <th>Type</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>State</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <% @users.each do |user| %>
+    <tr class="<%= cycle('odd', 'even') %>">
+      <td><%= user.type.to_s.underscore.humanize %></td>
+      <td><%= user.full_name %></td>
+      <td><%= user.email %></td>
+      <td><%= user.state %></td>
+      <td><%= link_to('Show', admin_user_url(user)) %></td>
+      <td><%= link_to('Edit', edit_admin_user_path(user)) %></td>
+      <td><%= link_to('Destroy', admin_user_url(user), :confirm => 'Are you sure?', :method => :delete) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= will_paginate(@users) %>

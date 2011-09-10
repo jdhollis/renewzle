@@ -1,0 +1,21 @@
+<h1>Editing Company Backgrounder</h1>
+
+<%= error_messages_for :company_backgrounder %>
+
+<% labelled_form_for(:company_backgrounder, :url => admin_backgrounder_path) do |f| %>
+  <%= hidden_field_tag("_method", "put") %>
+
+  <h3>Company Backgrounder Information</h3>
+  <div id="company_backgrounder" class="fieldgrp">
+    <%= f.label(:title) %>
+    <div class="field">
+      <%= f.text_field(:title) %>
+    </div>
+  </div>
+
+  <div class="controls">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>
+
+<%= link_to 'Back', admin_backgrounders_path %>

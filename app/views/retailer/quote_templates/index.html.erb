@@ -1,0 +1,19 @@
+<div class="span-15">
+  <h2><%= h(@view_title) %></h2>
+  
+  <p>Want to save time when responding to sales opportunities? You can create saved quotes that you can reuse again and again. Just click the link below and build your quote template in the same way you create a regular customer quote. When using a saved template to respond to a sales opportunity, you will still be able to edit any of the specifications or pricing for a particular quote, but you won&rsquo;t have to start from scratch.</p>
+  
+  <p><%= link_to('Create a new quote template', new_retailer_quote_template_url) %></p>
+  
+  <table cellspacing="0" cellpadding="0" border="0" class="accounting">
+    <tr class="header">
+  		<th style="text-align:left">Description</th>
+  		<th>Nameplate rating</th>
+  		<th>CEC rating</th>
+  		<th>System price</th>
+  		<th>Installation cost</th>
+  		<th></th>
+    </tr>
+    <%= render(:partial => 'retailer/quote_templates/index_quote_template', :collection => @quote_templates) %>
+  </table>
+</div>

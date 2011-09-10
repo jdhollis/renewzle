@@ -1,0 +1,11 @@
+<% profile = profiles_waiting_approval %>
+<div id="<%= dom_id(profile) %>" style="padding-bottom: 10px; border-bottom: 1px solid #ccc;">
+  <div style="padding-top: 10px;">
+    <div><%= link_to('Profile', admin_profile_url(profile)) %> for <%= link_to(profile.customer.full_name, admin_user_url(profile.customer)) %></div>
+    <% form_remote_tag :url => admin_profile_path(profile), :method => :put do %>
+      <%= hidden_field_tag('profile_id', profile.id) %>
+      <%= select_tag('profile[waiting_approval]', "<option value='approve'>Approve</option><option value='decline'>Decline</option>") %>
+      <%= submit_tag %>
+    <% end %>
+  </div>
+</div>

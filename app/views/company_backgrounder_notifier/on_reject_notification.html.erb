@@ -1,0 +1,5 @@
+<h1>
+    <%= @backgrounder.title %> Company Backgrounder for <%= @backgrounder.company.name %> 
+    has been just rejected<% if @backgrounder.comments? %>.<% else %> with a reason:<% end %>
+</h1>
+<% if @backgrounder.comments? %><p><%= @backgrounder.comments.gsub(/\n/, '<br />') %></p><% end %>

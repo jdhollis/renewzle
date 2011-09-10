@@ -1,0 +1,3 @@
+<p style="float:left;">Masquerading as <%= @user.mask.kind_of?(Profile) ? "a #{number_with_delimiter(number_with_precision(@user.mask.nameplate_rating, 1))} DC kW system in #{@user.mask.city}" : mail_to(@user.mask.email, @user.mask.full_name) %></p>
+<p style="float:right;"><%= link_to('Stop Masquerading', stop_masquerading_url, :id => 'stop_masquerading_link') %></p>
+<br class="clear" />

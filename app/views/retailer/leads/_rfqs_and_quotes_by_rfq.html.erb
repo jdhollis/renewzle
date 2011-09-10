@@ -1,0 +1,64 @@
+<hr />
+
+<style type="text/css">
+  .not_in_area { display: none; }
+</style>
+
+<script type="text/javascript">
+function filterByServiceArea(filtered) {
+  var rows = document.getElementsByClassName("not_in_area");
+  if (filtered)
+  {
+    $('better_description').innerHTML = '';
+    $('service_area').innerHTML = "<%= @service_area_details %>";
+  }
+  else
+  {
+    $('better_description').innerHTML = 'all '
+    $('service_area').innerHTML = "California";
+  }
+  for(var i=0; i < rows.length; i++) {
+    if (filtered) {
+      rows[i].style.display = 'none';
+    } else {
+      if (!Prototype.Browser.IE) {
+        rows[i].style.display = 'table-row';
+      } else {
+        rows[i].style.display = 'block';
+      }
+    }
+  }
+}
+</script>
+
+<% @page_javascript << "filterByServiceArea(#{!@partner.company.geo_regions.empty?});" %>
+
+<h3>Current Sales Opportunities</h3>
+
+<h4>
+  Showing <span id="better_description"><% if @partner.company.geo_regions.empty? -%>all <% end -%></span>opportunities in <span id="service_area"><% if @partner.company.geo_regions.empty? %>California<% else %><%= @service_area_details %><% end %></span>. 
+  <%= link_to(@partner.company.geo_regions.empty? ? "Filter opportunities by county &raquo;" : "Change your service area &raquo;", retailer_counties_url, :id => "service_area_link") %>
+</h4>
+<% if !@partner.company.geo_regions.empty? %>
+<h4>
+  <%= check_box_tag(:filter, :counties, !@partner.company.geo_regions.empty?, { :onclick => "filterByServiceArea(this.checked);"}) %>
+  <label for="filter">Show only sales opportunities in my service area</label>
+</h4>
+<% end %>
+
+<table cellspacing="0" cellpadding="0" border="0" class="accounting">
+  <tr class="header">
+		<th>City</th>
+		<th>System<br/>Size</th>
+		<th>CEC<br/>Rating</th>
+		<th style="text-align:left">Module Type</th>
+		<th>Module<br/>Quantity</th>
+		<th style="text-align:left">Inverter Type</th>
+		<th>Inverter<br/>Quantity</th>
+		<th>System<br/>Price</th>
+		<th>Est. Install<br/>Price</th>
+		<th>Grand<br/>Total</th>
+		<th></th>
+  </tr>
+  <%= render(:partial => 'retailer/leads/rfq_and_quotes', :collection => rfqs, :locals => { :quotes_by_rfq => quotes_by_rfq }) %>
+</table>

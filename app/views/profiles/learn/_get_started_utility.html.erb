@@ -1,0 +1,12 @@
+<% initially_hidden = !initially_hidden.blank? -%>
+<li id="utility" class="two<%= profile.beyond_utility_stage? ? ' complete' : '' %>"<%= initially_hidden ? ' style="display:none"' : '' %>>
+  <p>Now, choose your electric utility from the drop-down list below.</p>
+
+  <% labelled_remote_form_for(profile, :url => profile_path, :loading => "showItemLoadingFor('profile');", :html => { :id => "edit_#{dom_id(@profile)}_utility" }) do |profile_form| -%>
+    <p>
+      <%= non_auto_submitting_utility_select_for(profile_form, :disabled => profile.beyond_utility_stage?) %>
+    </p>
+
+    <%= next_step_submit if profile.getting_started_with_utility? %>
+  <% end -%>
+</li>

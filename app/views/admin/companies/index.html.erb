@@ -1,0 +1,36 @@
+<h1>Companies</h1>
+
+<ul id="<%= @filter.blank? ? 'all' : @filter %>" class="filters">
+	<li class="all"><%= link_to("All", :filter => "all") %></li>
+	<li class="claimed"><%= link_to("Claimed", :filter => "claimed") %></li>
+	<li class="unclaimed"><%= link_to("Unclaimed", :filter => "unclaimed") %></li>
+</ul>
+
+<%= will_paginate(@companies, :params => { :filter => @filter }) %>
+
+<table class="data">
+  <tr>
+    <th>Name</th>
+    <th>City</th>
+    <th>State</th>
+    <th>Claimed</th>
+    <th>Mappable</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <% @companies.each do |company| %>
+    <tr class="<%= cycle('odd', 'even') %>">
+      <td><%= (company.claimed) ? company.name : company.cec_name %></td>
+      <td><%= (company.claimed) ? company.city : company.cec_city %></td>
+      <td><%= (company.claimed) ? company.state : company.cec_state %></td>
+      <td><%= (company.claimed) ? "Yes" : "No" %></td>
+      <td><%= (company.geocodable) ? "Yes" : "No" %></td>
+      <td><%= link_to('Show', admin_company_url(company)) %></td>
+      <td><%= link_to('Edit', edit_admin_company_path(company)) %></td>
+      <td><%= link_to('Destroy', admin_company_url(company), :confirm => 'Are you sure?', :method => :delete) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= will_paginate(@companies, :params => { :filter => @filter }) %>

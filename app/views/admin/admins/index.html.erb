@@ -1,0 +1,33 @@
+<%= return_to_masquerade %>
+
+<h1>Dashboard</h1>
+
+<div style="float:left; width:48%">
+  <% unless @partners_waiting_approval.blank? %>
+    <h2>Partners Waiting Approval</h2>
+  <% end %>
+  <%= render :partial => 'admin/admins/partners_waiting_approval', :collection => @partners_waiting_approval %>
+
+  <% unless @profiles_waiting_approval.blank? %>
+    <h2>Profiles Waiting Approval</h2>
+  <% end %>
+  <%= render :partial => 'admin/admins/profiles_waiting_approval', :collection => @profiles_waiting_approval %>
+
+  <% unless @backgrounders_waiting_approval.blank? %>
+    <h2>Company Backgrounders Waiting Approval</h2>
+  <% end %>
+  <%= render :partial => 'admin/admins/backgrounders_waiting_approval', :collection => @backgrounders_waiting_approval %>
+</div>
+
+<div style="float:right; width:48%">
+  <h2>RSS Feeds</h2>
+  <p>When asked for login information when accessing these, use your admin email and password.</p>
+  <ul>
+    <li><%= link_to('Users', formatted_admin_users_url(:rss)) %></li>
+    <li><%= link_to('Companies', formatted_admin_companies_url(:rss)) %></li>
+    <li><%= link_to('Profiles', formatted_admin_profiles_url(:rss)) %></li>
+    <li><%= link_to('Quotes', formatted_admin_quotes_url(:rss)) %></li>
+    <li><%= link_to('Leads', formatted_admin_leads_url(:rss)) %></li>
+    <li><%= link_to('Company Backgrounders', formatted_admin_backgrounders_url(:rss)) %></li>
+  </ul>
+</div>

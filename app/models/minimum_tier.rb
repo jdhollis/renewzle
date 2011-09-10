@@ -1,0 +1,2 @@
+class MinimumTier < Tier
+end

@@ -1,0 +1,14 @@
+<% form_id = "#{quote_template.new_record? ? '' : 'edit_'}#{dom_id(quote_template)}" -%>
+<% ajax_url = retailer_quote_template_path(quote_template) -%>
+<% ajax_method = quote_template.new_record? ? :post : :put -%>
+<div class="field required">
+  <label for="quote_template_photovoltaic_inverters_id">Model</label>
+  <%= select(:quote_template, :photovoltaic_inverter_id, inverters.collect { |i| [ i.model_and_description, i.id ] }, { :selected => quote_template.photovoltaic_inverter_id }, :onchange => "QuoteTemplate.updateRFQ('#{form_id}', 'photovoltaic_inverter', '#{ajax_url}', '#{ajax_method}');" ) %>
+  <%= loading_span_of_size(24, :for => 'photovoltaic_inverter') %>
+</div>
+
+<div class="field required">
+  <label for="quote_template_photovoltaic_number_of_inverters">Quantity</label>
+  <%= text_field(:quote_template, :number_of_inverters, :value => quote_template.number_of_inverters, :onblur => "QuoteTemplate.updateRFQ('#{form_id}', 'number_of_inverters', '#{ajax_url}', '#{ajax_method}');", :class => 'text') %>
+  <%= loading_span_of_size(24, :for => 'number_of_inverters') %>
+</div>

@@ -1,0 +1,25 @@
+<h2><%= @company.name %></h2>
+
+<h3>Company Information</h3
+<dl>
+  <dt><%= @company.name %></dt>
+  <dd>Street Address: <%= @company.street_address %></dd>
+  <dd>City: <%= @company.city %></dd>
+  <dd>State: <%= @company.state %></dd>
+  <dd>Postal Code: <%= @company.postal_code %></dd>
+  <dd>Phone Number: <%= @company.phone_number %></dd>
+  <dd>Fax Number: <%= @company.fax_number %></dd>
+</dl>
+
+<h3>CEC Company Information</h3
+<dl>
+  <dt><%= @company.cec_name %></dt>
+  <dd>Street Address: <%= @company.cec_street_address %></dd>
+  <dd>City: <%= @company.cec_city %></dd>
+  <dd>State: <%= @company.cec_state %></dd>
+  <dd>Postal Code: <%= @company.cec_postal_code %></dd>
+  <dd>Phone Number: <%= @company.cec_phone_number %></dd>
+  <dd>Fax Number: <%= @company.cec_fax_number %></dd>
+</dl>
+
+<%= link_to 'Edit', edit_admin_company_path(@company) %> | <%= link_to 'Back', admin_companies_path %>

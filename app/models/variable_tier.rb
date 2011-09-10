@@ -1,0 +1,2 @@
+class VariableTier < Tier
+end

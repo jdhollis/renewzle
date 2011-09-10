@@ -1,0 +1,78 @@
+<h2>Company Backgrounders</h2>
+
+<div class="span-14">
+  <p>Company backgrounders are documents that you can upload and attach to quotes to provide important information about your company. Say anything you want, but please avoid including identifying information. You can submit as many different documents as you like. When you submit a new document, a Renewzle administrator must review and approve the document before it is available for use. Please allow one business day for approval of new documents.</p>
+</div>
+
+<% unless @backgrounders.empty? %>
+<br class="clear" />
+<!--
+<ul id="<%= @filter.blank? ? 'all' : @filter %>" class="filters">
+  <li class="all"><%= link_to("All", :filter => "all") %></li>
+  <li class="approved"><%= link_to("Approved", :filter => "approved") %></li>
+  <li class="pending"><%= link_to("Pending Review", :filter => "pending") %></li>
+  <li class="rejected"><%= link_to("Rejected", :filter => "rejected") %></li>
+</ul>
+-->
+
+<%= will_paginate(@backgrounders, :params => { :filter => @filter }) %>
+
+<table class="plain">
+  <thead>
+    <tr class="header">
+      <th>Title</th>
+      <th>Filename</th>
+      <th>Upload Date</th>
+      <th>Status</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @backgrounders.each do |backgrounder| %>
+      <tr class="profile <%= cycle('odd', 'even') %>">
+        <td><%= backgrounder.title %></td>
+        <td><%= link_to(backgrounder.doc.filename, backgrounder.doc.url) %></td>
+<% if false %>         <td><%= number_to_human_size(backgrounder.doc.size) %></td> <% end %>
+        <td><%= datetime_format(backgrounder.created_at) %></td>
+        <td>
+          <% if backgrounder.waiting_approval? %>
+            Pending Review
+          <% else  %>
+            <% if backgrounder.approved? %>
+              Approved
+            <% else  %>
+              Rejected
+              <% if backgrounder.comments? %>
+              <br />
+              <%= backgrounder.comments.gsub(/\n/, '<br />') %>
+              <% end %>
+            <% end  %>
+          <% end %>
+        </td>
+        <td><%= link_to('Destroy', retailer_backgrounder_url(backgrounder), :method => :delete) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= will_paginate(@backgrounders, :params => { :filter => @filter }) %>
+
+<% end  %>
+
+<div class="span-14">
+<% labelled_form_for(@backgrounder, :url => retailer_backgrounders_url, :html=> { :multipart => true } ) do |backgrounder_form| -%>
+  <fieldset>
+    <legend>Create Company Backgrounder</legend>
+    <p>You may upload a document in Word, RTF, PDF, or plain text format. Make certain that the document does not contain any identifying information.</p>
+
+      <%= backgrounder_form.required_text_field(:title) %>
+      <div class="field required "><label for="company_backgrounder_doc">File</label>
+      <%= upload_column_field "company_backgrounder", "doc" %>
+      <% if @backgrounder.errors.invalid?(:doc) %><span class="error">Doc <%= @backgrounder.errors.on(:doc) %></span><% end %>
+      </div>
+      <div class="submit">
+        <p class="bottom"><input type="image" src="<%= image_path('btn_save_changes.png') %>" alt="Save Changes" class="button" /></p>
+      </div>
+  </fieldset>
+<% end -%>
+</div>

@@ -1,0 +1,126 @@
+<div class="span-14">
+  <div class="span-6 append-1">
+    <h3>Project Cost</h3>
+
+    <table border="0" cellspacing="0" cellpadding="0" class="accounting">
+      <tr class="even">
+        <th>Estimated project cost</th>
+        <td><%= number_to_accounting(profile.project_cost, :precision => 0) %></td>
+      </tr>
+      <tr>
+        <th>Estimated sales tax</th>
+        <td><%= number_to_accounting(profile.sales_tax, :precision => 0) %></td>
+      </tr>
+      <% federal_incentives = profile.total_value_of_federal_incentives -%>
+      <% total_value_of_state_and_local_incentives = profile.total_value_of_state_and_local_incentives -%>
+      <tr class="even">
+        <th>Total incentives</th>
+        <td><%= number_to_accounting(-(federal_incentives + total_value_of_state_and_local_incentives), :precision => 0) %></td>
+      </tr>
+      <tr class="sub">
+        <th>Federal</th>
+        <td><%= number_to_accounting(-federal_incentives, :precision => 0) %></td>
+      </tr>
+      <tr class="sub even">
+        <th>State &amp; local</th>
+        <td><%= number_to_accounting(-total_value_of_state_and_local_incentives, :precision => 0) %></td>
+      </tr>
+      <tr class="net">
+        <th>Net system cost</th>
+        <td><%= number_to_accounting(profile.net_system_cost, :precision => 0) %></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="span-7 last">
+    <h3>Other Savings</h3>
+
+    <table border="0" cellspacing="0" cellpadding="0" class="accounting">
+      <tr class="even">
+        <th>Increased value of your home</th>
+        <td><%= number_to_accounting(profile.increase_in_home_value, :precision => 0) %></td>
+      </tr>
+      <tr>
+        <th colspan="2">The home appraisal industry estimates that the value of your home is immediately increased by $20 for every $1 in reduced operating costs.</th>
+      </tr>
+    </table>
+
+    <p></p>
+  </div>
+</div>
+
+<hr />
+
+<div class="span-10 last">
+  <h3>Monthly Costs</h3>
+
+  <table border="0" cellspacing="0" cellpadding="0" class="accounting">
+    <tr class="header">
+      <th></th>
+      <th>Before</th>
+      <th>After</th>
+      <th>Change</th>
+    </tr>
+    <tr class="even">
+      <th>Electric bill</th>
+      <% electric_bill_before = profile.average_monthly_cost_before -%>
+      <% electric_bill_after = profile.average_monthly_bill_after -%>
+      <td><%= number_to_accounting(-electric_bill_before, :precision => 2) %></td>
+      <td><%= number_to_accounting(-electric_bill_after, :precision => 2) %></td>
+      <td><%= number_to_accounting(electric_bill_after - electric_bill_before, :precision => 2) %></td>
+    </tr>
+    <tr>
+      <th>Loan payment</th>
+      <% monthly_loan_payment = profile.monthly_loan_payment -%>
+      <td></td>
+      <td><%= number_to_accounting(-monthly_loan_payment, :precision => 2) %></td>
+      <td><%= number_to_accounting(-monthly_loan_payment, :precision => 2) %></td>
+    </tr>
+    <tr class="even">
+      <th>Total tax savings</th>
+      <td></td>
+      <td><%= number_to_accounting(profile.monthly_tax_effect, :precision => 2) %></td>
+      <td><%= number_to_accounting(profile.monthly_tax_effect, :precision => 2) %></td>
+    </tr>
+    <tr class="sub">
+      <th>Federal</th>
+      <td></td>
+      <td><%= number_to_accounting(profile.monthly_federal_tax_effect, :precision => 2) %></td>
+      <td><%= number_to_accounting(profile.monthly_federal_tax_effect, :precision => 2) %></td>
+    </tr>
+    <tr class="sub even">
+      <th>State</th>
+      <td></td>
+      <td><%= number_to_accounting(profile.monthly_state_tax_effect, :precision => 2) %></td>
+      <td><%= number_to_accounting(profile.monthly_state_tax_effect, :precision => 2) %></td>
+    </tr>
+    <tr class="net">
+      <th>Net monthly cost</th>
+      <% average_monthly_cost_before = profile.average_monthly_cost_before -%>
+      <% average_monthly_cost_after = profile.average_monthly_cost_after -%>
+      <td><%= number_to_accounting(-average_monthly_cost_before, :precision => 2) %></td>
+      <td><%= number_to_accounting(-average_monthly_cost_after, :precision => 2) %></td>
+      <td><%= number_to_accounting(average_monthly_cost_after - average_monthly_cost_before, :precision => 2) %></td>
+    </tr>
+  </table>
+</div>
+
+<hr />
+
+<p>The charts below show you what you can expect to spend in the coming years.</p>
+
+<%= render(:partial => 'profiles/explore/annual_cost_chart') %>
+
+<p>The <strong>&ldquo;Before installation&rdquo; line</strong> is your cost if you don't change your setup. Renewzle estimates your future costs based on the trend in electric rates over the past 20 years.</p>
+
+<p>The <strong>&ldquo;After Installation&rdquo; line</strong> is what you will spend if you install a solar system.</p>
+
+<hr />
+
+<%= render(:partial => 'profiles/explore/cumulative_annual_savings_chart') %>
+
+<p>The <strong>Cumulative Annual Savings</strong> chart shows you whether you will be getting ahead of the game by installing a solar system.</p>
+
+<p>Installing solar will often provide you immediate savings and frequently results in major savings over the life of the system (<em>25-35 years!</em>).</p> 
+
+<p>If you are wondering why use see a spike in the chart at about year 15, that reflects the cost of replacing the solar inverter(s). Renewzle trys to take everything into account in these projections so they give you the most accurate picture possible.</p>

@@ -1,0 +1,862 @@
+manufacturer,model_number,description,stc_rating,ptc_rating
+Alps Technology Inc,ATI 1000-110,110W Large Scale Dual Voltage Multi-Si Module,110,99.1
+Alps Technology Inc,ATI 1000-120,120W Large Scale Dual Voltage Multi-Si Module,120,108.3
+Alps Technology Inc,ATI 1650-155,155W Large Scale Dual Voltage Multi-Si Module,155,139.9
+Alps Technology Inc,ATI 1650-165,165W Large Scale Dual Voltage Multi-Si Module,165,149.1
+Alps Technology Inc,ATI 1650-175,175W Large Scale Dual Voltage Multi-Si Module,175,158.3
+Alps Technology Inc,ATI 750-75,75W Large Scale multi-Si Module,75,67.5
+Alps Technology Inc,ATI 750-80,80W Large Scale multi-Si Module,80,72
+Alps Technology Inc,ATI 750-85,85W Large Scale multi-Si Module,85,76.6
+"AstroPower, Inc.",AP-100,100W Single Crystal Module (was AP-1006),100,88
+"AstroPower, Inc.",AP-1006,100W Single Crystal Module,100,88
+"AstroPower, Inc.",AP-110,110W Single Crystal Module (was AP-1106),110,97
+"AstroPower, Inc.",AP-1106,110W Single Crystal Module,110,97
+"AstroPower, Inc.",AP-120,120W Single Crystal Module (was AP-1206),120,106
+"AstroPower, Inc.",AP-1206,120W Single Crystal Module,120,106
+"Astropower, Inc.",AP-50-GA,50W Single Crystal Module,50,44
+"AstroPower, Inc.",AP-50-GT,50W Single Crystal Module,50,44
+"AstroPower, Inc.",AP-55-GA,55W Single Crystal Module,55,48.5
+"AstroPower, Inc.",AP-55-GT,55W Single Crystal Module,55,48.5
+"AstroPower, Inc.",AP-6105,65W Single Crystal Module,65,57.2
+"AstroPower, Inc.",AP6-160,160W Single Crystal Module,160,141.1
+"AstroPower, Inc.",AP6-170,170W Single Crystal Module,170,150.1
+"AstroPower, Inc.",AP-65,65W Single Crystal Module (was AP-6105),65,57.2
+"AstroPower, Inc.",AP-7105,75W Single Crystal Module,75,66.2
+"AstroPower, Inc.",AP-75,75W Single Crystal Module (was AP-7105),75,66.2
+"AstroPower, Inc.",APi-030-MNA,30W Single Crystal Module w/o connectors (was AP-30),30,26.5
+"AstroPower, Inc.",APi-030-MNB,30W Single Crystal Module w/o connectors (was AP-30) B,30,26.5
+"AstroPower, Inc.",APi-045-MNA,45W Single Crystal Module w/o connectors (was AP-45),45,39.7
+"AstroPower, Inc.",APi-045-MNB,45W Single Crystal Moduel w/o connectors (was AP-45) B,45,39.7
+"AstroPower, Inc.",APi-050-MNA,50W Single Crystal Module w/o connectors (was AP-50),50,44.2
+"AstroPower, Inc.",APi-050-MNB,50W Single Crystal Module w/o connectors (was AP-50) B,50,44.2
+"AstroPower, Inc.",APi-055-GCA,55W Single Crystal Module w/MC connectors (was AP-55-GT),55,48.9
+"AstroPower, Inc.",APi-055-GCB,55W Single Crystal Module w/MC connectors (was AP-55-GA),55,48.9
+"AstroPower, Inc.",APi-065-MNA,65W Single Crystal Module w/o connectors (was AP-65),65,57.7
+"AstroPower, Inc.",APi-065-MNB,65W Single Crystal Module w/o connectors (was AP-65) B,65,57.7
+"AstroPower, Inc.",APi-070-MNA,70W Single Crystal Module w/o connectors (was AP-70),70,62.2
+"AstroPower, Inc.",APi-070-MNB,70W Single Cyrstal Module w/o connectors (was AP-70) B,70,62.2
+"AstroPower, Inc.",APi-100-MCA,100W Single Crystal Module w/MC connectors (was AP-100),100,88.7
+"AstroPower, Inc.",APi-100-MCB,100W Single Crystal Module w/MC connectors (was AP-100) B,100,88.7
+"AstroPower, Inc.",APi-100-MNA,100W Single Crystal Module w/o connectors (was AP-100),100,88.7
+"AstroPower, Inc.",APi-100-MNB,100 W Single Crystal Module w/o connectors (was AP-100) B,100,88.7
+"AstroPower, Inc.",APi-110-MCA,110W Single Cyrstal Module w/MC connectors (was AP-110),110,97.8
+"AstroPower, Inc.",APi-110-MCB,110W Single Cyrstal Module w/MC connectors (was AP-110) B,110,97.8
+"AstroPower, Inc.",APi-110-MNA,110W Single Crystal Module w/o connectors (was AP-110),110,97.8
+"AstroPower, Inc.",APi-110--MNB,110W Single Cyrstal Module w/o connectors (was AP-110) B,110,97.8
+"AstroPower, Inc.",APi-165-MCA,165W Single Cyrstal module w/MC Connectors (was AP-165),165,146.7
+"AstroPower, Inc.",APi-165-MCB,165W Single Crystal Module w/MC Connectors (was AP-165) B,165,146.7
+"AstroPower, Inc.",APi-173-MCA,173W Single Crystal Module w/MC Connectors (was AP-173),173,154
+"AstroPower, Inc.",APi-173-MCB,173W Single Crystal Module w/MC Connectors (was AP-173) B,173,154
+"AstroPower, Inc.",APx-045-MNA,45W Apex Module w/o connectors (was APx-45),45,38.6
+"AstroPower, Inc.",APx-045-MNB,45W Apex Module w/o connectors (was APx-45) B,45,38.6
+"AstroPower, Inc.",APx-050-MNA,50W Apex Module w/o connectors (was APx-50),50,42.9
+"AstroPower, Inc.",APx050-MNB,50W Apex Module w/o connectors (was APx-50) B,50,42.9
+"AstroPower, Inc.",APx-065-MNA,65W Apex Module w/o connectors (was APx-65),65,55.7
+"AstroPower, Inc.",APx-065-MNB,65W Apex Module w/o connectors (was APx-65) B,65,55.7
+"AstroPower, Inc.",APx-070-MNA,70W Apex Module w/o connectos (was APx-70),70,60.1
+"AstroPower, Inc.",APx-070-MNB,70W Apex Module w/o connectos (was APx-70) B,70,60.1
+"AstroPower, Inc.",APx-075-MNA,75W Apex Module w/o connectors (was APx-75),75,64.4
+"AstroPower, Inc.",APx-075-MNB,75W Apex Module w/o connectors (was APx-75) B,75,64.4
+"AstroPower, Inc.",APx-130,130W Apex Silicon Film Module,130,112.2
+"AstroPower, Inc.",APx-130-MCA,130W Apex Silicon Film module w/MC connectors (was APx-130),130,111.6
+"AstroPower, Inc.",APx-130-MCB,130W Apex Silicon Film module w/MC connectors (was APx-130) B,130,111.6
+"AstroPower, Inc.",APx-130-MNA,130W Apex Silicon Film module w/o connectors (was APx-130),130,111.6
+"AstroPower, Inc.",APx-130-MNB,130W Apex Silicon Film module w/o connectors (was APx-130) B,130,111.6
+"AstroPower, Inc.",APx-140,140W Apex Silicon Film Module,140,121
+"AstroPower, Inc.",APx-140-MCA,140W Apex Silicon Film module w/MC connectors (was APx-140),140,120.4
+"AstroPower, Inc.",APx-140-MCB,140W Apex Silicon Film module w/MC connectors (was APx-140) B,140,120.4
+"AstroPower, Inc.",APx-140-MNA,140W Apex Silicon Film module w/o connectors (was APx-140),140,120.4
+"AstroPower, Inc.",APx-140-MNB,140W Apex Silicon Film module w/o connectors (was APx-140)B,140,120.4
+"AstroPower, Inc.",APx-45,45W Apex Module,45,38.8
+"AstroPower, Inc.",APx-50,50W Apex Module,50,43.2
+"AstroPower, Inc.",APx-65,65W Apex Module,65,56
+"AstroPower, Inc.",APX-75,75W APex Module,75,64.8
+"AstroPower, Inc.",APx-75,75W Apex Module,75,64.8
+"AstroPower, Inc.",APX-80,80W APex Module,80,69.2
+"AstroPower, Inc.",APX-90,90W APex Module,90,77.8
+"AstroPower, Inc.",LAP-425,"425W Single Crystal Large Area Panel, frameless",425,374.5
+"AstroPower, Inc.",LAP-440,"440W Single Crystal Large Area Panel, frameless",440,388.1
+"AstroPower, Inc.",LAP-460,"460W Single Crystal Large Area Panel, frameless",460,406.1
+"AstroPower, Inc.",LAP-480,"480W Single Crystal Large Area Panel, frameless",480,424.3
+"AstroPower, Inc.",LAPX-300,"300W APex Large Area Panel, frameless",300,259.2
+"Atlantis Energy, Inc.",AP-F,11.8W Shingle Module (Astropower cells),11.8,10.7
+"Atlantis Energy, Inc.",AP-G,12.0W Shingle Module (Astropower cells),12,10.8
+"Atlantis Energy, Inc.",AP-H,12.2W Shingle Module (Astropower cells),12.2,11
+"Atlantis Energy, Inc.",SM-II,12.2W Shingle Module (Siemens cells),12.2,11
+"Atlantis Energy, Inc.",SP-A,13.3W Shingle Module (Sharp cells),13.3,11.4
+"Atlantis Energy, Inc.",SP-B,12.7W Shingle Module (Sharp cells),12.7,10.9
+"Atlantis Energy, Inc.",SP-C,11.9W Shingle Module (Sharp cells),11.9,10.2
+"Atlantis Energy, Inc.",SX-D,11.6W Shingle Module (Solarex cells),11.6,10.5
+"Atlantis Energy, Inc.",SX-E,11.0W Shingle Module (Solarex cells),11,9.9
+Baoding Yingli New Energy Resources Co. Ltd.,110(17)P1447X663,110W Crystalline Silicon Solar Cells,110,96.6
+Baoding Yingli New Energy Resources Co. Ltd.,120(17)P1447X663,120W Crystalline Silicon Solar Cells,120,105.6
+Baoding Yingli New Energy Resources Co. Ltd.,30(17)P754X350,30W Crystalline Silicon Solar Cells,30,26.3
+Baoding Yingli New Energy Resources Co. Ltd.,40(17)P516X663,40W Crystalline Silicon Solar Cells,40,35.1
+Baoding Yingli New Energy Resources Co. Ltd.,50(17)P974X453,50W Crystalline Silicon Solar Cells,50,43.9
+Baoding Yingli New Energy Resources Co. Ltd.,75(17)P1172X541,75W Crystalline Silicon Solar Cells,75,65.9
+Baoding Yingli New Energy Resources Co. Ltd.,85(17)P1172X541,85W Crystalline Silicon Solar Cells,85,74.9
+Baoding Yingli New Energy Resources Co. Ltd.,YL150(156),150W High Efficiency Crystalline Silicon Solar Cells,150,134.3
+Baoding Yingli New Energy Resources Co. Ltd.,YL155(156),155W High Efficiency Crystalline Silicon Solar Cells,155,138.8
+Baoding Yingli New Energy Resources Co. Ltd.,YL160(156),160W High Efficiency Crystalline Silicon Solar Cells,160,143.4
+Baoding Yingli New Energy Resources Co. Ltd.,YL165(156),165W High Efficiency Crystalline Silicon Solar Cells,165,148
+Baoding Yingli New Energy Resources Co. Ltd.,YL170(156),170W High Efficiency Crystalline Silicon Solar Cells,170,152.6
+Baoding Yingli New Energy Resources Co. Ltd.,YL175(156),175W High Efficiency Crystalline Silicon Solar Cells,175,157.2
+BP Solar,BP175 B,"175W, 24V, Polycrystalline Module, Multicontact, Bronze Frame",175,155.2
+BP Solar,BP175 I,"175W, 24V, Polycrystalline Module, Multicontact, Integra Frame",175,155.2
+BP Solar,BP3115S,115W 12V Polycrystalline Module w/Multicontact conn.,115,101.7
+BP Solar,BP3115U,"115W 12V Polycrystalline Module, universal frame",115,101.7
+BP Solar,BP3125S,125W 12V Polycrystalline Module w/Multicontact conn.,125,110.8
+BP Solar,BP3125U,"125W 12V Polycrystalline Module, universal frame",125,110.8
+BP Solar,BP3140B,"140W 24V Polycrystalline Module, New AR w/Multicontact; Bronze frame",140,123.8
+BP Solar,BP3140S,"140W 24V Polycrystalline Module, New AR, Multicontact conn.",140,123.8
+BP Solar,BP3150B,"150 W 24V Polycrystalline Module, New AR, Multicontact; Bronze frame",150,132.9
+BP Solar,BP3150S,"150W (2003 Rating) 24V Polycrystalline Module, New AR, Multicontact conn.",150,133
+BP Solar,BP3160B,"160W (2003 Rating) 24V Polycrystalline Module, New AR, Multicontact, Bronze framex",160,142.1
+BP Solar,BP3160N,160W 24V Multicrystalline module; multicontact; new cables,160,141.6
+BP Solar,BP3160QS,160W 16V Polycrystalline Module w/Multicontact conn.,160,142
+BP Solar,BP3160S,"160W (2003 Rating) 24V Polycrystalline Module, New AR, Multicontact conn.",160,142.1
+BP Solar,BP3170N,170W 24V Multicrystalline module; multicontact; new cables,170,150.7
+BP Solar,BP360U,"60W 12V Polycrystalline Module, universal frame",60,53
+BP Solar,BP365TS,"65W 6V Polycrystalline Module w/MC, Roof Tile Frame",65,57.2
+BP Solar,BP365U,"65W 12V Polycrystalline Module, universal frame",65,57.6
+BP Solar,BP375S,"75W (2003 Rating) Polycrystalline Module (universal frame), new AR, Multicontact conn.",75,66.4
+BP Solar,BP375U,"75W (2003 Rating) Polycrystalline Module (universal frame), new AR",75,66.4
+BP Solar,BP380S,"80W (2003 Rating) Polycrystalline Module (universal frame), new AR, Multicontact conn.",80,71
+BP Solar,BP380U,"80W (2003 Rating) Polycrystalline Module (universal frame), new AR",80,71
+BP Solar,BP4165B,"165W 24V Monocrystalline Module, Multicontact; Bronze frame",165,146.1
+BP Solar,BP4165S,165W 24V Monocrystalline Module w/ Multicontact Conn.,165,146.1
+BP Solar,BP4170B,"170W, 24V, Monocrystalline Module, Multicontact, Bronze Frame",170,150.7
+BP Solar,BP4170S,"170W 24V Single Crystal Module (universal frame), new AR, Multicontact",170,150.7
+BP Solar,BP4175 Bx,"175W, 24V, Monocrystalline Module, Multicontact, Bronze Frame, 150d cells",175,155.2
+BP Solar,BP4175 Ix,"175W, 24V, Monocrystalline Module, Multicontact, Integra Frame, 150d cells",175,155.2
+BP Solar,BP4175B,"175W 24V Monocrystalline Module, Multicontact; Bronze frame",175,155.2
+BP Solar,BP4175I,175W 24V Monocrystalline Module w/Multicontact conn.; Integera frame,175,155.2
+BP Solar,BP4175S,175W 24V Monocrystalline Module w/Multicontact conn.,175,155.2
+BP Solar,BP4180B,180W 24V Monocrystalline module; multicontact; bronze frame,180,159.8
+BP Solar,BP4180I,180W 24V Monocrystalline module; multicontact; integra frame,180,159.7
+BP Solar,BP475S,"75W (2003 Rating) Single Crystal Module (universal frame), new AR, Multicontact conn.",75,66.3
+BP Solar,BP475U,"75W (2003 Rating) Single Crystal Module (universal frame), new AR",75,66.3
+BP Solar,BP480S,"80W (2003 Rating) Single Crystal Module (universal frame), new AR, Multicontact conn.",80,70.8
+BP Solar,BP480U,"80W (2003 Rating) Single Crystal Module (universal frame), new AR",80,70.8
+BP Solar,BP485H,"85W Single Cyrstal Module (universal frame), new AR",85,75.3
+BP Solar,BP485S,"85W Single Crystal Module (universal frame), new AR, Multicontact",85,75.3
+BP Solar,BP485U,"85W Single Crystal Module (universal frame), new AR",85,75.3
+BP Solar,BP7170S,170W 24V Saturn Single Crystal Module w/Multicontact conn.,170,151.1
+BP Solar,BP7175S,175W 24V Saturn Single Crystal Module w/Multicontact conn.,175,154.9
+BP Solar,BP7180S,180W 24V Saturn Single Crystal Module w/Multicontact conn.,180,160.2
+BP Solar,BP7185S,185W 24V Saturn Single Crystal Module w/Multicontact conn.,185,164
+BP Solar,BP785S,85W 12V Saturn Single Crystal Module w/Multicontact conn.,85,75.5
+BP Solar,BP790DB,"90W 12V Saturn Single Crystal Module, dark frame",90,80
+BP Solar,BP790S,90W 12V Saturn Single Crystal Module w/Multicontact conn.,90,80
+BP Solar,BP790U,"90W 12V Saturn Single Crystal Module, universal frame",90,80
+BP Solar,BP845I,"45W Millennia 2J a-Si Module (medium voltage, integral frame)",45,42.4
+BP Solar,BP850I,"50W Millennia 2J a-Si Module (medium voltage, integral frame)",50,47.1
+BP Solar,BP855I,"55W Millennia 2J a-Si Module (medium voltage, integral frame)",55,51.9
+BP Solar,MST-50I,"50W Millennia 2J a-Si Module (med. voltage, Integra frame)",50,47.1
+BP Solar,MST-50MV,"50W Millennia 2J a-Si Module (med. voltage, universal frame)",50,47.1
+BP Solar,MST-55MV,"55W Millennia 2J a-Si Module (med. Voltage, universal frame)",55,51.9
+BP Solar,SX140B,"140W 24V Polycrystalline Module w/Multicontact, Bronze frame",140,123.8
+BP Solar,SX150B,"150W 24V Polycrystalline Module w/Multicontact, Bronze frame",150,132.9
+BP Solar,SX160B,"160W 24V Polycrystalline Module w/Multicontact, Bronze frame",160,142
+BP Solar,SX170B,"170W 24V Polycrystalline Module w/Multicontact, Bronze fram",170,150.7
+BP Solar,SX170I,170W 24V Polycrystalline Module w/Multicontact conn.; Integra frame,170,150.6
+BP Solar,SX3190B,190W 16V Polycrystalline Module; Multicontact; Bronze frame,190,168.4
+BP Solar,SX3190S,190W 16V Polycrystalline Module; Multicontact,190,168.4
+BP Solar,SX3195B,195W 16V Polycrystalline Module; Multicontact; Bronze frame,195,173
+BP Solar,SX3195S,195W 16V Polycrystalline Module; Multicontact,195,173
+BP Solar,SX3200B,"200W 16V Polycrystalline Module, Multicontact, Bronze Frame",200,177.5
+BP Solar,SX3200W,"200W 16V Polycrystalline Module, Multicontact",200,177.5
+BP Solar,SX4175N,175W 24V Monocrystalline module; multicontact; new cables,175,155.2
+Canadian Solar Inc,CS4C-100,"100W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",100,87.6
+Canadian Solar Inc,CS4C-90,"90W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",90,77.8
+Canadian Solar Inc,CS4D-30,"30W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",30,25.7
+Canadian Solar Inc,CS4D-40,"40W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",40,34.5
+Canadian Solar Inc,CS4D-50,"50W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",50,43.3
+Canadian Solar Inc,CS4D-60,"60W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",60,52.2
+Canadian Solar Inc,CS5A-130,"130W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",130,112.4
+Canadian Solar Inc,CS5A-140,"140W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",140,121.3
+Canadian Solar Inc,CS5A-150,"150W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",150,130.2
+Canadian Solar Inc,CS5A-160,"160W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",160,139.1
+Canadian Solar Inc,CS5A-170,"170W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",170,148.1
+Canadian Solar Inc,CS5A-180,"180W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",180,157.1
+Canadian Solar Inc,CS5A-190,"190W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",190,166.1
+Canadian Solar Inc,CS5B-130,"130W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",130,112.4
+Canadian Solar Inc,CS5B-140,"140W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",140,121.3
+Canadian Solar Inc,CS5B-150,"150W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",150,130.2
+Canadian Solar Inc,CS5B-160,"160W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",160,139.1
+Canadian Solar Inc,CS5B-170,"170W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",170,148.1
+Canadian Solar Inc,CS5B-180,"180W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",180,157.1
+Canadian Solar Inc,CS5B-190,"190W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",190,166.1
+Canadian Solar Inc,CS5C-60,"60W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",60,51.8
+Canadian Solar Inc,CS5C-70,"70W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",70,60.6
+Canadian Solar Inc,CS5C-80,"80W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",80,69.5
+Canadian Solar Inc,CS5C-90,"90W Monocrystalline/Polycrystalline Module, Quick Connect, Frame",90,78.4
+Canadian Solar Inc,CS5P-200,"200W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (5P)",200,173.6
+Canadian Solar Inc,CS5P-210,"210W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (5P)",210,182.5
+Canadian Solar Inc,CS5P-220,"220W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (5P)",220,191.5
+Canadian Solar Inc,CS5P-230,"230W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (5P)",230,200.4
+Canadian Solar Inc,CS5P-240,"240W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (5P)",240,209.4
+Canadian Solar Inc,CS6A-120,"120W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6A)",120,103.5
+Canadian Solar Inc,CS6A-130,"130W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6A)",130,112.4
+Canadian Solar Inc,CS6A-140,"140W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6A)",140,121.2
+Canadian Solar Inc,CS6A-150,"150W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6A)",150,130.1
+Canadian Solar Inc,CS6A-160,"160W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6A)",160,139
+Canadian Solar Inc,CS6A-170,"170W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6A)",170,148
+Canadian Solar Inc,CS6A-180,"180W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6A)",180,157
+Canadian Solar Inc,CS6A-190,"190W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6A)",190,166
+Canadian Solar Inc,CS6C-110,"110W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6C)",110,95.5
+Canadian Solar Inc,CS6C-120,"120W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6C)",120,104.4
+Canadian Solar Inc,CS6C-90,"90W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6C)",90,77.7
+Canadian Solar Inc,CS6D-45,"45W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6D)",45,38.8
+Canadian Solar Inc,CS6P-200,"200W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6P)",200,173.9
+Canadian Solar Inc,CS6P-210,"210W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6P)",210,185
+Canadian Solar Inc,CS6P-220,"220W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6P)",220,194.1
+Canadian Solar Inc,CS6P-230,"230W Monocrystalline/Polycrystalline Module, Quick Connect, Frame (6P)",230,203.2
+Conergy AG,S 175MU,175W Monocrystalline Module,175,154.5
+Connect Renewable Energy,CNE-35L-BLK-U,35W Waterproof PV Roof Tile,35,31.6
+Day4 Energy Inc.,Day4 48MC 160,"160W Polycrystalline, Day4™ Electrode Technology, Framed",160,142.3
+Day4 Energy Inc.,Day4 48MC 165,"165W Polycrystalline, Day4™ Electrode Technology, Framed",165,146.9
+Day4 Energy Inc.,Day4 48MC 170,"170W Polycrystalline, Day4™ Electrode Technology, Framed",170,151.4
+Day4 Energy Inc.,Day4 48MC 175,"175W Polycrystalline, Day4™ Electrode Technology, Framed",175,156
+Day4 Energy Inc.,Day4 48MC 180,"180W Polycrystalline, Day4™ Electrode Technology, Framed",180,160.6
+Day4 Energy Inc.,Day4 48MC 185,"185W Polycrystalline, Day4™ Electrode Technology, Framed",185,165.2
+Day4 Energy Inc.,Day4 48MC 190,"190W Polycrystalline, Day4™ Electrode Technology, Framed",190,169.7
+Dunasolar Inc.,DS-30,30W Unframed 2J a-Si Module,30,28.8
+Dunasolar Inc.,DS-40,40W Unframed 2J a-Si Module,40,38.4
+"Energy Photovoltaics, Inc.",EPV-30,30W Unframed 2J a-Si Module,30,28.8
+"Energy Photovoltaics, Inc.",EPV-40,40W Unframed 2J a-Si Module,40,38.4
+"Everbright Optoelectronics Co., LTD",SM50,50W Monocrystalline Roofing Integral Module,50,43.5
+Evergreen Solar,EC-102,102W String Ribbon Cedar Line Module,102,91.2
+Evergreen Solar,EC-102-G,"102W String Ribbon Cedar Line Module, w/MC Connectors",102,91.2
+Evergreen Solar,EC-110,110W String Ribbon Cedar Line Module,110,98.4
+Evergreen Solar,EC-110-G,"110W String Ribbon Cedar Line Module, w/MC Connectors",110,98.4
+Evergreen Solar,EC-115,115W String Ribbon Cedar Line Module,115,103.1
+Evergreen Solar,EC-115-G,"115W String Ribbon Cedar Line Module, w/MC Connectors",115,103.1
+Evergreen Solar,EC-120,120W String Ribbon Cedar Line Module,120,107.6
+Evergreen Solar,EC-120-G,"120W String Ribbon Cedar Line Module, w/MC Connectors",120,107.6
+Evergreen Solar,EC-47,47W String Ribbon Cedar Line Module,47,41.9
+Evergreen Solar,EC-51,51W String Ribbon Cedar Line Module,51,45.6
+Evergreen Solar,EC-55,55W String Ribbon Cedar Line Module,55,49.2
+Evergreen Solar,EC-94,94W String Ribbon Cedar Line Module,94,83.9
+Evergreen Solar,EC-94-G,"94W String Ribbon Cedar Line Module, w/MC Connectors",94,83.9
+Evergreen Solar,ES-155-RL,155W Glass-EVA-Tedlar Construction,155,135.4
+Evergreen Solar,ES-155-RL,155W Glass-EVA-Tedlar Construction,155,137
+Evergreen Solar,ES-155-SL,155W Glass-EVA-Tedlar Construction,155,137
+Evergreen Solar,ES-155-SL,155W Glass-EVA-Tedlar Construction,155,135.4
+Evergreen Solar,ES-160-RL,160W Spruce Line Module with MC Connectors,160,139.8
+Evergreen Solar,ES-160-RL,160W Spruce Line Module with MC Connectors,160,141.6
+Evergreen Solar,ES-160-SL,160W Spruce Line Module with MC Connectors,160,141.6
+Evergreen Solar,ES-170-RL,170W Spruce Line Module with MC Connectors,170,150.6
+Evergreen Solar,ES-170-SL,170W Spruce Line Module with MC Connectors,170,150.6
+Evergreen Solar,ES-180-RL,180W Spruce Line Module with MC Connectors,180,159.7
+Evergreen Solar,ES-180-SL,180W Spruce Line Module with MC Connectors,180,159.7
+Evergreen Solar,ES-190-RL,190W Spruce Line Module with MC Connectors,190,168.8
+Evergreen Solar,ES-190-SL,190W Spruce Line Module with MC Connectors,190,168.8
+Evergreen Solar,ES-195-RL,195W Spruce Line Module with MC Connectors,195,173.3
+Evergreen Solar,ES-195-SL,195W Spruce Line Module with MC Connectors,195,173.3
+Evergreen Solar,ES-200-RL,200W Spruce Line Module with MC Connectors,200,177.9
+Evergreen Solar,ES-200-SL,200W Spruce Line Module with MC Connectors,200,177.9
+"First Solar, LLC",FS-250,50W Thin Film Cd-Te Laminate,50,47
+"First Solar, LLC",FS-255,55W Thin Film Cd-Te Laminate,55,51.8
+"First Solar, LLC",FS-257,57.5W Thin Film Cd-Te Laminate,57.5,54.1
+"First Solar, LLC",FS-260,60W Thin Film Cd-Te Laminate,60,56.5
+"First Solar, LLC",FS-262,62.5W Thin Film Cd-Te Laminate,62.5,58.9
+"First Solar, LLC",FS-265,65W Thin Film Cd-Te Laminate,65,61.2
+"First Solar, LLC",FS-267,67.5W Thin-Film Cadmium Telluride Module,67.5,63.6
+"First Solar, LLC",FS-270,70W Thin-Film Cadmium Telluride Module,70,66
+"First Solar, LLC",FS-40,40W Thin-Film CdTe Laminate,40,38
+"First Solar, LLC",FS-40D,40W Thin-Film CdTe Module w/ D-channel mounting rails,40,38
+"First Solar, LLC",FS-45,45W Thin Film CdTe laminate,45,42.8
+"First Solar, LLC",FS-45D,45W Thin Film CdTe module with mounting rails,45,42.8
+"First Solar, LLC",FS-50,50W/65V Thin Film CdTe laminate,50,47.6
+"First Solar, LLC",FS-50C,50W/65V Thin Film CdTe laminate w/ C-channel mounting rails,50,47.6
+"First Solar, LLC",FS-50D,50W Thin Film CdTe Module with mounting rails,50,47.6
+"First Solar, LLC",FS-50Z,50W/65V Thin Film CdTe laminate w/ Z-channel mounting rails,50,47.6
+"First Solar, LLC",FS-55,55W Thin-Film CdTe Laminate,55,52.4
+"First Solar, LLC",FS-55D,55W Thin-Film CdTe Module w/ D-channel mounting rails,55,52.4
+"First Solar, LLC",FS-60,60W Thin Film CdTe laminate,60,57.2
+"First Solar, LLC",FS-60D,60W Thin Film CdTe module with mounting rails,60,57.2
+"FirstSolar, LLC",FS-272,72.5W Thin-Film Cadmium Telluride Module,72.5,68.4
+"FirstSolar, LLC",FS-275,75W Thin-Film Cadmium Telluride Module,75,70.8
+GE Energy,GEPV-085-M,85W Monocrystalline Module,85,77.7
+GE Energy,GEPV-100-MCA,100W Single Crystal Module w/MC connectors,100,88.7
+GE Energy,GEPV-100-MCB,100W Single Crystal Module w/MC connectors B,100,88.7
+GE Energy,GEPV-100-MNA,100W Single Crystal Module w/o connectors,100,88.7
+GE Energy,GEPV-100-MNB,100W Single Crystal Module w/o connectors B,100,88.7
+GE Energy,GEPV-110-MCA,110W Single Crystal Module w/MC connectors,110,97.8
+GE Energy,GEPV-110-MCB,110W Single Crystal Module w/MC connectors B,110,97.8
+GE Energy,GEPV-110-MNA,110W Single Crystal Module w/o connectors,110,97.8
+GE Energy,GEPV-110-MNB,110W Single Crystal Module w/o connectors B,110,97.8
+GE Energy,GEPV-165-MCA,165W Single Crystal Module w/MC connectors,165,146.7
+GE Energy,GEPV-165-MCB,165W Single Crystal Module w/MC connectors B,165,146.7
+GE Energy,GEPV-173-MCA,173W Single Crystal Module w/MC connectors,173,154
+GE Energy,GEPV-173-MCB,173W Single Crystal Module w/MC connectors B,173,154
+GE Energy,GEPVc-170-MSA,170W Single Crystal Module,170,146.9
+GE Energy,GEPVp-066-GC,66W Polycrystalline Module,66,60.3
+GE Energy,GEPVp-185-M,185W Polycrystalline Module,185,164.8
+GE Energy,GEPVp-200-M,200W Polycrystalline Module,200,178.5
+Isofoton,I-100/12,100W Monocrystalline Rail Mounted Module X2,100,89.5
+Isofoton,I-100/24,100W Monocrystalline Rail Mounted Module,100,89.5
+Isofoton,I-106/12,106W Monocrystalline Rail Mounted Module,106,95
+Isofoton,I-106/24,106W Monocrystalline Rail Mounted Module X2,106,95
+Isofoton,I-110/12,110W Monocrystalline Rail Mounted Module,110,98.7
+Isofoton,I-110-24,110W Monocrystalline Rail Mounted Module X2,110,98.7
+Isofoton,I-130/12,130W Monocrystalline Rail Mounted Module,130,116
+Isofoton,I-130/24,130W Monocrystalline Rail Mounted Module X2,130,116
+Isofoton,I-140 R /12,140W Monocrystalline Rail Mounted Module,140,125.1
+Isofoton,I-140 R /24,140W Monocrystalline Rail Mounted Module X3,140,125
+Isofoton,I-140 S /12,140W Monocrystalline Rail Mounted Module X4,140,125
+Isofoton,I-140 S /24,140W Monocrystalline Rail Mounted Module X5,140,125
+Isofoton,I-150,150W Monocrystalline Rail Mounted Module X2,150,134.3
+Isofoton,I-150 S /12,150 W Monocrystalline Rail Mounted Module,150,134.3
+Isofoton,I-150 S/24,150W Monocrystalline Rail Mounted Module,150,134.3
+Isofoton,I-159,159W Monocrystalline Rail Mounted Module,159,142.6
+Isofoton,I-165,165W Monocrystalline Rail Mounted Module,165,148.1
+Isofoton,I-36,36W Monocrystalline Rail Mounted Module,36,32.2
+Isofoton,I-50,50W Monocrystalline Rail Mounted Module,50,44.8
+Isofoton,I-53,53W Monocrystalline Rail Mounted Module,53,47.5
+Isofoton,I-55,55W Monocrystalline Rail Mounted Module,55,49.4
+Isofoton,I-65,65W Monocrystalline Rail Mounted Module,65,58
+Isofoton,I-70 R,70W Monocrystalline Rail Mounted Module,70,62.5
+Isofoton,I-70 S,70W Monocrystalline Rail Mounted Module X2,70,62.5
+Isofoton,I-75,75W Monocrystalline Rail Mounted Module,75,67.1
+Isofoton,I-94/12,94W Monocrystalline Rail Mounted Module X2,94,84.2
+Isofoton,I-94/24,94W Monocrystalline Rail Mounted Module,94,84.2
+Jiangsu Linyang Solarfun Co Ltd,SF160-24-M150,Monocrystalline 150W Flat-plate Photovoltaic Panels,150,131.7
+Jiangsu Linyang Solarfun Co Ltd,SF160-24-M155,Monocrystalline 155W Flat-plate Photovoltaic Panels,155,136.2
+Jiangsu Linyang Solarfun Co Ltd,SF160-24-M160,Monocrystalline 160W Flat-plate Photovoltaic Panels,160,140.7
+Jiangsu Linyang Solarfun Co Ltd,SF160-24-M165,Monocrystalline 165W Flat-plate Photovoltaic Panels,165,145.2
+Jiangsu Linyang Solarfun Co Ltd,SF160-24-M170,Monocrystalline 170W Flat-plate Photovoltaic Panels,170,149.8
+Jiangsu Linyang Solarfun Co Ltd,SF160-24-M175,Monocrystalline 175W Flat-plate Photovoltaic Panels,175,154.3
+Jiangsu Linyang Solarfun Co Ltd,SF160-24-M180,Monocrystalline 180W Flat-plate Photovoltaic Panels,180,158.9
+Jiangsu Linyang Solarfun Co Ltd,SF160-24-M185,Monocrystalline 185W Flat-plate Photovoltaic Panels,185,163.4
+Jiangsu Linyang Solarfun Co Ltd,SF160-24-M190,Monocrystalline 190W Flat-plate Photovoltaic Panels,190,168
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M170,Monocrystalline 170W Flat-plate Photovoltaic Panels,170,149.1
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M175,Monocrystalline 175W Flat-plate Photovoltaic Panels,175,153.6
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M180,Monocrystalline 180W Flat-plate Photovoltaic Panels,180,158.2
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M185,Monocrystalline 185W Flat-plate Photovoltaic Panels,185,162.7
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M190,Monocrystalline 190W Flat-plate Photovoltaic Panels,190,167.2
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M195,Monocrystalline 195W Flat-plate Photovoltaic Panels,195,171.7
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M200,Monocrystalline 200W Flat-plate Photovoltaic Panels,200,176.2
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M205,Monocrystalline 205W Flat-plate Photovoltaic Panels,205,180.8
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M210,Monocrystalline 210W Flat-plate Photovoltaic Panels,210,185.3
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M215,Monocrystalline 215W Flat-plate Photovoltaic Panels,215,189.9
+Jiangsu Linyang Solarfun Co Ltd,SF190-27-M220,Monocrystalline 220W Flat-plate Photovoltaic Panels,220,194.4
+Kaneka Corporation,C-SA054,58W a-Si Module (CSA054),58,54.1
+Kaneka Corporation,CSA201,58W a-Si module,58,54.1
+Kaneka Corporation,CSA211,58W a-Si module (CSA),58,54.1
+Kaneka Corporation,C-SB054,58W a-Si Module (CSB054),58,54.1
+Kaneka Corporation,CSB211,58W a-Si module (CSB),58,54.1
+Kaneka Corporation,G-SA060,60W a-Si Module (GSA060),60,56
+Kaneka Corporation,GSA211,60W a-Si module,60,56
+Kaneka Corporation,GSA221,60W a-Si module (GSA221),60,56
+Kaneka Corporation,LSU205,58W a-Si module,58,54.1
+Kaneka Corporation,TSA211,116W a-Si Twin Type Module,116,108.2
+Kaneka Corporation,TSB211,116W a-Si Twin Type Module B,116,108.2
+Kaneka Corporation,T-SC120,120W a-Si Module (TSC120),120,111.9
+Kaneka Corporation,TSC211,120W a-Si twin type module (TSC),120,111.9
+Kaneka Corporation,TSC221,120W a-Si module (TSC),120,111.9
+Kaneka Corporation,T-SD120,120W a-Si Module (TSD120),120,111.9
+Kaneka Corporation,TSD211,120W a-Si twin type module (TSD),120,111.9
+Kaneka Corporation,TSD221,120W a-Si module (TSD),120,111.9
+"Kyocera Solar, Inc.",KC120-1,120W High Efficiency Multicrystal PV Module,120,105.7
+"Kyocera Solar, Inc.",KC125G,125W High efficiency Multicrystal PV Module,125,111.8
+"Kyocera Solar, Inc.",KC125GT,"125W High Efficiency Multicrystal PV Module, Deep Blue",125,110.3
+"Kyocera Solar, Inc.",KC125TM,"125W High Efficiency Multicrystal PV Module, Deep Blue",125,110.3
+"Kyocera Solar, Inc.",KC130GT,"130W High Efficiency Multicrystal PV Module, Deep Blue (130GT)",130,115.2
+"Kyocera Solar, Inc.",KC130TM,"130W High Efficiency Multicrystal PV Module, Deep Blue",130,115.2
+"Kyocera Solar, Inc.",KC158G,158W High Efficiency Multicrystal PV Module,158,139.7
+"Kyocera Solar, Inc.",KC167G,167W High efficiency Multicrystal PV Module,167,149.6
+"Kyocera Solar, Inc.",KC170GT,"170W High Efficiency Multicrystal PV Module, Deep Blue",170,150
+"Kyocera Solar, Inc.",KC175GT,"175W High Efficiency Multicrystal PV Module, Deep Blue (175GT)",175,154.9
+"Kyocera Solar, Inc.",KC187G,"187W Multicrystal PV Module, Deep Blue",187,167.4
+"Kyocera Solar, Inc.",KC190GT,"190W High Efficiency Multicrystal PV Module, Deep Blue",190,167.7
+"Kyocera Solar, Inc.",KC200GT,"200W High Efficiency Multicrystal PV Module, Deep Blue (200GT)",200,177.2
+"Kyocera Solar, Inc.",KC40T,"40W High Efficiency Multicrystal PV Module, Deep Blue",40,37.9
+"Kyocera Solar, Inc.",KC50,50W High Efficiency Multicrystal PV Module,50,43.9
+"Kyocera Solar, Inc.",KC50T,"50W High Efficiency Multicrystal PV Module, Deep Blue",50,47.6
+"Kyocera Solar, Inc.",KC60,60W High Efficiency Multicrystal PV Module,60,52.7
+"Kyocera Solar, Inc.",KC65T,"65W High Efficiency Multicrystal PV Module, Deep Blue",65,57.4
+"Kyocera Solar, Inc.",KC70,70W High Efficiency Multicrystal PV Module,70,61.6
+"Kyocera Solar, Inc.",KC80,80W High Efficiency Multicrystal PV Module,80,70.4
+"Kyocera Solar, Inc.",KC80-01,80W High Efficiency Multicrystal PV Module (01),80,70.4
+"Kyocera Solar, Inc.",KC85T,"85W High Efficiency Multicrystal PV Module, Deep Blue",85,76.8
+"Kyocera Solar, Inc.",KC85TS,"85W High Efficiency Multicrystal PV Module, Deep Blue (85TS)",85,76.8
+"Kyocera Solar, Inc.",KC88CGS,"88W Light-transmitting Multicrystal PV Module, Deep Blue",88,77.8
+"Kyocera Solar, Inc.",Meridian SU39BU,"39W Multicrystal PV Module, Deep Blue, Meridian Frame",39,34.8
+"Kyocera Solar, Inc.",Meridian SU53BU,"53W Multicrystal PV Module, Deep Blue, Meridian Frame",53,47.5
+"Kyocera Solar, Inc.",Samurai SU39BU,"39W Multicrystal PV Module, Deep Blue, Samurai Frame",39,34.8
+"Kyocera Solar, Inc.",Samurai SU53BU,"53W Multicrystal PV Module, Deep Blue, Samurai Frame",53,47.5
+Matrix Solar/Photowatt,PW1000-100,100W Large Scale Dual Voltage multi-Si Module,100,90
+Matrix Solar/Photowatt,PW1000-105,105W Large Scale Dual Voltage multi-Si Module,105,94.6
+Matrix Solar/Photowatt,PW1000-90,90W Large Scale Dual Voltage multi-Si Module,90,80.9
+Matrix Solar/Photowatt,PW1000-95,95W Large Scale Dual Voltage multi-Si Module,95,85.4
+Matrix Solar/Photowatt,PW1250-115,115W Large Scale Dual Voltage Multi-Si Module,115,103.7
+Matrix Solar/Photowatt,PW1250-125,125W Large Scale Dual Voltage Multi-Si Module,125,112.9
+Matrix Solar/Photowatt,PW1250-135,135W Large Scale Dual Voltage Multi-Si Module,135,122.2
+Matrix Solar/Photowatt,PW1650-155,155W Large Scale Dual Voltage Multi-Si Module,155,139.9
+Matrix Solar/Photowatt,PW1650-165,165W Large Scale Dual Voltage Multi-Si Module,165,149
+Matrix Solar/Photowatt,PW1650-175,175W Large Scale Dual Voltage Multi-Si Module,175,158.3
+Matrix Solar/Photowatt,PW750-70,70W Large Scale multi-Si Module,70,62.9
+Matrix Solar/Photowatt,PW750-75,75W Large Scale multi-Si Module,75,67.5
+Matrix Solar/Photowatt,PW750-80,80W Large Scale multi-Si Module,80,72
+Matrix Solar/Photowatt,PW750-90,90W Large Scale multi-Si Module,90,81.2
+MC Solar,BP970B,70W Thin-film CdTe Laminate w/ Mounting Brackets,70,62.3
+MC Solar,BP980B,80W Thin-film CdTe Laminate w/ Mounting Brackets,80,71.3
+MC Solar,BP990B,90W Thin-film CdTe Laminate w/ Mounting Brackets,90,80.4
+MC Solar,TF-80B,80W Thin-film CdTe Laminate w/ Mounting Brackets (now BP980B),80,71.3
+MC Solar,TF-90B,90W Thin-film CdTe Laminate w/ Mounting Brackets (now BP990B),90,80.4
+"Midway Labs, Inc.",MLB3416-115,115W Concentrator (335x) Module,115,105
+Mitsubishi Electric Corporation,PV-MF110EC3,110W Polycrystalline Lead-free solder w/o Cable,110,98.4
+Mitsubishi Electric Corporation,PV-MF110EC4,110W Polycrystalline Lead-Free Solder Module w/o Cable,110,98.4
+Mitsubishi Electric Corporation,PV-MF120EC3,120W Polycrystalline Lead-free solder w/o Cable,120,107.6
+Mitsubishi Electric Corporation,PV-MF120EC4,120W Polycrystalline Lead-Free Solder Module w/o Cable,120,107.6
+Mitsubishi Electric Corporation,PV-MF120UE4N,"120W Module, Lead Free Solder w/MC Connectors",120,106.5
+Mitsubishi Electric Corporation,PV-MF125E,125 W Polycrystalline Module with Multicontact connectors,125,110.7
+Mitsubishi Electric Corporation,PV-MF125EA2LF,125W Polycrystalline Lead-free solder module with MC connector,125,110.7
+Mitsubishi Electric Corporation,PV-MF125EA4,125W Polycrystalline Lead-Free Solder Module w/ MC Connector,125,111.9
+Mitsubishi Electric Corporation,PV-MF125UE4N,"125W Module, Lead Free Solder w/MC Connectors",125,111.1
+Mitsubishi Electric Corporation,PV-MF130E,130 W Polycrystalline Module with Multicontact connectors,130,115.2
+Mitsubishi Electric Corporation,PV-MF130EA2LF,130W Polycrystalline Lead-free solder module with MC connector,130,115.2
+Mitsubishi Electric Corporation,PV-MF130EA4,130W Polycrystalline Lead-Free Solder Module w/ MC Connector,130,116.5
+Mitsubishi Electric Corporation,PV-MF130UE4N,"130W Module, Lead Free Solder w/MC Connectors",130,115.6
+Mitsubishi Electric Corporation,PV-MF150EB3,150W Polycrystalline Lead-free solder module with MC connector,150,134.2
+Mitsubishi Electric Corporation,PV-MF150EB4,150W Polycrystalline Lead-Free Solder Module w/ MC Connector,150,134.2
+Mitsubishi Electric Corporation,PV-MF155EB3,155W Polycrystalline Lead-free solder module with MC connector,155,138.8
+Mitsubishi Electric Corporation,PV-MF155EB4,155W Polycrystalline Lead-Free Solder Module w/ MC Connector,155,138.8
+Mitsubishi Electric Corporation,PV-MF160EB3,160W Polycrystalline Lead-free solder module with MC connector,160,142.4
+Mitsubishi Electric Corporation,PV-MF160EB4,160W Polycrystalline Lead-Free Solder Module w/ MC Connector,160,143.3
+Mitsubishi Electric Corporation,PV-MF165EB3,165W Polycrystalline Lead-free solder module with MC connector,165,146.9
+Mitsubishi Electric Corporation,PV-MF165EB4,165W Polycrystalline Lead-Free Solder Module w/ MC Connector,165,147.9
+Mitsubishi Electric Corporation,PV-MF170EB3,170W Polycrystalline lead-free solder module with MC connector,170,152.5
+Mitsubishi Electric Corporation,PV-MF170EB4,170W Polycrystalline Lead-Free Solder Module w/ MC Connector,170,152.5
+Mitsubishi Electric Corporation,PV-MF170UD4,"170W Module, Lead Free Solder w/MC Connectors",170,149.9
+Mitsubishi Electric Corporation,PV-MF175UD4,"175W Module, Lead Free Solder w/MC Connectors",175,154.5
+Mitsubishi Electric Corporation,PV-MF180UD4,"180W Module, Lead Free Solder w/MC Connectors",180,159
+Mitsubishi Electric Corporation,PV-MF185UD4,"185W Module, Lead Free Solder w/MC Connectors",185,163.5
+Mitsubishi Electric Corporation,PV-UD165MF5,"165W Module, Lead Free Solder w/MC Connectors",165,144.7
+Mitsubishi Electric Corporation,PV-UD170MF5,"170W Module, Lead Free Solder w/MC Connectors",170,149.2
+Mitsubishi Electric Corporation,PV-UD175MF5,"175W Module, Lead Free Solder w/MC Connectors",175,155.6
+Mitsubishi Electric Corporation,PV-UD180MF5,"180W Module, Lead Free Solder w/MC Connectors",180,160.1
+Mitsubishi Electric Corporation,PV-UD185MF5,"185W Module, Lead Free Solder w/MC Connectors",185,164.7
+Mitsubishi Electric Corporation,PV-UD190MF5,"190W Module, Lead Free Solder w/MC Connectors",190,169.3
+Mitsubishi Electric Corporation,PV-UD195MF5,"195W Module, Lead Free Solder w/MC Connectors",195,173.9
+Mitsubishi Electric Corporation,PV-UE115MF5N,"115W Module, Lead Free Solder w/MC Connectors",115,102
+Mitsubishi Electric Corporation,PV-UE120MF5N,"120W Module, Lead Free Solder w/MC Connectors",120,106.5
+Mitsubishi Electric Corporation,PV-UE125MF5N,"125W Module, Lead Free Solder w/MC Connectors",125,111.1
+Mitsubishi Electric Corporation,PV-UE130MF5N,"130W Module, Lead Free Solder w/MC Connectors",130,115.6
+Mitsubishi Electric Corporation,PV-UE135MF5N,"135W Module, Lead Free Solder w/MC Connectors",135,120.2
+Ningbo Solar Electric Power Co Ltd,TDB125X125-72-P 150W,150W Monocrystalline Solar Module,150,131.7
+Ningbo Solar Electric Power Co Ltd,TDB125X125-72-P 155W,155W Monocrystalline Solar Module,155,136.2
+Ningbo Solar Electric Power Co Ltd,TDB125X125-72-P 160W,160W Monocrystalline Solar Module,160,140.8
+Ningbo Solar Electric Power Co Ltd,TDB125X125-72-P 165W,165W Monocrystalline Solar Module,165,145.3
+Ningbo Solar Electric Power Co Ltd,TDB125X125-72-P 170W,170W Monocrystalline Solar Module,170,149.8
+Ningbo Solar Electric Power Co Ltd,TDB125X125-72-P 175W,175W Monocrystalline Solar Module,175,154.3
+Open Energy Corporation,CNE-35L-BLK-U,35W Waterproof PV Roof Tile,35,31.6
+Open Energy Corporation,SP225,A building integrated solar roofing system for low slope comm or res roofing,225,201.5
+Open Energy Corporation,SP225-PC,225W Monocrystalline Roofing Integral Module,225,201.5
+Open Energy Corporation,SP225-SC,225W Monocrystalline Roofing Integral Module,225,201.5
+Open Energy Corporation,SP450,450W Monocrystalline Roofing Integral Module,450,402.9
+Open Energy Corporation,SP480,450W Monocrystalline Roofing Integral Module,450,402.9
+Pacific Solar Pty Limited,PP-USA-213-B5,150W BP Solar 2150L SunEmpower modular mount,150,131.8
+Pacific Solar Pty Limited,PP-USA-213-L6,160W BP Solar 5160L SunEmpower modular mount,160,140.9
+Pacific Solar Pty Limited,PP-USA-213-L7,170W BP Solar 5170L SunEmpower modular mount,170,149.9
+Pacific Solar Pty Limited,PP-USA-213-N5,150W BP Solar 4150L SunEmpower modular mount,150,131.8
+Pacific Solar Pty Limited,PP-USA-213-N6,160W BP Solar 4160L SunEmpower modular mount,160,140.9
+Pacific Solar Pty Limited,PP-USA-213-N7,170W BP Solar 4170L SunEmpower modular mount,170,149.9
+Pacific Solar Pty Limited,PP-USA-213-P5,150W BP Solar 3150L SunEmpower modular mount,150,131.8
+Pacific Solar Pty Limited,PP-USA-213-P6,160W BP Solar 3160L SunEmpower modular mount,160,140.9
+Pacific Solar Pty Limited,PP-USA-213-S5,"150W Shell Solar SP-150-PL, -PLC SunEmpower modular mount",150,135
+Powerlight Corp.,PL-AP-120L,120W PowerGuard Roof Tile (Astropower),120,104.9
+Powerlight Corp.,PL-AP-130,130W PowerGuard Roof Tile (Astropower AP-130),130,115.1
+Powerlight Corp.,PL-AP-65,One Astropower AP-65 laminate mounted on one PowerGuard backerboard,65,56.6
+Powerlight Corp.,PL-AP-65 Double Module,Two Astropower AP-65 laminates mounted on one PowerGuard backerboard,130,113.2
+Powerlight Corp.,PL-AP-75 Double Module,150W PowerGuard Roof Tile (Two Astropower modules),150,131.1
+Powerlight Corp.,PL-APx-110-SL,110W PowerGuard Roof Tile (AstroPower),110,93.7
+Powerlight Corp.,PL-ASE-100,100W PowerGuard Roof Tile (ASE Americas),100,88.6
+Powerlight Corp.,PL-BP-2150S,150W PowerGuard Roof Tile (BP Solar),150,129.2
+Powerlight Corp.,PL-BP-3160L,160W PowerGuard Roof Tile (BP Solar),160,139.2
+Powerlight Corp.,PL-BP-380L Double Module,160W PowerGuard Roof Tile (Two BP-380L modules),160,139.1
+Powerlight Corp.,PL-BP-485L Double Module,170W Powerguard Roof Tile (Two BP-485L modules),170,148
+Powerlight Corp.,PL-BP-TF-80L,80W PowerGuard Roof Tile (BP Solar),80,70.7
+Powerlight Corp.,PL-EVER-ES-180P,"180W PowerGuard Roof Tile, Frameless",180,158.7
+Powerlight Corp.,PL-EVER-ES-190P,"190W PowerGuard Roof Tile, Frameless",190,167.7
+Powerlight Corp.,PL-FS-415-A,50W PowerGuard Roof Tile (First Solar),50,47.4
+Powerlight Corp.,PL-KYOC-FL120-1B,120W PowerGuard Roof Tile (Kyocera),120,103.8
+Powerlight Corp.,PL-KYOC-FL125,125W PowerGuard Roof Tile (Kyocera),125,110.8
+Powerlight Corp.,PL-KYOC-FL158,158W PowerGuard Roof Tile (Kyocera),158,138.2
+Powerlight Corp.,PL-KYOC-FL167,167W PowerGuard Roof Tile (Kyocera),167,148
+Powerlight Corp.,PL-MST-43,43W PowerGuard Roof Tile (Solarex a-Si),43,40.5
+Powerlight Corp.,PL-MSX-120,120W PowerGuard Roof Tile (Solarex poly-Si),120,103.7
+Powerlight Corp.,PL-ND-6AE1D,200W Polycrystalline Module,200,179.7
+Powerlight Corp.,PL-ND-6AE1DA,205W Polycrystalline Module,205,184.3
+Powerlight Corp.,PL-ND-6KE1DA,208W Polycrystalline Module,208,187.1
+Powerlight Corp.,PL-ND-6KE1DF,208W Polycrystalline Module,208,187.1
+Powerlight Corp.,PL-ND-U5E1D,"205W PowerGuard Roof Tile, Frameless",205,182.2
+Powerlight Corp.,PL-ND-U8E1D,"208W PowerGuard Roof Tile, Frameless",208,185
+Powerlight Corp.,PL-PLT-63L-BLK-U,63W Sun Tile,63,57.4
+Powerlight Corp.,PL-PW-750,75-80W PowerGuard Roof Tile (Matrix Solar/Photowatt),75,69.9
+Powerlight Corp.,PL-PW-750 Double Module,150W PowerGuard Roof Tile (two Matrix Solar Photowatt modules),150,135.3
+Powerlight Corp.,PL-SHAR-ND-N6E1D,146W PowerFuard Roof Tile (Sharp Corp.),146,125.1
+Powerlight Corp.,PL-SHARP-ND-U0E1D,"200W PowerGuard Roof Tile, Frameless",200,176.1
+Powerlight Corp.,PL-SP-135,135W (Pre-2003 Rating) PowerGuard Roof Tile (Siemens),135,119.1
+Powerlight Corp.,PL-SP-135 (2003+),135W (2003 Rating) PowerGuard Roof Tile (Siemens),135,119.8
+Powerlight Corp.,PL-SP-150-24L,150W PowerGuard Roof Tile (Rectangular Siemens),150,133.5
+Powerlight Corp.,PL-SP-150-CPL,150W PowerGuard Roof Tile (Siemens),150,133.6
+Powerlight Corp.,PL-SP-70 Double Module,Two Sharp SP-70 modules on one PowerGuard tile,Two,124.8
+Powerlight Corp.,PL-SP-75,75W PowerGuard Roof Tile (Siemens),75,66.8
+Powerlight Corp.,PL-SP-75 Double Module,150W PowerGuard Roof Tile (Two Siemens modules),150,133.7
+Powerlight Corp.,PL-SQ75-CPL,75W Power Guard Roof Tile (Shell),75,65.1
+Powerlight Corp.,PL-SQ75-CPL Double Module,150W Power Guard Roof Tile (Shell),150,130.3
+Powerlight Corp.,PL-SQ77-CPL Double Module,154W Double Module PowerGuard Roof Tile (Shell Solar),154,134.6
+Powerlight Corp.,PL-SQ85-P DOUBLE MODULE,170W PowerGuard Roof Tile (Two Shell modules),170,152.3
+Powerlight Corp.,PL-SUNP-SPR-210,"210W PowerGuard Roof Tile, Frameless",210,189.3
+Powerlight Corp.,PL-SUNP-SPR-220,"220W PowerGuard Roof Tile, Frameless",220,201.6
+Powerlight Corp.,PL-SY-HIP-190BA2,190W PowerGuard Roof Tile (Sanyo),190,177.5
+Powerlight Corp.,PL-SY-HIP-190CA1,"190W PowerGuard Roof Tile, Frameless",190,177.5
+Powerlight Corp.,PL-SY-HIP-190CA2,190W PowerGuard Roof Tile (Sanyo),190,177.5
+Powerlight Corp.,PL-SY-HIP-190CA2,"190W PowerGuard Roof Tile, Frameless",190,177.5
+Powerlight Corp.,PL-SY-HIP-190CA3,"190W PowerGuard Roof Tile, Frameless",190,177.5
+Powerlight Corp.,PL-SY-HIP-190CA4,"190W PowerGuard Roof Tile, Frameless",190,177.5
+Powerlight Corp.,PL-SY-HIP-190CA5,"190W PowerGuard Roof Tile, Frameless",190,177.5
+Powerlight Corp.,PL-SY-HIP-190CA6,"190W PowerGuard Roof Tile, Frameless",190,177.5
+Powerlight Corp.,PL-SY-HIP-190CA7,"190W PowerGuard Roof Tile, Frameless",190,177.5
+Powerlight Corp.,PL-SY-HIP-190CA8,"190W PowerGuard Roof Tile, Frameless",190,177.5
+Powerlight Corp.,PL-SY-HIP-195CA1,"195W PowerGuard Roof Tile, Frameless",195,182.3
+Powerlight Corp.,PL-SY-HIP-195CA2,"195W PowerGuard Roof Tile, Frameless",195,182.3
+Powerlight Corp.,PL-SY-HIP-195CA3,"195W PowerGuard Roof Tile, Frameless",195,182.3
+Powerlight Corp.,PL-SY-HIP-195CA4,"195W PowerGuard Roof Tile, Frameless",195,182.3
+Powerlight Corp.,PL-SY-HIP-195CA5,"195W PowerGuard Roof Tile, Frameless",195,182.3
+Powerlight Corp.,PL-SY-HIP-195CA6,"195W PowerGuard Roof Tile, Frameless",195,182.3
+Powerlight Corp.,PL-SY-HIP-195CA7,"195W PowerGuard Roof Tile, Frameless",195,182.3
+Powerlight Corp.,PL-SY-HIP-195CA8,"195W PowerGuard Roof Tile, Frameless",195,182.3
+Powerlight Corp.,PL-SY-HIP-200CA1,"200W PowerGuard Roof Tile, Frameless",200,187
+Powerlight Corp.,PL-SY-HIP-200CA2,"200W PowerGuard Roof Tile, Frameless",200,187
+Powerlight Corp.,PL-SY-HIP-200CA3,"200W PowerGuard Roof Tile, Frameless",200,187
+Powerlight Corp.,PL-SY-HIP-200CA4,"200W PowerGuard Roof Tile, Frameless",200,187
+Powerlight Corp.,PL-SY-HIP-200CA5,"200W PowerGuard Roof Tile, Frameless",200,187
+Powerlight Corp.,PL-SY-HIP-200CA6,"200W PowerGuard Roof Tile, Frameless",200,187
+Powerlight Corp.,PL-SY-HIP-200CA7,"200W PowerGuard Roof Tile, Frameless",200,187
+Powerlight Corp.,PL-SY-HIP-200CA8,"200W PowerGuard Roof Tile, Frameless",200,187
+Powerlight Corp.,PL-SY-HIP-H552BA2,175W PowerGuard Roof Tile (Sanyo),175,162.2
+Sanyo Electric Co. Ltd.,HIP-167BA,167W HIT Hybrid a-Si/c-Si Solar Cell Module,167,156.7
+Sanyo Electric Co. Ltd.,HIP-175BA3,175W HIT Hybrid a-Si/c-Si Solar Cell Module,175,163.3
+Sanyo Electric Co. Ltd.,HIP-175BA5,175W HIT Hybrid a-Si/c-Si Solar Cell Module (5),175,163.3
+Sanyo Electric Co. Ltd.,HIP-180BA,180W HIT Hybrid a-Si/c-Si Solar Cell Module,180,169.1
+Sanyo Electric Co. Ltd.,HIP-180BA3,180W HIT Hybrid a-Si/c-Si Solar Cell Module (3),180,168
+Sanyo Electric Co. Ltd.,HIP-180BA5,180W HIT Hybrid a-Si/c-Si Solar Cell Module (5),180,168
+Sanyo Electric Co. Ltd.,HIP-180DA1,180W HIT Hybrid a-Si/c-Si Solar Cell Module,180,169.1
+Sanyo Electric Co. Ltd.,HIP-180DA2,180W HIT Hybrid a-Si/c-Si Solar Cell Module,180,169.1
+Sanyo Electric Co. Ltd.,HIP-180DA3,180W HIT Hybrid a-Si/c-Si Solar Cell Module,180,167.7
+Sanyo Electric Co. Ltd.,HIP-186BA3,186W HIT Hybrid a-Si/c-Si Solar Cell Module - BA3,186,174.9
+Sanyo Electric Co. Ltd.,HIP-186BA5,186W HIT Hybrid a-Si/c-Si Solar Cell Module - BA5,186,174.9
+Sanyo Electric Co. Ltd.,HIP-186DA1,186W HIT Hybrid a-Si/c-Si Solar Cell Module,186,174.8
+Sanyo Electric Co. Ltd.,HIP-186DA2,186W HIT Hybrid a-Si/c-Si Solar Cell Module,186,174.8
+Sanyo Electric Co. Ltd.,HIP-186DA3,186W HIT Hybrid a-Si/c-Si Solar Cell Module,186,173.4
+Sanyo Electric Co. Ltd.,HIP-190BA,190W HIT Hybrid a-Si/c-Si Solar Cell Module,190,178.7
+Sanyo Electric Co. Ltd.,HIP-190BA1,190W HIT Hybrid a-Si/c-Si Solar Cell Module (std. j.b.),190,178.7
+Sanyo Electric Co. Ltd.,HIP-190BA2,190W HIT Hybrid a-Si/c-Si Solar Cell Module (std. j.b. w/ addl. wiring),190,178.7
+Sanyo Electric Co. Ltd.,HIP-190BA3,190W HIT Hybrid a-Si/c-Si Solar Cell Module (3),190,178.7
+Sanyo Electric Co. Ltd.,HIP-190BA5,190W HIT Hybrid a-Si/c-Si Solar Cell Module (5),190,178.7
+Sanyo Electric Co. Ltd.,HIP-190DA1,190W HIT Hybrid a-Si/c-Si Solar Cell Module,190,178.6
+Sanyo Electric Co. Ltd.,HIP-190DA2,190W HIT Hybrid a-Si/c-Si Solar Cell Module,190,178.6
+Sanyo Electric Co. Ltd.,HIP-190DA3,190W HIT Hybrid a-Si/c-Si Solar Cell Module,190,177.2
+Sanyo Electric Co. Ltd.,HIP-195BA3,195W HIT Hybrid a-Si/c-Si Solar Cell Module (A3),195,183.5
+Sanyo Electric Co. Ltd.,HIP-195BA5,195W HIT Hybrid a-Si/c-Si Solar Cell Module (A5),195,183.5
+Sanyo Electric Co. Ltd.,HIP-195DA3,195W HIT Hybrid a-Si/c-Si Solar Cell Module,195,182.4
+Sanyo Electric Co. Ltd.,HIP-200BA3,200W HIT Hybrid a-Si/c-Si Solar Cell Module (A3),200,188.7
+Sanyo Electric Co. Ltd.,HIP-200BA5,200W HIT Hybrid a-Si/c-Si Solar Cell Module (A5),200,188.7
+Sanyo Electric Co. Ltd.,HIP-200DA3,200W HIT Hybrid a-Si/c-Si Solar Cell Module,200,187.1
+Sanyo Electric Co. Ltd.,HIP-205BA3,205W HIT Hybrid a-Si/c-Si Solar Cell Module,205,193.5
+Sanyo Electric Co. Ltd.,HIP-205BA5,205W HIT Hybrid a-Si/c-Si Solar Cell Module,205,193.5
+Sanyo Electric Co. Ltd.,HIP-G751BA1,167W HIT Hybrid a-Si/c-Si Solar Cell Module (std. j.b.),167,155.8
+Sanyo Electric Co. Ltd.,HIP-G751BA2,167W HIT Hybrid a-Si/c-Si Solar Cell Module (std. j.b. w/addl. wiring),167,155.8
+Sanyo Electric Co. Ltd.,HIP-H552BA1,175W HIT Hybrid a-Si/c-Si Solar Cell Module (std. j.b.),175,163.3
+Sanyo Electric Co. Ltd.,HIP-H552BA2,175W HIT Hybrid a-Si/c-Si Solar Cell Module (std. j.b. w/addl. wiring),175,163.3
+Sanyo Electric Co. Ltd.,HIP-J54BA1,180W HIT Hybrid a-Si/c-Si Solar Cell Module (std. j.b.),180,168.1
+Sanyo Electric Co. Ltd.,HIP-J54BA2,180W HIT Hybrid a-Si/c-Si Solar Cell Module (std. j.b. w/addl. wiring),180,168.1
+"Schott Solar, Inc.",ASE-100-ATF/17-34,"100W/17V EFG Module, framed",100,89.7
+"Schott Solar, Inc.",ASE-250DGF/17,"250W/17V EFG Module, Framed",250,223.7
+"Schott Solar, Inc.",ASE-250DGF/50-230,"230W, 50V, Polycrystalline, Double Glass, Framed Module",230,205.4
+"Schott Solar, Inc.",ASE-250DGF/50-240,"240W, 50V, Polycrystalline, Double Glass, Framed Module",240,214.5
+"Schott Solar, Inc.",ASE-250DGF/50-250,"250W/50V EFG Module, Framed",250,223.6
+"Schott Solar, Inc.",ASE-270DGF/17,"270W/17V EFG Module, Framed",270,242
+"Schott Solar, Inc.",ASE-270DGF/50-260,"260W/50V EFG Module, framed",260,232.7
+"Schott Solar, Inc.",ASE-270DGF/50-270,"270W/50V EFG Module, Framed",270,241.8
+"Schott Solar, Inc.",ASE-300-DGF/17-285,"285W/17V EFG Module, framed",285,255.4
+"Schott Solar, Inc.",ASE-300-DGF/17-300,"300W/17V EFG Module, framed",300,269.1
+"Schott Solar, Inc.",ASE-300-DGF/17-315,"315W/17V EFG Module, framed",315,283
+"Schott Solar, Inc.",ASE-300-DGF/25-145,"145W/25V EFG Module, framed",145,128.5
+"Schott Solar, Inc.",ASE-300-DGF/34-195,"195W/34V EFG Module, framed",195,173.5
+"Schott Solar, Inc.",ASE-300-DGF/42-240,"240W/42V EFG Module, framed",240,214.3
+"Schott Solar, Inc.",ASE-300-DGF/50-260,"260W/50V EFG Module, framed",260,232.6
+"Schott Solar, Inc.",ASE-300-DGF/50-265,"265W/50V EFG Module, framed",265,237
+"Schott Solar, Inc.",ASE-300DGF/50-280,"280W, 50V, Polycrystalline, Double Glass, Framed Module",280,251
+"Schott Solar, Inc.",ASE-300-DGF/50-285,"285W/50V EFG Module, framed",285,255.4
+"Schott Solar, Inc.",ASE-300DGF/50-290,"290W, 50V, Polycrystalline, Double Glass, Framed Module",290,260.2
+"Schott Solar, Inc.",ASE-300-DGF/50-300,"300W/50V EFG Module, framed",300,269.3
+"Schott Solar, Inc.",ASE-300DGF/50-310,"310W, 50V, Polycrystalline, Double Glass, Framed Module",310,278.5
+"Schott Solar, Inc.",ASE-300-DGF/50-315,"315W/50V EFG Module, framed",315,282.8
+"Schott Solar, Inc.",ASE-300DGF/50-320,"320W, 50V, Polycrystalline, Double Glass, Framed Module",320,287.8
+"Schott Solar, Inc.",ASE-330DGF/50,"330W/50V Crystalline Module, Framed",330,297
+"Schott Solar, Inc.",ASE-330DGF/50-330,"330W, 50V, Polycrystalline, Double Glass, Framed Module",330,297
+"Schott Solar, Inc.",ASE-330DGF/50-340,"340W, 50V, Polycrystalline, Double Glass, Framed Module",340,306.2
+"Schott Solar, Inc.",SAPC-123,123W Multisilicon Module,123,107.8
+"Schott Solar, Inc.",SAPC-165,165W Multicrystalline Silicon Module,165,145.4
+"Schott Solar, Inc.",SAPC-170,170W Multisilicon Module,170,149.9
+"Schott Solar, Inc.",SAPC-175,175 W Monocrystalline Silicon Module,175,154.4
+"Schott Solar, Inc.",SAPC-80,80W Multisilicon Module,80,70.2
+Schuco USA LP,S125-SP,130W Polycrystalline Module with Multicontact connectors,130,115.2
+Schuco USA LP,S125-SP-2,130W Polycrystalline Module with MC Connectors,130,115.2
+Schuco USA LP,S130-SP,130W Polycrystalline Module with MC Connectors,130,115.2
+Schuco USA LP,S130-SP-2,130W Polycrystalline Module with MC Connectors,130,115.2
+Schuco USA LP,S158-SP,165W Polycrystalline Module with Multicontact connectors,165,146.9
+Schuco USA LP,S158-SP-2,165W Polycrystalline Lead-Free Solder Module with MC Connectors,165,147.9
+Schuco USA LP,S165-SP,170W Polycrystalline Lead-Free Solder Module with MC Connectors,170,152.5
+Schuco USA LP,S165-SP-2,170W Polycrystalline Lead-Free Solder Module with MC Connectors,170,152.5
+Schuco USA LP,S165-SPU,165W Polycrystalline Lead-Free Solder Module w/ MC Connector,165,147.9
+Schuco USA LP,S170-SPU,170W Polycrystalline lead-free solder module with MC connector,170,152.5
+Shanghai Solar Energy S&T Co Ltd.,S-125D,125W Polycrystalline Module,125,108.6
+Shanghai Solar Energy S&T Co Ltd.,S-165D,165W Polycrystalline Module,165,143.2
+Shanghai Solar Energy S&T Co Ltd.,S-165D-A,165W Polycrystalline Module (A),165,143.2
+Shanghai Solar Energy S&T Co Ltd.,S-180C,180W Monocrystalline Module,180,156.7
+Sharp Corporation,ND-125U1F,125W Multisilicon Module,125,110.1
+Sharp Corporation,ND-160U1Z,160W Multi-crystalline Silicon Module,160,140.8
+Sharp Corporation,ND-160U3,160W Multi-crystalline Silicon Module (U3),160,140.8
+Sharp Corporation,ND-162U1,162W Multi-crystalline Silicon Module,162,142.6
+Sharp Corporation,ND-162U1F,162W Multisilicon Module,162,142.6
+Sharp Corporation,ND-162U1Y,162W Multisilicon Module,162,142.6
+Sharp Corporation,ND-162U2,162W Multisilicon Module,162,142.6
+Sharp Corporation,ND-167U1,167W Multisilicon module,167,147.1
+Sharp Corporation,ND-167U1F,167W Multisilicon Module,167,147.1
+Sharp Corporation,ND-167U1Y,167W Multisilicon Module,167,147.1
+Sharp Corporation,ND-167U2,167W Multisilicon Module,167,147.2
+Sharp Corporation,ND-167U3,167W Multisilicon module (3),167,147.1
+Sharp Corporation,ND-167U3A,167W Multi-crystalline Silicon Module,167,147.1
+Sharp Corporation,ND-181U1,181W Multisilicon Module,181,159.3
+Sharp Corporation,ND-181U1F,181W Multisilicon Module,181,159.3
+Sharp Corporation,ND-181U2,181W Multisilicon Module,181,164.8
+Sharp Corporation,ND-187U1,187W Multisilicon Module,187,164.8
+Sharp Corporation,ND-187U1F,187W Multisilicon Module,187,164.8
+Sharp Corporation,ND-187U2,187W Multisilicon Module,187,164.8
+Sharp Corporation,ND-200U1,200W Multi-crystalline Silicon Module,200,176
+Sharp Corporation,ND-200U1F,200W Multisilicon Module,200,176
+Sharp Corporation,ND-200U2,200W Multisilicon Module,200,176.1
+Sharp Corporation,ND-205U1,205W Multi-crystalline Silicon Module,205,180.6
+Sharp Corporation,ND-208U1,208W Multisilicon Module,208,183.3
+Sharp Corporation,ND-208U1F,208W Multisilicon Module,208,183.3
+Sharp Corporation,ND-208U2,208W Multisilicon Module,208,183.3
+Sharp Corporation,ND-216U2,216W Multisilicon Module,216,190.5
+Sharp Corporation,ND-60RU1,60W Multi-crystalline Silicon Module,60,52.7
+Sharp Corporation,ND-62RU1,62W Multi-crystalline Silicon Module,62,54.5
+Sharp Corporation,ND-62RU1F,62W Multisilicon Module,62,54.5
+Sharp Corporation,ND-62RU2,62W Multisilicon Module,62,54.5
+Sharp Corporation,ND-70ELU,70W Multi-crystalline Silicon Module (left),70,61.2
+Sharp Corporation,ND-70ERU,70W Multi-crystalline Silicon Module (right),70,61.2
+Sharp Corporation,ND-72ELU,72W Multi-crystalline Silicon Module (left),72,63
+Sharp Corporation,ND-72ELUF,72W Multisilicon Module (left),72,63
+Sharp Corporation,ND-72ERU,72W Multi-crystalline Silicon Module (right),72,63
+Sharp Corporation,ND-72ERUF,72W Multisilicon Module (right),72,63
+Sharp Corporation,ND-L3E1U,123W Multisilicon Module,123,108.3
+Sharp Corporation,ND-L3EJE,123W Multisilicon Module (w/junction box),123,108.3
+Sharp Corporation,ND-L3EJEA,123W Multisilicon Module (w/junct box),123,108.3
+Sharp Corporation,ND-L3EJEF,123W Multisilicon Module (w/juct box),123,108.3
+Sharp Corporation,ND-N2ECU,142W Multisilicon Residential Module,142,125
+Sharp Corporation,ND-N2ECUF,142W Multisilicon Residential Module,142,125
+Sharp Corporation,ND-N6E1U,146W Multisilicon module,146,128.3
+Sharp Corporation,ND-NOECU,140W Multisilicon Residential Module,140,123.2
+Sharp Corporation,ND-Q0E2U,160W Multisilicon Module,160,140.6
+Sharp Corporation,NE-160U1,160W Monocrystalline Silicon Module,160,140.9
+Sharp Corporation,NE-165U1,165W Multisilicon Module (flat screw type),165,145.4
+Sharp Corporation,NE-165U5,165W Polycrystalling Module,165,145.4
+Sharp Corporation,NE-170U1,170W Multisilicon Module,170,149.9
+Sharp Corporation,NE-80E1U,80W Multisilicon Module,80,70.4
+Sharp Corporation,NE-80EJE,80W Multisilicon Module (w/junction box),80,70.4
+Sharp Corporation,NE-80EJEA,80W Multisilicon Module (w/junct box),80,70.4
+Sharp Corporation,NE-K125U1,"125W Multisilicon Module (non-flat screw type, black color frame)",125,110
+Sharp Corporation,NE-K125U2,125W Multisilicon Module (flat screw type),125,110.1
+Sharp Corporation,NE-Q5E1U,165W Multisilicon Module (non-flat screw type),165,145.2
+Sharp Corporation,NE-Q5E2U,165W Multisilicon Module (flat screw type),165,145.2
+Sharp Corporation,NT-175U1,175W Monocrystalline Silicon Module,175,154.4
+Sharp Corporation,NT-180U1,180W Single Crystal Silicon Module,180,159
+Sharp Corporation,NT-185U1,185W Single Crystal Silicon Module (same as NT-S5E1U),185,163.5
+Sharp Corporation,NT-188U1,188W Single Crystal Silicon Module,188,166.3
+Sharp Corporation,NT-R5E1U,175 W Multisilicon module,175,154.2
+Sharp Corporation,NT-S5E1U,185W Multisilicon Module,185,163.3
+Shell Solar Industries,Shell PowerMax Ultra 145-PC,145W High Efficiency Mono-Crystalline Module With Quick Connect Cables,145,130.7
+Shell Solar Industries,Shell PowerMax Ultra 155-PC,155W High Efficiency Mono-Crystalline Module With Quick Connect Cables,155,139.9
+Shell Solar Industries,Shell PowerMax Ultra 165-P,165W High Efficiency Mono-Crystalline Module With Conduit Ready J-Box,165,149.1
+Shell Solar Industries,Shell PowerMax Ultra 165-PC,165W High Efficiency Mono-Crystalline Module With Quick Connect Cables,165,149.1
+Shell Solar Industries,Shell PowerMax Ultra 175-P,175W High Efficiency Mono-Crystalline Module With Conduit Ready J-Box,175,158.3
+Shell Solar Industries,Shell PowerMax Ultra 175-PC,175W High Efficiency Mono-Crystalline Module With Quick Connect Cables,175,158.3
+Shell Solar Industries,Shell PowerMax Ultra 80-P,80W High Efficiency Mono-Crystalline Module With Conduit Ready J-Box,80,72.3
+Shell Solar Industries,Shell PowerMax Ultra 85-P,85W High Efficiency Mono-Crystalline Module With Conduit Ready J-Box,85,76.9
+Shell Solar Industries,SM110,110W PowerMax Module,110,99.2
+Shell Solar Industries,SP130-PC,130W PowerMax mono-cyrstalline module with cable assembly,130,116.6
+Shell Solar Industries,SP140-PC,140W PowerMax mono-cyrstalline module with cable assembly,140,125.8
+Shell Solar Industries,SP150-PC,150W PowerMax mono-cyrstalline module with cable assembly,150,134.9
+Shell Solar Industries,SQ140-P,140W PowerMax monocrystalline module,140,122.8
+Shell Solar Industries,SQ140-PC,140W PowerMax monocrystalline module with Multicontact cable assembly,140,122.8
+Shell Solar Industries,SQ145-PC,145W PowerMax Monocrystalline Module w/MC Cable Assy,145,130.7
+Shell Solar Industries,SQ150-P,150W PowerMax monocrystalline module,150,131.7
+Shell Solar Industries,SQ150-PC,150W PowerMax monocrystalline module with Multicontact cable assembly,150,131.7
+Shell Solar Industries,SQ155-PC,155W PowerMax Monocrystalline Module w/MC Cable Assy,155,139.9
+Shell Solar Industries,SQ160-P,160W PowerMax Monocrystalline Module,160,141.5
+Shell Solar Industries,SQ160-PC,160W PowerMax Monocrystalline Module w/Multicontact cable assembly,160,141.5
+Shell Solar Industries,SQ165-P,165W PowerMax monocrystalline module,165,149.1
+Shell Solar Industries,SQ165-PC,165W PowerMax monocrystalline module with Multicontact cable assembly,165,149.1
+Shell Solar Industries,SQ175-P,175W PowerMax monocrystalline module,175,158.3
+Shell Solar Industries,SQ175-PC,175W PowerMax monocrystalline module with Multicontact cable assembly,175,158.3
+Shell Solar Industries,SQ70,70W PowerMax monocrystalline module,70,61.4
+Shell Solar Industries,SQ75,75W PowerMax monocrystalline module,75,65.9
+Shell Solar Industries,SQ80,80W PowerMax Monocrystalline Module,80,70.8
+Shell Solar Industries,SQ80-P,80W PowerMax monocrystalline module,80,72.3
+Shell Solar Industries,SQ85-P,85W PowerMax monocrystalline module,85,76.9
+Shell Solar Industries,ST36,36W 12V PowerMax Module,36,31.7
+Shell Solar Industries,ST40,40W 12V PowerMax Module,40,35.3
+Siemens Solar Industries,SM46,46W PowerMax Module,46,41.5
+Siemens Solar Industries,SM50,50W PowerMax Module,50,45
+Siemens Solar Industries,SM55,55W PowerMax module,55,49.6
+Siemens Solar Industries,SP130-24P,130W 24V PowerMax Module,130,116.7
+Siemens Solar Industries,SP140-24P,140W 24V PowerMax Module,140,125.8
+Siemens Solar Industries,SP150-24P,150W 24V PowerMax Module,150,134.9
+Siemens Solar Industries,SP75,75W 6V/12V PowerMax Module,75,67.5
+Solar Integrated Technologies,SI1488G1,1488W Flat Plate Single-Ply Roofing Membrane,1488,1408.2
+Solar Integrated Technologies,SI1632G1,1632W Flat Plate Single-Ply Roofing Membrane,1632,1544.7
+Solar Integrated Technologies,SI372GI,372W Flat Plate Single-Ply Roofing Membrane,372,352
+Solar Integrated Technologies,SI744G1,744W Flat Plate Single-Ply Roofing Membrane,744,704.2
+Solar Integrated Technologies,SI816GI,816W Flat Plate Single-Ply Roofing Membrane,816,772.4
+Solar Power Inc,SP170FM22,170W Monocrystalline Photovoltaic Module,170,146.6
+Solar Power Inc,SP200FP32,200W Polycrystalline Photovoltaic Module,200,168.6
+"Solar World California, Inc.",SW 145 mono,145W Monocrystalline PV Module,145,129.1
+"Solar World California, Inc.",SW 155 mono,155W Monocrystalline PV Module,155,138.2
+"Solar World California, Inc.",SW 165 mono,165W Monocrystalline PV Module,165,147.3
+"Solar World California, Inc.",SW 175 mono,175W Monocrystalline PV Module,175,156.6
+"Solar World California, Inc.",SW155 mono/T,155W Monocrystalline Module,155,143.8
+"Solar World California, Inc.",SW155 poly/T,155W Polycrystalline Module,155,143.8
+"Solar World California, Inc.",SW165 mono/T,165W Monocrystalline Module,165,154
+"Solar World California, Inc.",SW165 poly/T,165W Polycrystalline Module,165,154
+"Solar World California, Inc.",SW175 mono/T,175W Monocrystalline Module,175,162.7
+"Solar World California, Inc.",SW175 poly/T,175W Polycrystalline Module,175,162.7
+"Solar World California, Inc.",SW185 mono/T,185W Monocrystalline Module,185,172.2
+"SolarWorld California, Inc.",SW145 mono/P,145W Monocrystalline Module,145,130.7
+"SolarWorld California, Inc.",SW155 mono/P,155W Monocrystalline Module,155,139.9
+"SolarWorld California, Inc.",SW165 mono/P,165W Monocrystalline Module,165,149.1
+"SolarWorld California, Inc.",SW175 mono/P,175W Monocrystalline Module,175,158.3
+"Solec International, Inc.",S-055,55W Framed Crystalline Solar Electric Module,55,47.7
+"Solec International, Inc.",S-100D,100W Dual Voltage Crystalline Solar Electric Module,100,86.5
+"Solec International, Inc.",SQ-080,80W Framed Crystalline Solar Electric Module,80,68.9
+"Solec International, Inc.",SQ-090,90W Framed Crystalline Solar Electric Module,90,77.8
+Spire Solar,SS75,75W Rail Mounted Monocrystalline Module,75,66.7
+Spire Solar,SS85,85W Monocrystalline Photovoltaic Module,85,75.8
+Spire Solar,SSC75,75W Rail Mounted Monocrystalline Module,75,66.7
+Spire Solar,SSC85,85W Monocrystalline Photovoltaic Module,85,75.8
+Sunpower Corporation,SPR-200,"200W Monocrystalline Grid Connect Module, Black Backsheet",200,180
+Sunpower Corporation,SPR-200-WHT-U,"200W Single Crystal Grid Connect Module, White Backsheet",200,184.3
+Sunpower Corporation,SPR-205-BLK,"205W Monocrystalline Grid Connect Module, Black Backsheet",205,189
+Sunpower Corporation,SPR-210-WHT,"210W Monocrystaline Grid Connect Module, White Backsheet",210,193.7
+Sunpower Corporation,SPR-215,"215W Monocrystaline Grid Connect Module, Black Backsheet",215,197.6
+Sunpower Corporation,SPR-220,"220W Monocrystaline Crystal Grid Connect Module, White Backsheet",220,203.2
+Sunpower Corporation,SPR-90,"90W Monocrystalline Module, White Backsheet",90,81.8
+Sunpower Corporation,SPR-95,"95W Single Crystal Battery Charging, White Backsheet",95,87.7
+"Suntech Power, Inc.",STP150-24/Ab-1,150W Polycrystalline Module with MC Connectors,150,134.8
+"Suntech Power, Inc.",STP150S-24/Ab-1,150W Monocrystalline Module with MC Connectors,150,131.9
+"Suntech Power, Inc.",STP160-24/Ab-1,160W Polycrystalline Module with MC Connectors,160,144
+"Suntech Power, Inc.",STP160S-24/Ab-1,160W Monocrystalline Module with MC Connectors,160,140.9
+"Suntech Power, Inc.",STP170-24/Ab-1,170W Polycrystalline Module with MC Connectors,170,153.2
+"Suntech Power, Inc.",STP170S-24/Ab-1,170W Monocrystalline Module with MC Connectors,170,150
+"Suntech Power, Inc.",STP175-24/Ab-1,175W Polycrystalline Module with MC Connectors,175,157.8
+"Suntech Power, Inc.",STP175S-24/Ab-1,175W Monocrystalline Module with MC Connectors,175,154.5
+"Suntech Power, Inc.",STP180-24/Ab-1,180W Polycrystalline Module with MC Connectors,180,162.5
+"Suntech Power, Inc.",STP180S-24/Ab-1,180W Monocrystalline Module with MC Connectors,180,159.1
+"SunWize Technologies, LLC",SW 100,100W Monocrystalline PV Module,100,87.1
+"SunWize Technologies, LLC",SW 110,110W Monocrystalline PV Module,110,96
+"SunWize Technologies, LLC",SW 115,115W Monocrystalline PV Module,115,100.5
+"SunWize Technologies, LLC",SW 120,120W Monocrystalline PV Module,120,105
+"SunWize Technologies, LLC",SW 150,150W Monocrystalline PV Module,150,130.9
+"SunWize Technologies, LLC",SW 150L,150W Monocrystalline PV module,150,130.5
+"SunWize Technologies, LLC",SW 155,155W Monocrystalline PV Module,155,135.3
+"SunWize Technologies, LLC",SW 155L,155W Monocrystalline PV module,155,134.9
+"SunWize Technologies, LLC",SW 160,160W Monocrystalline PV Module,160,139.4
+"SunWize Technologies, LLC",SW 160L,160W Monocrystalline PV module,160,139.4
+"SunWize Technologies, LLC",SW 165L,165W Monocrystalline PV module,165,143.9
+"SunWize Technologies, LLC",SW 75,75W Monocrystalline PV Module,75,65.1
+"SunWize Technologies, LLC",SW 85,85W Monocrystalline PV Module,85,73.9
+"SunWize Technologies, LLC",SW 90,90W Monocrystalline PV Module,90,78.4
+"SunWize Technologies, LLC",SW 95,95W Monocrystalline PV Module,95,82.8
+United Solar Ovonic,ASR-120,120W Arch. Standing Seam 3J a-Si Module,120,110.9
+United Solar Ovonic,ASR-128,128W Arch. Standing Seam 3J a-Si Module,128,118.3
+United Solar Ovonic,ASR-136,136W Arch. Standing Seam 3J a-Si Module,136,128.8
+United Solar Ovonic,ASR-60,60W Arch. Standing Seam 3J a-Si Module,60,55.4
+United Solar Ovonic,ASR-64,64W Arch. Standing Seam 3J a-Si Module,64,59.1
+United Solar Ovonic,ASR-68,68W Arch. Standing Seam 3J a-Si Module,68,64.4
+United Solar Ovonic,ES-116,116W a-Si Module with Black Anodized Frame,116,109.8
+United Solar Ovonic,ES-124,124W a-Si Module with Black Anodized Frame,124,117.4
+United Solar Ovonic,ES-58,58W a-Si Module with Black Anodized Frame,58,54.9
+United Solar Ovonic,ES-62T,62W a-Si Module with Black Anodized Frame,62,58.7
+United Solar Ovonic,PVL-116(DM),"116W Field Applied 3J a-Si Laminate, Deck-Mounted",116,107.4
+United Solar Ovonic,PVL-116(PM),"116W Field Applied 3J a-Si Laminate, Purlin-Mounted",116,109.9
+United Solar Ovonic,PVL-124,124W Field Applied 3J a-Si Laminate,124,117.4
+United Solar Ovonic,PVL-128(DM),"128W Field Applied 3J a-Si Laminate, Deck-Mounted",128,118.4
+United Solar Ovonic,PVL-128(PM),"128W Field Applied 3J a-Si Laminate, Purlin-Mounted",128,121.2
+United Solar Ovonic,PVL-136,136W Field Applied 3J a-Si Laminate,136,128.8
+United Solar Ovonic,PVL-29(DM),"29W Field Applied 3J a-Si Laminate, Deck-Mounted",29,26.9
+United Solar Ovonic,PVL-29(PM),"29W Field Applied 3J a-Si Laminate, Purlin-Mounted",29,27.5
+United Solar Ovonic,PVL-31,31W Field Applied 3J a-Si Laminate,31,29.3
+United Solar Ovonic,PVL-58(DM),"58W Field Applied 3J a-Si Laminate, Deck-Mounted",58,53.7
+United Solar Ovonic,PVL-58(PM),"58W Field Applied 3J a-Si Laminate, Purlin-Mounted",58,55
+United Solar Ovonic,PVL-62,62W Field Applied 3J a-Si Laminate,62,58.7
+United Solar Ovonic,PVL-64(DM),"64W Field Applied 3J a-Si Laminate, Deck-Mounted",64,59.2
+United Solar Ovonic,PVL-64(PM),"64W Field Applied 3J a-Si Laminate, Purlin-Mounted",64,60.6
+United Solar Ovonic,PVL-68,68W Field Applied 3J a-Si Laminate,68,64.4
+United Solar Ovonic,PVL-87(DM),"87W Field Applied 3J a-Si Laminate, Deck-Mounted",87,80.6
+United Solar Ovonic,PVL-87(PM),"87W Field Applied 3J a-Si Laminate, Purlin-Mounted",87,82.5
+United Solar Ovonic,PVL-93,93W Field Applied 3J a-Si Laminate,93,88.1
+United Solar Ovonic,PVR10T,62W a-Si Roof Module,62,58.7
+United Solar Ovonic,PVR15T,93W a-Si Roof Module,93,88.1
+United Solar Ovonic,PVR20T,124W a-Si Roof Module,124,117.4
+United Solar Ovonic,PVR5T,31W a-Si Roof Module,31,29.3
+United Solar Ovonic,SFS-11L-10,10 - 68W Structural Standing Seam 3J a-Si Module,10,643.9
+United Solar Ovonic,SFS-11L-11,11 - 68W Structural Standing Seam 3J a-Si Module,11,708.2
+United Solar Ovonic,SFS-11L-12,12 - 68W Structural Standing Seam 3J a-Si Module,12,772.6
+United Solar Ovonic,SFS-22L-10,10 - 136W Structural Standing Seam 3J a-Si Module,10,1287.9
+United Solar Ovonic,SFS-22L-11,11 - 136W Structural Standing Seam 3J a-Si Module,11,1416.7
+United Solar Ovonic,SFS-22L-12,12 - 136W Structural Standing Seam 3J a-Si Module,12,1545.5
+United Solar Ovonic,SHR-15,15W Shingle 3J a-Si Module,15,13.9
+United Solar Ovonic,SHR-17,17W Shingle 3J a-Si Module,17,15.7
+United Solar Ovonic,SSR-120,"120W Structural Standing Seam 3J a-Si Module, Purlin-Mounted",120,113.5
+United Solar Ovonic,SSR-120(DM),"120W Structural Standing Seam 3J a-Si Module, Deck-Mounted",120,110.9
+United Solar Ovonic,SSR-120J,"120W Structural Standing Seam 3J a-Si Module w/J-box, Purlin-Mounted",120,113.5
+United Solar Ovonic,SSR-120J(DM),"120W Structural Standing Seam 3J a-Si Module w/J-box, Deck-Mounted",120,110.9
+United Solar Ovonic,SSR-128,"128W Structural Standing Seam 3J a-Si Module, Purlin-Mounted",128,121.1
+United Solar Ovonic,SSR-128(DM),"128W Structural Standing Seam 3J a-Si Module, Deck-Mounted",128,118.3
+United Solar Ovonic,SSR-128J,"128W Structural Standing Seam 3J a-Si Module w/J-box, Purlin-Mounted",128,121.1
+United Solar Ovonic,SSR-128J(DM),"128W Structural Standing Seam 3J a-Si Module w/J-box, Deck-Mounted",128,118.3
+United Solar Ovonic,SSR-136,136W Structural Standing Seam 3J a-Si Module,136,128.8
+United Solar Ovonic,SSR-60,"60W Structural Standing Seam 3J a-Si Module, Purlin-Mounted",60,56.8
+United Solar Ovonic,SSR-60(DM),"60W Structural Standing Seam 3J a-Si Module, Deck-Mounted",60,55.4
+United Solar Ovonic,SSR-60J,"60W Structural Standing Seam 3J a-Si Module w/J-box, Purlin-Mounted",60,56.8
+United Solar Ovonic,SSR-60J(DM),"60W Structural Standing Seam 3J a-Si Module w/J-box, Deck-Mounted",60,55.4
+United Solar Ovonic,SSR-64,"64W Structural Standing Seam 3J a-Si Module, Purlin-Mounted",64,60.6
+United Solar Ovonic,SSR-64(DM),"64W Structural Standing Seam 3J a-Si Module, Deck-Mounted",64,59.1
+United Solar Ovonic,SSR-64J,"64W Structural Standing Seam 3J a-Si Module w/J-box, Purlin-Mounted",64,60.6
+United Solar Ovonic,SSR-64J(DM),"64W Structural Standing Seam 3J a-Si Module w/J-box, Deck-Mounted",64,59.1
+United Solar Ovonic,SSR-68,68WStructural Standing Seam 3J a-Si Module,68,64.4
+United Solar Ovonic,US-116,116W Framed Triple-Junction a-Si Module,116,109.9
+United Solar Ovonic,US-32,32W Framed Triple-Junction a-Si Module,32,30.3
+United Solar Ovonic,US-39,39W Framed Triple-Junction a-Si Module,39,36.9
+United Solar Ovonic,US-42,42W Framed Triple-Junction a-Si Module,42,39.8
+United Solar Ovonic,US-60,60W Framed Triple-Junction a-Si Module,60,56.8
+United Solar Ovonic,US-64,64W Framed Triple-Junction a-Si Module,64,60.6
+Webel-SL Energy Systems,W1000-100,100W Monocrystalline PV Module,100,87.1
+Webel-SL Energy Systems,W1000-110,110W Monocrystalline PV Module,110,96
+Webel-SL Energy Systems,W1000-115,115W Monocrystalline PV Module,115,100.5
+Webel-SL Energy Systems,W1000-120,120W Monocrystalline PV Module,120,105
+Webel-SL Energy Systems,W1600-150,150W Monocrystalline PV module,150,130.5
+Webel-SL Energy Systems,W1600-155,155W Monocrystalline PV module,155,134.9
+Webel-SL Energy Systems,W1600-160,160W Monocrystalline PV module,160,139.4
+Webel-SL Energy Systems,W1600-165,165W Monocrystalline PV module,165,143.9
+Webel-SL Energy Systems,W900-75,75W Monocrystalline PV Module,75,65.1
+Webel-SL Energy Systems,W900-80,80W Monocrystalline PV Module,80,69.5
+Webel-SL Energy Systems,W900-85,85W Monocrystalline PV Module,85,73.9
+Webel-SL Energy Systems,W900-90,90W Monocrystalline PV Module,90,78.4

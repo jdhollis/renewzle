@@ -1,0 +1,6 @@
+<div id="cost_offset_chart_container" class="chart_container"></div>
+<script type="text/javascript">
+  var costOffsetChart = new FusionCharts('/FusionCharts/MSLine.swf', 'cost_offset_chart', '100%', '275px', '0', '0');
+  costOffsetChart.setDataURL("<%= cost_offset_chart_data_path %>");
+  costOffsetChart.render('cost_offset_chart_container');
+</script>

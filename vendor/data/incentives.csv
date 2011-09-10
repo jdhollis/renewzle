@@ -1,0 +1,25 @@
+utility_id,state,applicability,description,type,derate,rate,minimum_system_size,maximum_system_size,maximum_amount,maximum_percentage,notes,source
+,,,Residential Solar Tax Credit,Percentage,,0.3,,,2000,,,Federal
+,CA,Marin County,Marin County Solar Rebate Program,Lump Sum,,500,,,500,,,Marin Co
+,CA,,Mandated Utility Net Metering,Exemption,,,,,,,,State
+,CA,,Property Tax Exemption,Exemption,,,,,,,,State
+16088,CA,Ciity of Riverside,Riverside Public Utilities PV Incentive Program,per CEC W,,3,,,25000,,,
+207,CA,City of Alameda,Alameda P&T Solar Photvoltaics Rebate Program,per CEC W,,2.8,,1000,,,Alameda P&T retains the renewable energy credits (RECs) associated with the electricity produced,
+590,CA,City of Anaheim,Anaheim Public Utilities PV Buydown Program,per CEC W,,4,,,14000,,,
+2507,CA,City of Burbank Water and Power,Burbank Water & Power Solar Support Program,per Nameplate W,,3,,,10000,,,
+4003,CA,City of Colton,Colton Public Utilities PV Rebate Program,per CEC W,,4,,,20000,,,
+7294,CA,City of Glendale,Glendale Water & Power Solar Solutions Program,per CEC W,,4,,10,,,,
+14401,CA,City of Palo Alto,Palo Alto Utilities PV Partners,per CEC W,,3,,,,,,
+14534,CA,City of Pasadena,Pasadena Water & Power Solar Power Installation Rebate,per CEC W,,3.5,,,8000,,,PWP
+15783,CA,City of Redding,Redding Electric Earth Advantage Rebate Program,per CEC W,,2.8,,,,,,
+16655,CA,City of Santa Clara,Silicon Valley Power Solar Electric Buy Down Program,per CEC W,,4.5,,10,,,,
+19397,CA,City of Ukiah,Ukiah Utilities PV Buydown Program,per CEC W,,2.8,,,6000,,,
+9216,CA,Imperial Irrigation District,Imperial Irrigation District Rebate Program,per CEC W,,,,,28000,,,IID
+11208,CA,Los Angeles City of,LADWP Solar Incentive Program,per kWh,,0.14,1,1000,,,LADWP retains the renewable energy credits (RECs) associated with the electricity produced,LADWP
+12745,CA,Modesto Irrigation District,Modesto Irrigation District PV Rebate Program,per CEC W,,2.8,,,,0.5,,MID
+14328,CA,Pacific Gas & Electric Co,California Solar Initiative Rebate,per CEC W,1,2.2,1,,,,,CPUC
+16534,CA,Sacramento Municipal Util Dist,SMUD PV Residential Retrofit Buydown,per CEC W,1,2.5,,,,,,SMUD
+16609,CA,San Diego Gas & Electric Co,California Solar Initiative Rebate,per CEC W,1,2.2,1,,,,,CPUC
+17609,CA,Southern California Edison Co,California Solar Initiative Rebate,per CEC W,1,2.5,1,,,,,CPUC
+17612,CA,Southern California Edison Co,California Solar Initiative Rebate,per CEC W,1,2.5,1,,,,,CPUC
+19281,CA,Turlock Irrigation District,Turlock Irrigation District PV Rebate,per CEC W,,4,1,1000,20000,,,TID

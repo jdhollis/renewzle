@@ -1,0 +1,21 @@
+state_income_tax_bracket:
+  id: 65
+  filing_status: Married
+  income_max: 1e+06
+  rate: 0.093
+  type: StateIncomeTaxBracket
+  income_min: 86935
+  state: CA
+  created_at: 2008-01-10 23:22:13
+  updated_at: 2008-01-10 23:22:13
+
+federal_income_tax_bracket:
+  id: 9
+  filing_status: Married
+  income_max: 128500
+  rate: 0.25
+  type: FederalIncomeTaxBracket
+  income_min: 63701
+  state: 
+  created_at: 2008-01-10 23:22:12
+  updated_at: 2008-01-10 23:22:12

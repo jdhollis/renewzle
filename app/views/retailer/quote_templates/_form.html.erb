@@ -1,0 +1,92 @@
+<% form_id = "#{quote_template.new_record? ? '' : 'edit_'}#{dom_id(quote_template)}" -%>
+<% ajax_url = retailer_quote_template_path(quote_template) -%>
+<% ajax_method = quote_template.new_record? ? :post : :put -%>
+<% labelled_form_for(quote_template, :url => retailer_quote_template_path(quote_template)) do |quote_template_form| -%>  
+  <div class="span-13 append-1">
+    <fieldset>
+      <legend>Description</legend>
+      
+      <div class="field required">
+        <%= quote_template_form.required_text_field(:description) %>
+      </div>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Module</legend>
+    
+      <div class="field required">
+        <label for="quote_template_photovoltaic_module_manufacturer">Manufacturer</label>
+        <%= quote_template_form.collection_select(:photovoltaic_module_manufacturer, module_manufacturers, :manufacturer, :manufacturer, { :include_blank => true }, :onchange => "showItemLoadingFor('photovoltaic_module_manufacturer');") %>
+        <%= loading_span_of_size(24, :for => 'photovoltaic_module_manufacturer') %>
+      </div>
+      
+      <%= observe_field(:quote_template_photovoltaic_module_manufacturer, :with => "Form.serialize('#{form_id}') + '&update=modules'", :url => ajax_url, :method => ajax_method) %>
+    
+      <div id="photovoltaic_module_fields">
+        <%= qt_module_fields_for(quote_template) %>
+      </div>
+    </fieldset>
+  
+    <fieldset>
+      <legend>Inverter</legend>
+    
+      <div class="field required">
+        <label for="quote_template_photovoltaic_inverter_manufacturer">Manufacturer</label>
+        <%= quote_template_form.collection_select(:photovoltaic_inverter_manufacturer, inverter_manufacturers, :manufacturer, :manufacturer, { :include_blank => true }, :onchange => "showItemLoadingFor('photovoltaic_inverter_manufacturer');") %>
+        <%= loading_span_of_size(24, :for => 'photovoltaic_inverter_manufacturer') %>
+      </div>
+    
+      <%= observe_field(:quote_template_photovoltaic_inverter_manufacturer, :with => "Form.serialize('#{form_id}') + '&update=inverters'", :url => ajax_url, :method => ajax_method) %>
+    
+      <div id="photovoltaic_inverter_fields">
+        <%= qt_inverter_fields_for(quote_template) %>
+      </div>
+    </fieldset>
+  </div>
+  
+  <div class="span-9 last">
+    <fieldset>
+  		<legend>Pricing</legend>
+		
+  		<%= quote_template_form.required_dollar_text_field(:system_price, :onblur => "QuoteTemplate.updateRFQ('#{form_id}', 'system_price', '#{ajax_url}', '#{ajax_method}');", :with_loading_span_of_size => 24) %>
+  		<br />
+  		<%= quote_template_form.labelled_inverted_check_box(:installation_available, :onchange => "QuoteTemplate.toggleInstallationFields(); QuoteTemplate.updateRFQ('#{form_id}', 'installation_available', '#{ajax_url}', '#{ajax_method}');", :with_loading_span_of_size => 18) %>
+		
+  		<div id="installation_fields"<%= quote_template.installation_available? ? '' : " style='display:none'" %>>
+  		  <%= quote_template_form.required_dollar_text_field(:installation_estimate, :label => "Typical installation cost", :onblur => "QuoteTemplate.updateRFQ('#{form_id}', 'installation_estimate', '#{ajax_url}', '#{ajax_method}');", :with_loading_span_of_size => 24) %>
+  		</div>
+  		<br />
+  		<%= quote_template_form.labelled_inverted_check_box(:will_accept_rebate_assignment, :label => 'My firm will accept rebate assignment', :onchange => "QuoteTemplate.updateRFQ('#{form_id}', 'will_accept_rebate_assignment', '#{ajax_url}', '#{ajax_method}');", :with_loading_span_of_size => 18) %>
+    </fieldset>
+  </div>
+  
+<% if !company_backgrounders.empty? -%>
+  <div class="span-9 last">
+    <fieldset>
+      <legend>Company Backgrounder</legend>
+      
+      <p>Would you like to attach a backgrounder to this template?</p>
+      
+      <ul class="quote_company_backgrounders" style="list-style-type: none;">
+        <li>
+          <%= quote_template_form.radio_button(:company_backgrounder_id, nil, :checked => (quote_template.company_backgrounder == nil)) -%>
+          None
+        </li>
+      <% company_backgrounders.each do |backgrounder| -%>
+        <li>
+          <%= quote_template_form.radio_button(:company_backgrounder_id, backgrounder.id, :checked => (quote_template.company_backgrounder_id == backgrounder.id)) %>
+          <%= link_to(backgrounder.title, backgrounder.doc.url) %>
+        </li>
+      <% end -%>
+      </ul>
+    </fieldset>
+  </div>
+<% end -%>
+  
+  <div class="clear submit">
+    <p>
+      <%= link_to(image_tag('btn_cancel.png', :alt => 'Cancel'), retailer_quote_templates_url) %>
+      <input type="image" src="<%= image_path('btn_save_changes.png') %>" alt="Save Changes" class="button" />
+    </p>
+  </div>
+<% end -%>

@@ -1,0 +1,17 @@
+<fieldset>
+  <legend>Search Results</legend>
+
+	<% if companies.blank? %>
+		<p><em>No companies found.</em></p>
+	<% else %>
+		<p>Click on your company name below to continue your registration.</p>
+		<%= will_paginate(companies, :params => { :search_term => search_term }) %>
+		<div id="page_of_companies">
+			<ul class="bottom">  
+			  <%= render(:partial => 'companies/company', :collection => companies) %>
+			</ul>
+		</div>
+		<%= will_paginate(companies, :params => { :search_term => search_term }) %>
+	<% end %>
+
+</fieldset>

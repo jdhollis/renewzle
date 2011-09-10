@@ -1,0 +1,119 @@
+<p>We&rsquo;ve calculated an initial system size for you based on lowest monthly cost.</p>
+
+<p>Change your settings on the right and explore the tabs above to fine tune your system size and savings and find the right system for your home!</p>
+
+<div class="span-7 append-1">
+  <fieldset class="results">
+  	<legend>Quick Results</legend>
+
+  	<table cellspacing="0" cellpadding="0" border="0" class="results bottom">
+  		<tr>
+  			<th>
+  				Solar potential:<br/>
+  				<small>(at your location)</small>
+  			</td>
+  			<td><%= profile.solar_potential %></td>
+  		</tr>
+  		<tr>
+  			<th>Monthly savings:</th>
+  			<td><%= number_to_accounting(profile.average_monthly_savings, :precision => 0) %></td>
+  		</tr>
+  		<tr>
+  			<th>Lifetime savings:</th>
+  			<td><%= number_to_accounting(profile.lifetime_savings, :precision => 0) %></td>
+  		</tr>
+  		<tr>
+  			<th>Increased home value:</th>
+  			<td><%= number_to_currency(profile.increase_in_home_value, :precision => 0) %></td>
+  		</tr>
+  	</table>	
+  </fieldset>
+</div>
+
+<div class="span-6 pull-half last">
+	<h3>Average Monthly Cost</h3>
+
+  <table border="0" cellspacing="0" cellpadding="0" class="bar_chart">
+    <tr class="before">
+		  <th>Before</th>
+		  <td>
+		    <span class="bar" style="width:<%= average_monthly_cost_before_graph_width %>"></span>
+		    <span><%= number_to_currency(profile.average_monthly_cost_before, :precision => 0) %></span>
+		  </td>
+	  </tr>
+	  <tr class="after">
+		  <th>After</th>
+		  <td>
+		    <span class="bar" style="width:<%= average_monthly_cost_after_graph_width %>"></span>
+        <span><%= number_to_currency(profile.average_monthly_cost_after, :precision => 0) %></span>
+		  </td>
+	  </tr>
+	  <tr>
+	    <td colspan="2">Want more details? See your <%= link_to('Financial&nbsp;Overview', profile_financial_overview_url) %>.</td>
+	  </tr>
+  </table>
+</div>
+
+<div class="span-7 append-1">
+  <fieldset class="results">
+  	<legend>Recommended System</legend>
+	
+  	<table cellspacing="0" cellpadding="0" border="0" class="results bottom">
+  		<tr>
+  			<th>System size:</th>
+  			<td><%= number_with_delimiter(number_with_precision(profile.nameplate_rating, 1)) %> DC <abbr title="kilowatts">kW</abbr></td>
+  		</tr>
+  		<tr>
+  			<th>Estimated project cost:</th>
+  			<td><%= number_to_currency(profile.project_cost, :precision => 0) %></td>
+  		</tr>
+  		<tr>
+  			<th>Rebates &amp; incentives:</th>
+  			<td><%= number_to_accounting(-(profile.total_value_of_federal_incentives + profile.total_value_of_state_and_local_incentives), :precision => 0) %></td>
+  		</tr>
+  		<tr>
+  			<th>
+  				Net project cost:<br/>
+  				<small>(after incentives)</small>
+  			</th>
+  			<td><%= number_to_currency(profile.net_system_cost, :precision => 0) %></td>
+  		</tr>
+  	</table>	
+  </fieldset>
+</div>
+
+<div class="span-6 pull-half last">
+  <h3>Average Monthly Emissions</h3>
+
+  <table border="0" cellspacing="0" cellpadding="0" class="bar_chart">
+    <tr class="before">
+      <th>Before</th>
+      <td>
+        <span class="bar" style="width:<%= average_monthly_co2_emissions_before_graph_width %>"></span>
+        <span><%= number_with_delimiter(number_with_precision(profile.average_monthly_co2_emissions_before, 0)) %> lbs C0<sub>2</sub></span>
+      </td>
+    </tr>
+    <tr class="after">
+      <th>After</th>
+      <td>
+        <span class="bar" style="width:<%= average_monthly_co2_emissions_after_graph_width %>"></span>
+        <span><%= number_with_delimiter(number_with_precision(profile.average_monthly_co2_emissions_after, 0)) %> lbs C0<sub>2</sub></span>
+      </td>
+    </tr>
+    <tr>
+	    <td colspan="2">Want more details? See your <%= link_to('Environmental&nbsp;Overview', profile_environmental_overview_url) %>.</td>
+	  </tr>
+  </table>
+</div>
+
+<hr />
+
+<h3>Monthly Cost</h3>
+
+<p>This chart shows your monthly cost (electric bill plus loan payment on your solar system) for different system sizes.</p>
+
+<p>As a starting point, Renewzle recommended the system with the lowest monthly cost, but a larger system will usually offer greater lifetime savings.</p>
+
+<p>Look at different options and choose the system that best fits your budget and goals.</p>
+
+<%= render(:partial => 'profiles/explore/cost_offset_chart') %>

@@ -1,0 +1,15 @@
+<tr id="<%= dom_id(quote) %>" class="<%= dom_class(quote) %><%= (parent_counter + 1) % 2 == 0 ? ' even' : '' %><%= parent_class %>">
+  <td></td>
+  <td><%= number_with_delimiter(number_with_precision(quote.nameplate_rating, 1)) %> kW</td>
+  <td><%= number_with_delimiter(number_with_precision(quote.cec_rating, 1)) %> kW</td>
+  <td style="text-align:left"><%= quote.module_type %></td>
+  <td style="text-align:center"><%= number_with_delimiter(quote.number_of_modules) %></td>
+  <td style="text-align:left"><%= quote.inverter_type %></td>
+  <td style="text-align:center"><%= number_with_delimiter(quote.number_of_inverters) %></td>
+  <td><%= number_to_currency(quote.system_price, :precision => 0) %></td>
+  <td><%= number_to_currency(quote.installation_estimate, :precision => 0) %></td>
+  <td><strong><%= number_to_currency(quote.total_price, :precision => 0) %></strong></td>
+  <td class="button">
+    <%= link_to_remote('Withdraw', :url => retailer_quote_url(quote), :method => :delete, :class => "withdraw") %>
+  </td>
+</tr>

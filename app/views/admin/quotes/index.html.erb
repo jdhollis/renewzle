@@ -1,0 +1,29 @@
+<h1>Quotes</h1>
+
+<%= will_paginate(@quotes) %>
+
+<table class="data">
+  <tr>
+    <th>Partner</th>
+    <th>Number of Modules</th>
+    <th>Number of Inverters</th>
+    <th>System Price</th>
+    <th>System System Size</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <% @quotes.each do |quote| %>
+    <tr id="<%= dom_id(quote) %>" class="<%= cycle('odd', 'even') %>">
+      <td><%= link_to(quote.partner.full_name, admin_user_url(quote.partner)) %></td>
+      <td><%= quote.number_of_modules %></td>
+      <td><%= quote.number_of_inverters %></td>
+      <td><%= quote.system_price %></td>
+      <td><%= quote.nameplate_rating %></td>
+      <td><%= link_to('Show', admin_quote_url(quote)) %></td>
+      <td><%= link_to('Withdraw', admin_quote_url(quote), :method => :delete) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= will_paginate(@quotes) %>

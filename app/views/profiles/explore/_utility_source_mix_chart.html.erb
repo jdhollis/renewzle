@@ -1,0 +1,6 @@
+<div id="utility_source_mix_chart_container" class="chart_container"></div>
+<script type="text/javascript">
+	var sourceMixChart = new FusionCharts('/FusionCharts/Pie2D.swf', 'utility_source_mix_chart', '100%', '275px', '0', '0');
+	sourceMixChart.setDataURL("<%= utility_source_mix_chart_data_path %>");
+	sourceMixChart.render('utility_source_mix_chart_container');
+</script>

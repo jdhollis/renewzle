@@ -1,0 +1,12 @@
+solarrocks:
+  company_id: 1
+  type: Discount
+  price: 100
+
+gogreen:
+  type: FirstLeadDiscount
+  percentage: 10
+
+kdj229:
+  type: Discount
+  percentage: 5

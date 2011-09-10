@@ -1,0 +1,14 @@
+<h2><%= @user.full_name %></h2>
+
+<dl>
+  <dt><%= @user.full_name %></dt>
+  <dd>Type: <%= @user.type.to_s.underscore.humanize %></dd>
+  <dd>Street Address: <%= @user.street_address %></dd>
+  <dd>City: <%= @user.city %></dd>
+  <dd>State: <%= @user.state %></dd>
+  <dd>Postal Code: <%= @user.postal_code %></dd>
+  <dd>Phone Number: <%= @user.phone_number %></dd>
+  <dd>Fax Number: <%= @user.fax_number %></dd>
+</dl>
+
+<%= link_to 'Edit', edit_admin_user_path(@user) %> | <%= link_to 'Back', admin_users_path %>

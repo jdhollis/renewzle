@@ -1,0 +1,6 @@
+<div id="annual_cost_chart_container" class="chart_container"></div>
+<script type="text/javascript">
+  var annualCostChart = new FusionCharts('/FusionCharts/MSLine.swf', 'annual_cost_chart', '100%', '275px', '0', '0');
+  annualCostChart.setDataURL("<%= annual_cost_chart_data_path %>");
+  annualCostChart.render('annual_cost_chart_container');
+</script>

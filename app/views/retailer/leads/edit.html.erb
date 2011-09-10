@@ -1,0 +1,48 @@
+<div class="span-15 append-1">
+  <h2><%= @view_title %></h2>
+  
+  <% @page_javascript << "Form.focusFirstElement('edit_#{dom_id(@lead)}');" -%>
+  <% labelled_form_for(@lead, :url => retailer_lead_path) do |lead_form| -%>
+    <fieldset>
+      <legend>Billing Address</legend>
+      
+      <%= lead_form.required_text_field(:billing_name, :label => 'Name', :error_label => 'Name', :input_class => 'name') %>
+      <%= lead_form.required_text_field(:billing_email, :label => 'Email', :error_label => 'Email') %>
+      <br />
+      <%= lead_form.required_text_field(:billing_street_address, :label => 'Street address', :error_label => 'Street address') %>
+      <%= lead_form.required_text_field(:billing_city, :label => 'City', :error_label => 'City', :input_class => 'city') %>
+      <%= lead_form.required_text_field(:billing_state, :label => 'State', :error_label => 'State', :input_class => 'state') %>
+      <%= lead_form.required_text_field(:billing_postal_code, :label => 'Postal code', :error_label => 'Postal code', :input_class => 'postal_code') %>
+      <%= lead_form.hidden_field(:billing_country) %>
+      <br />
+      <%= lead_form.required_text_field(:billing_phone_number, :label => 'Phone number', :error_label => 'Phone number', :input_class => 'phone_number') %>
+    </fieldset>
+
+    <fieldset>
+      <legend>Payment Information</legend>
+      
+      <%= lead_form.required_text_field(:card_first_name, :label => 'First name', :error_label => 'First name', :input_class => 'name') %>
+      <%= lead_form.required_text_field(:card_last_name, :label => 'Last name', :error_label => 'Last name', :input_class => 'name') %>
+      <br />
+      <%= lead_form.required_select(:card_type, { 'Visa' => 'visa', 'Master Card' => 'mastercard', 'American Express' => 'amex', 'Discover' => 'discover' }) %>
+      <%= lead_form.required_text_field(:card_number) %>
+      <%= lead_form.required_text_field(:card_verification, :input_class => 'verification') %>
+      <br />
+      <%= lead_form.required_text_field(:card_expiration_month, :label => 'Expiration month', :error_label => 'Expiration month') %>
+      <%= lead_form.required_text_field(:card_expiration_year, :label => 'Expiration year', :error_label => 'Expiration year') %>
+    </fieldset>
+  
+    <p class="submit"><%= submit_button('Purchase Lead') %></p>
+  <% end -%>
+</div>
+
+<div class="span-8 last">
+  <!-- (c) 2006. Authorize.Net is a registered trademark of Lightbridge, Inc. -->
+  <div class="AuthorizeNetSeal">
+    <script type="text/javascript" language="javascript">
+      var ANS_customer_id="39f081cf-4c2a-4127-9ed3-f77f068b58cd";
+    </script>
+    <script type="text/javascript" language="javascript" src="//VERIFY.AUTHORIZE.NET/anetseal/seal.js" ></script>
+    <a href="http://www.authorize.net/" id="AuthorizeNetText" target="_blank">Online Payments</a>
+  </div>
+</div>

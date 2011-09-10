@@ -1,0 +1,26 @@
+<div class="span-12">
+  <h2><%= h(@view_title) %></h2>
+  
+  <% @page_javascript << "Form.focusFirstElement('edit_#{dom_id(@partner)}');" -%>
+  <% labelled_form_for(@partner, :url => retailer_partner_path(@partner)) do |partner_form| -%> 
+    <fieldset>
+      <legend>Name &amp; Login</legend>
+      
+      <%= partner_form.labelled_text_field(:first_name) %>
+      <%= partner_form.labelled_text_field(:last_name) %>
+      <%= partner_form.labelled_text_field(:email) %>
+      <%= partner_form.required_password_fields(:password) %>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Contact Information</legend>
+      
+      <%= partner_form.required_text_field(:phone_number) %>
+      <%= partner_form.required_text_field(:fax_number) %>
+    </fieldset>
+    
+    <div class="submit">
+      <p><%= submit_button('Save') %> or <%= link_to('Go back', home_url) %></p>
+    </div>
+  <% end -%>
+</div>

@@ -1,0 +1,2 @@
+class TieredFixedTier < Tier
+end

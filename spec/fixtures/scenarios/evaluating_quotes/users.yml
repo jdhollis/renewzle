@@ -1,0 +1,69 @@
+stevejobs:
+  id: 1
+  type: Customer
+  fax_number: ""
+  city: Cupertino
+  first_name: Steve
+  last_name: Jobs
+  postal_code: 95014
+  hashed_password: $2a$10$Quf44RQnQwQQmQdAKf4ecO4x7NG7sOoOTQsKlj5tngUycEnGdF/IC
+  first_login: "0"
+  phone_number: 123-321-1234
+  password_reset_key: 
+  lng: -122.031112
+  street_address: 1 Infinite Loop
+  lat: 37.331886
+  distance: 
+  state: CA
+  email: steve@renewzle.com
+  waiting_approval: false
+  created_at: 2008-01-10 22:25:58
+  updated_at: 2008-01-10 22:25:59
+
+partner1:
+  id: 2
+  company_id: "1"
+  type: Partner
+  fax_number: ""
+  first_name: Bill
+  last_name: Gates
+  postal_code: 95014
+  hashed_password: $2a$10$Quf44RQnQwQQmQdAKf4ecO4x7NG7sOoOTQsKlj5tngUycEnGdF/IC
+  first_login: "0"
+  phone_number: 123-321-1234
+  password_reset_key: 
+  lng: -122.031112
+  lat: 37.331886
+  distance: 
+  email: bill@renewzle.com
+  company_administrator: 1
+  can_update_company_profile: 1
+  can_submit_quotes: 1
+  can_purchase_leads: 1
+  waiting_approval: false
+  created_at: 2008-01-10 22:25:58
+  updated_at: 2008-01-10 22:25:59
+
+partner2:
+  id: 3
+  company_id: "2"
+  type: Partner
+  fax_number: ""
+  first_name: Mark
+  last_name: Shuttleworth
+  postal_code: 95014
+  hashed_password: $2a$10$Quf44RQnQwQQmQdAKf4ecO4x7NG7sOoOTQsKlj5tngUycEnGdF/IC
+  first_login: "0"
+  phone_number: 123-321-1234
+  password_reset_key: 
+  lng: -122.031112
+  lat: 37.331886
+  distance: 
+  email: mark@renewzle.com
+  company_administrator: 1
+  can_update_company_profile: 1
+  can_submit_quotes: 1
+  can_purchase_leads: 1
+  waiting_approval: false
+  created_at: 2008-01-10 22:25:58
+  updated_at: 2008-01-10 22:25:59

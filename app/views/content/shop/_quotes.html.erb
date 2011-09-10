@@ -1,0 +1,150 @@
+<div class="span-7 append-1">
+  <fieldset class="results">
+  	<legend>Your System Request</legend>
+
+  	<table cellspacing="0" cellpadding="0" border="0" class="results bottom">
+  		<tr>
+  			<th>System size:</th>
+        <td><%= number_with_delimiter(number_with_precision(@profile.nameplate_rating, 1)) %> DC kW</td>
+  		</tr>
+  		<tr>
+        <th>Projected output:</th>
+        <td><%= number_with_delimiter(number_with_precision(@profile.annual_output, 0)) %> kWh</td>
+      </tr>
+      <tr>
+        <th>
+          Estimated project cost:<br />
+          <small>(reflects typical market pricing)</small>
+        </th>
+        <td><%= number_to_currency(@profile.project_cost, :precision => 0) %></td>
+      </tr>
+      <tr>
+        <th>Estimated cost per Watt:</th>
+        <td><%= number_to_accounting(@profile.project_cost / @profile.nameplate_rating.kw, :precision => 2) %></td>
+      </tr>
+  	</table>	
+  </fieldset>
+</div>
+
+<div class="span-15">
+  <p style="font-size:1.2em;margin-top:2.25em;margin-bottom:.75em;">Find the best quote value with $/watt and 1<sup>st</sup> year savings.</p>
+  <p style="font-size:1.2em;margin-bottom:.75em;">Compare retailer reputations and look at the &ldquo;Read more about this retailer&rdquo; link.</p>
+  <p style="font-size:1.2em;margin-bottom:1.25em;">When you find the quote you like best, click &ldquo;Talk to this retailer&rdquo; and they will contact you&nbsp;promptly.</p>
+</div>
+
+<div class="span-24">
+  <table border="0" cellspacing="0" cellpadding="0" id="quotes" class="accounting">
+    <tr>
+      <th></th>
+      <th></th>
+      <th colspan="4" style="text-align:center">Value Comparison</th>
+      <th colspan="2" style="text-align:center; border-left:1px solid #bbb">Retailer Information</th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>Quote #</th>
+      <th style="text-align:center; width:70px">Received</th>
+      <th style="text-align:center; width:70px">Cost per Watt</th>
+      <th style="text-align:center">First year savings</th>
+      <th style="text-align:center">System size</th>
+      <th style="text-align:center">Project cost</th>
+      <th style="text-align:center; width:70px; border-left:1px solid #bbb">Year founded</th>
+      <th style="text-align:center;">Total installs</th>
+      <th></th>
+    </tr>
+  <% row = 1 -%>
+  <% quotes.each do |q| -%>
+    <% classes = [] -%>
+    <% classes << 'even' if row % 2 == 0 -%>
+    <% classes << 'accepted' if q == @profile.accepted_quote %>
+    <tr id="<%= dom_id(q) %>"<%= " class=\"#{classes.join(' ')}\"" unless classes.empty? %>>
+      <td class="left" style="text-align:center;"><%= image_tag("customer/#{row}.gif", :alt => row) %></td>
+      <td style="text-align:center"><%= q.received.strftime("%e %b") %></td>
+      <td style="text-align:center"><strong><%= number_to_accounting(q.average_dollar_cost_per_nameplate_watt, :precision => 2) %></strong></td>
+      <td style="text-align:center"><%= number_to_accounting(q.first_year_savings, :precision => 0) %></td>
+      <td style="text-align:center"><%= number_with_delimiter(number_with_precision(q.nameplate_rating, 1)) %> DC kW</td>
+      <td style="text-align:center"><%= number_to_accounting(q.project_cost, :precision => 0) %></td>
+      <td style="text-align:center; border-left:1px solid #bbb"><%= h(q.year_founded) %></td>
+      <td style="text-align:center"><% unless q.total_kw_installed.blank? -%><%= number_with_delimiter(q.total_kw_installed) %> kW<% end -%></td>
+      <td class="right" style="text-align:left"><a id="<%= dom_id(q) %>_details_toggle" class="details_toggle" href="#" onclick="return Quote.toggleDetails('<%= dom_id(q) %>');"><%= image_tag('customer/btn_show_quote_details.gif', :alt => 'Show Quote Details', :id => "#{dom_id(q)}_show_details") %><%= image_tag('customer/btn_hide_quote_details.gif', :alt => 'Hide Quote Details', :id => "#{dom_id(q)}_hide_details", :style => 'display:none') %></a></td>
+    </tr>
+    <tr id="<%= dom_id(q) %>_details" style="display:none"<%= row % 2 == 0 ? ' class="even"' : '' -%>>
+      <td colspan="8">
+        <div class="span-7 prepend-1 pull-half append-1">
+          <fieldset class="results">
+            <legend style="text-align:left">Pricing</legend>
+          
+            <table border="0" cellspacing="0" cellpadding="0" class="results bottom">
+            	<tr>
+            		<th>System price:</th>
+            		<td><%= number_to_accounting(q.system_price, :precision => 0) %></td>
+            	</tr>
+            	<tr>
+            		<th style="border-bottom:1px solid #f1d43f">
+            		  Installation estimate:<br />
+            		  <small><%= q.installation_available? ? 'Installation available' : 'Installation unavailable' %></small>
+            		</th>
+            		<td style="border-bottom:1px solid #f1d43f"><%= number_to_accounting(q.installation_estimate, :precision => 0) %></td>
+            	</tr>
+            	<tr>
+            	  <th style="padding-bottom:1.5em">Project cost:</th>
+                <td style="padding-bottom:1.5em"><%= number_to_accounting(q.project_cost, :precision => 0) %></td>
+            	</tr>
+            	<tr>
+          			<th>Rebates &amp; incentives:</th>
+          			<td><%= number_to_accounting(-(q.total_value_of_federal_incentives + q.total_value_of_state_and_local_incentives), :precision => 0) %></td>
+          		</tr>
+          		<tr>
+          			<th style="padding-bottom:1.5em">
+          				Net project cost:<br/>
+          				<small>(after incentives)</small>
+          			</th>
+          			<td style="padding-bottom:1.5em"><%= number_to_currency(q.net_system_cost, :precision => 0) %></td>
+          		</tr>
+            	<tr>
+            	  <th>Lifetime savings</th>
+                <td><%= number_to_accounting(q.lifetime_savings, :precision => 0) %></td>
+            	</tr>
+            </table>
+          </fieldset>
+        </div>
+        
+        <div class="span-10 pull-half">
+          <fieldset class="results">
+            <legend style="text-align:left">System Specifications</legend>
+          
+            <table border="0" cellspacing="0" cellpadding="0" class="results bottom">
+          		<tr>
+                <th style="width:110px; text-align:left">Annual output:</th>
+                <td style="text-align:left"><%= number_with_delimiter(number_with_precision(q.annual_output, 0)) %> kWh</td>
+              </tr>
+            	<tr>
+            	  <th style="width:110px; vertical-align:top; text-align:left">Module:</th>
+            		<td style="text-align:left"><%= number_with_delimiter(q.number_of_modules) %> &times; <%= q.module_type %></td>
+            	</tr>
+            	<tr>
+            		<th style="width:110px; vertical-align:top; text-align:left">Inverter:</th>
+            		<td style="text-align:left"><%= number_with_delimiter(q.number_of_inverters) %> &times; <%= q.inverter_type %></td>
+            	</tr>
+            <% unless q.company_backgrounder.blank? %>
+              <tr>
+                <td colspan="2"><hr class="bottom" style="background-color:#f1d43f; height:1px" /></td>
+              </tr>
+              <tr>
+                <th style="text-align:left">Read more about this retailer:</th>
+                <td style="text-align:left; text-transform:uppercase">
+                  <%= link_to(q.company_backgrounder.title, q.company_backgrounder.doc.url) %>
+                  <%= image_tag('customer/information.png', :style => 'margin-left:.25em') %>
+                </td>
+              </tr>
+            <% end %>
+            </table>
+          </fieldset>
+        </div>
+      </td>
+      <td style="text-align:left"><%= link_to(image_tag('customer/btn_talk_to_this_retailer_l.gif', :alt => 'Talk to this Retailer'), accept_quote_url(q), :class => 'button') unless @profile.has_accepted_quote? %></td>
+    </tr>
+    <% row = row + 1 -%>
+  <% end -%>
+  </table>
+</div>

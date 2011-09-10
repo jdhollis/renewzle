@@ -1,0 +1,37 @@
+<div class="span-14 append-1">
+  <h2 class="bottom"><%= h(@view_title) %></h2>
+  
+  <%= image_tag('customer/solar_diagram.jpg', :alt => "How Solar Systems Work") %>
+
+  <ol id="how-solar-works">
+    <li class="one">
+      <h3 class="bottom">Solar Modules</h3>
+  
+      Solar modules are usually mounted on your roof, but can also be installed on the grounds of your property or on an adjacent structure such as a garage. The panels are comprised of photovoltaic cells that convert sunlight into DC power.
+    </li>
+    <li class="two">
+      <h3 class="bottom">Inverter</h3>
+  
+      The power generated from the modules is sent to an inverter which converts the DC power into AC power; &ldquo;standard&rdquo; household electricity identical to what you receive from the utility grid.
+    </li>
+    <li class="three">
+      <h3 class="bottom">Electrical Panel</h3>
+
+      AC power from the inverter travels to your electrical service panel or breaker box. The system is connected to your service panel through a circuit breaker and is then distributed to any electrical loads in your home.
+    </li>
+    <li class="four">
+      <h3 class="bottom">Utility Meter</h3>
+
+	Whenever your solar system provides more power than you are currently using in your home, the excess power will flow into the grid through your electric meter. This will cause your meter to run backwards earning you a credit with the utility company.
+    </li>
+    <li class="five">
+      <h3 class="bottom">Utility Grid</h3>
+  
+      You remain connected to the utility grid so power is always available when you need it, even at night and during the day when your demand exceeds your solar production.
+    </li>
+  </ol>
+</div>
+
+<div class="span-9 last">
+  <%= render(:partial => "profiles/learn/get_started") %>
+</div>

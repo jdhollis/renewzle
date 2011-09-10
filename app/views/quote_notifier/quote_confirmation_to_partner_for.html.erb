@@ -1,0 +1,3 @@
+<p>You have successfully submitted a quote for a <%= number_with_delimiter(number_with_precision(@quote.nameplate_rating, 1)) %> kW PV system in <%= @quote.city %>. The homeowner has been notified that a new quote has been received, and you will be notified if the homeowner wants to contact you.</p>
+
+<p>You can review all of your outstanding quotes, new quote opportunities, and accepted quotes <a href="<%= @dashboard_url %>">here</a>.</p>

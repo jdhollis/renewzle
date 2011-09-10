@@ -1,0 +1,29 @@
+<div class="span-14">
+  <table border="0" cellspacing="0" cellpadding="0" class="accounting">
+    <tr class="header">
+      <th></th>
+      <th>Usage without Solar</th>
+      <th>Usage with Solar</th>
+      <th>Bill without Solar</th>
+      <th>Bill with Solar</th>
+    </tr>
+    <% row = 2 -%>
+    <% prior_twelve_months.each do |month| -%>
+    <tr<%= row % 2 == 0 ? ' class="even"' : '' %>>
+      <th><%= month.strftime('%B') %></th>
+      <td><%= number_with_delimiter_and_parens(number_with_precision(usage_without_solar_by_month[month], 0), "kWh") %></td>
+      <td><%= number_with_delimiter_and_parens(number_with_precision(usage_with_solar_by_month[month], 0), "kWh") %></td>
+      <td><%= number_to_accounting(bill_without_solar_by_month[month], :precision => 2) %></td>
+      <td><%= number_to_accounting(bill_with_solar_by_month[month], :precision => 2) %></td>
+    </tr>
+    <% row = row + 1 -%>
+    <% end -%>
+    <tr class="net even">
+      <th>Annual</th>
+      <td><%= number_with_delimiter_and_parens(number_with_precision(profile.annual_usage, 0), "kWh") %></td>
+      <td><%= number_with_delimiter_and_parens(number_with_precision(profile.annual_usage_after, 0), "kWh") %></td>
+      <td><%= number_to_accounting(profile.annual_bill, :precision => 2) %></td>
+      <td><%= number_to_accounting(profile.annual_bill_after, :precision => 2) %></td>
+    </tr>
+  </table>
+</div>

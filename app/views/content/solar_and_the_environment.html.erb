@@ -1,0 +1,36 @@
+<div class="span-14 append-1">
+  <h2><%= h(@view_title) %></h2>
+  
+  <p>A few interesting tidbits about solar from the Department of Energy:</p>
+  
+  <ul>
+    <li>An average U.S. household uses 830 kiloWatt-hours (kWh) of electricity per month.</li>
+    <li>On average, producing 1,000 kWh of electricity with solar power reduces emissions by nearly 8 pounds of sulfur dioxide, 5 pounds of nitrogen oxides, and more than 1,400 pounds of carbon dioxide.</li>
+    <li>During its projected 28 years of clean energy production, a rooftop solar energy system will avoid conventional electrical plant emissions of more than half a ton of sulfur dioxide, one-third a ton of nitrogen oxides, and 100 tons of carbon dioxide.</li>
+  </ul>
+  
+  <p class="footnote"><small>Source: <cite>NREL Report No. NREL/FS-520-24619</cite></small></p>
+  
+  <h3>Reducing Toxic Pollutants</h3>
+  
+  <p>The electricity used in your home today comes from a variety of sources, but mostly from fossil fuels that produce a host of toxic emissions. Non-renewable electricity generation results in emissions of a variety of pollutants and toxins into the atmosphere:</p>
+  
+  <ul>
+    <li>Carbon dioxide (CO<sub>2</sub>), the leading greenhouse gas</li>
+    <li>Nitrogen oxide (NO<sub>x</sub>), which causes smog</li>
+    <li>Sulphur dioxide (SO<sub>x</sub>), which causes acid rain</li>
+    <li>Particulates that can cause asthma and other diseases</li>
+  </ul>
+  
+  <h3>Conserving Fossil Fuels</h3>
+  
+  <p>As more individuals, corporations, and public entities adopt alternative energy sources like solar, we conserve fossil fuels and other natural resources that are quickly diminishing. With ever increasing individual electricity consumption and a rapidly expanding world economy the demand for energy is increasing at an alarming rate. This makes conserving our resources more important than ever.</p>      
+  
+  <p>For more information, check out <%= link_to('Other Solar and Environmental Resources', links_url) %>.</p>
+  
+  <p>Learn about other ways to be more energy efficient with our <%= link_to("Top 5 Ways to Save Energy Around the&nbsp;Home", ways_to_save_energy_around_the_home_url) %>.</p>
+</div>
+
+<div class="span-9 last">
+  <%= render(:partial => "profiles/learn/get_started") %>
+</div>

@@ -1,0 +1,290 @@
+utility_id,utility_name,state,description,region,season,type,min_usage,max_usage,rate
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,,Minimum,0,,4.51
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,,Minimum,0,,4.51
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,,Minimum,0,,4.51
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,,Minimum,0,,4.51
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,,Minimum,0,,4.51
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,,Minimum,0,,4.51
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,,Minimum,0,,4.51
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,,Minimum,0,,4.51
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,,Minimum,0,,4.51
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,Summer,Variable,0,484,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,Summer,Variable,485,629,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,Summer,Variable,630,968,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,Summer,Variable,969,1452,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,Summer,Variable,1453,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,Winter,Variable,0,386,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,Winter,Variable,387,502,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,Winter,Variable,503,772,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,Winter,Variable,773,1158,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory P,Winter,Variable,1159,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,Summer,Variable,0,249,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,Summer,Variable,250,324,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,Summer,Variable,325,498,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,Summer,Variable,499,747,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,Summer,Variable,748,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,Winter,Variable,0,383,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,Winter,Variable,384,498,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,Winter,Variable,499,766,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,Winter,Variable,767,1149,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Q,Winter,Variable,1150,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,Summer,Variable,0,535,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,Summer,Variable,536,696,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,Summer,Variable,697,1070,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,Summer,Variable,1071,1605,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,Summer,Variable,1606,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,Winter,Variable,0,368,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,Winter,Variable,369,478,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,Winter,Variable,479,736,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,Winter,Variable,737,1104,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory R,Winter,Variable,1105,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,Summer,Variable,0,484,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,Summer,Variable,485,629,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,Summer,Variable,630,968,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,Summer,Variable,969,1452,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,Summer,Variable,1453,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,Winter,Variable,0,380,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,Winter,Variable,381,494,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,Winter,Variable,495,760,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,Winter,Variable,761,1140,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory S,Winter,Variable,1141,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,Summer,Variable,0,249,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,Summer,Variable,250,324,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,Summer,Variable,325,498,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,Summer,Variable,499,747,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,Summer,Variable,748,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,Winter,Variable,0,298,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,Winter,Variable,299,387,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,Winter,Variable,388,596,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,Winter,Variable,597,894,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory T,Winter,Variable,895,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,Summer,Variable,0,268,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,Summer,Variable,269,348,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,Summer,Variable,349,536,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,Summer,Variable,537,804,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,Summer,Variable,805,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,Winter,Variable,0,319,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,Winter,Variable,320,415,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,Winter,Variable,416,638,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,Winter,Variable,639,957,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory V,Winter,Variable,958,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,Summer,Variable,0,575,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,Summer,Variable,576,748,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,Summer,Variable,749,1150,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,Summer,Variable,1151,1725,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,Summer,Variable,1726,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,Winter,Variable,0,344,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,Winter,Variable,345,447,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,Winter,Variable,448,688,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,Winter,Variable,689,1032,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory W,Winter,Variable,1033,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,Summer,Variable,0,362,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,Summer,Variable,363,471,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,Summer,Variable,472,724,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,Summer,Variable,725,1086,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,Summer,Variable,1087,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,Winter,Variable,0,383,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,Winter,Variable,384,498,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,Winter,Variable,499,766,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,Winter,Variable,767,1149,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory X,Winter,Variable,1150,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Y,Summer,Variable,0,350,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Y,Summer,Variable,351,455,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Y,Summer,Variable,456,700,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Y,Summer,Variable,701,1050,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Y,Summer,Variable,1051,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Y,Winter,Variable,0,392,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Y,Winter,Variable,393,510,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Y,Winter,Variable,511,784,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Y,Winter,Variable,785,1176,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Y,Winter,Variable,1177,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Z,Summer,Variable,0,259,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Z,Summer,Variable,260,337,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Z,Summer,Variable,338,518,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Z,Summer,Variable,519,777,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Z,Summer,Variable,778,,0.34878
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Z,Winter,Variable,0,338,0.1156
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Z,Winter,Variable,339,439,0.13142
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Z,Winter,Variable,440,676,0.22166
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Z,Winter,Variable,677,1014,0.30507
+14328,Pacific Gas & Electric Co,CA,E-1 Residential Service,Basic Territory Z,Winter,Variable,1015,,0.34878
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,,Minimum,0,,0.882083333
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,,Minimum,0,,0.882083333
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,,Minimum,0,,0.882083333
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,,Minimum,0,,0.882083333
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,,Minimum,0,,0.882083333
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,,Minimum,0,,0.882083333
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,Summer,Variable,0,310,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,Summer,Variable,311,403,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,Summer,Variable,404,620,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,Summer,Variable,621,930,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,Summer,Variable,931,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,Winter,Variable,0,307,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,Winter,Variable,308,399,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,Winter,Variable,400,614,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,Winter,Variable,615,921,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 10,Winter,Variable,922,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,Summer,Variable,0,590,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,Summer,Variable,591,767,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,Summer,Variable,768,1180,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,Summer,Variable,1181,1770,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,Summer,Variable,1771,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,Winter,Variable,0,377,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,Winter,Variable,378,490,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,Winter,Variable,491,754,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,Winter,Variable,755,1131,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 13,Winter,Variable,1132,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,Summer,Variable,0,517,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,Summer,Variable,518,672,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,Summer,Variable,673,1034,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,Summer,Variable,1035,1551,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,Summer,Variable,1552,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,Winter,Variable,0,350,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,Winter,Variable,351,455,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,Winter,Variable,456,700,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,Winter,Variable,701,1050,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 14,Winter,Variable,1051,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,Summer,Variable,0,1448,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,Summer,Variable,1449,1882,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,Summer,Variable,1883,2896,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,Summer,Variable,2897,4344,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,Summer,Variable,4345,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,Winter,Variable,0,298,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,Winter,Variable,299,387,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,Winter,Variable,388,596,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,Winter,Variable,597,894,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 15,Winter,Variable,895,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,Summer,Variable,0,304,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,Summer,Variable,305,395,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,Summer,Variable,396,608,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,Summer,Variable,609,912,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,Summer,Variable,913,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,Winter,Variable,0,325,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,Winter,Variable,326,423,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,Winter,Variable,424,650,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,Winter,Variable,651,975,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 16,Winter,Variable,976,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,Summer,Variable,0,468,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,Summer,Variable,469,608,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,Summer,Variable,609,936,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,Summer,Variable,937,1404,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,Summer,Variable,1405,,0.33834
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,Winter,Variable,0,356,0.10133
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,Winter,Variable,357,463,0.12879
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,Winter,Variable,464,712,0.24132
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,Winter,Variable,713,1068,0.28983
+17609,Southern California Edison Co,CA,D Domestic Basic Service,Region 17,Winter,Variable,1069,,0.33834
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,,Minimum,0,,5.170833333
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,,Minimum,0,,5.170833333
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,,Minimum,0,,5.170833333
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,,Minimum,0,,5.170833333
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,Summer,Variable,0,310,0.04043
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,Summer,Variable,310,403,0.0606
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,Summer,Variable,403,620,0.11484
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,Summer,Variable,620,930,0.12391
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,Summer,Variable,930,,0.13974
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,Winter,Variable,0,329,0.06656
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,Winter,Variable,329,428,0.08673
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,Winter,Variable,428,658,0.12577
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,Winter,Variable,658,987,0.13459
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Coastal Basic,Winter,Variable,987,,0.15267
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,Summer,Variable,0,359,0.04043
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,Summer,Variable,359,467,0.0606
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,Summer,Variable,467,718,0.11484
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,Summer,Variable,718,1077,0.12391
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,Summer,Variable,1077,,0.13974
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,Winter,Variable,0,350,0.06656
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,Winter,Variable,350,455,0.08673
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,Winter,Variable,455,700,0.12577
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,Winter,Variable,700,1050,0.13459
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Inland Basic,Winter,Variable,1050,,0.15267
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,Summer,Variable,0,471,0.04043
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,Summer,Variable,471,612,0.0606
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,Summer,Variable,612,942,0.11484
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,Summer,Variable,942,1413,0.12391
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,Summer,Variable,1413,,0.13974
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,Winter,Variable,0,444,0.06656
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,Winter,Variable,444,577,0.08673
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,Winter,Variable,577,888,0.12577
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,Winter,Variable,888,1332,0.13459
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Mountain Basic,Winter,Variable,1332,,0.15267
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,Summer,Variable,0,526,0.04043
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,Summer,Variable,526,684,0.0606
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,Summer,Variable,684,1052,0.11484
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,Summer,Variable,1052,1578,0.12391
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,Summer,Variable,1578,,0.13974
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,Winter,Variable,0,365,0.06656
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,Winter,Variable,365,475,0.08673
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,Winter,Variable,475,730,0.12577
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,Winter,Variable,730,1095,0.13459
+16609,San Diego Gas & Electric Co,CA,DR Domestic Service,Desert Basic,Winter,Variable,1095,,0.15267
+11208,Los Angeles Department of Water & Power,CA,R-1 Residential Service,Rate A,,Minimum,0,,7.3
+11208,Los Angeles Department of Water & Power,CA,R-1 Residential Service,Rate A,,Fixed,0,,0.3
+11208,Los Angeles Department of Water & Power,CA,R-1 Residential Service,Rate A,,Variable,0,,0.108427
+16534,Sacramento Municipal Util Dist,CA,Residential Service,,,Fixed,0,,5
+16534,Sacramento Municipal Util Dist,CA,Residential Service,,Summer,Variable,0,700,0.0929
+16534,Sacramento Municipal Util Dist,CA,Residential Service,,Summer,Variable,701,1000,0.1573
+16534,Sacramento Municipal Util Dist,CA,Residential Service,,Summer,Variable,1001,,0.1746
+16534,Sacramento Municipal Util Dist,CA,Residential Service,,Winter,Variable,0,1120,0.0861
+16534,Sacramento Municipal Util Dist,CA,Residential Service,,Winter,Variable,1121,1400,0.1476
+16534,Sacramento Municipal Util Dist,CA,Residential Service,,Winter,Variable,1401,,0.16
+16655,City of Santa Clara,CA,Domestic Service,,,Fixed,0,,2.46
+16655,City of Santa Clara,CA,Domestic Service,,,Variable,0,300,0.07527
+16655,City of Santa Clara,CA,Domestic Service,,,Variable,301,,0.08653
+7294,City of Glendale,CA,L-1-A Standard Service Rate,,,Fixed,0,,8.2125
+7294,City of Glendale,CA,L-1-A Standard Service Rate,,Summer,Variable,0,304,0.1404
+7294,City of Glendale,CA,L-1-A Standard Service Rate,,Summer,Variable,305,608,0.1704
+7294,City of Glendale,CA,L-1-A Standard Service Rate,,Summer,Variable,609,,0.2004
+7294,City of Glendale,CA,L-1-A Standard Service Rate,,Winter,Variable,0,304,0.1204
+7294,City of Glendale,CA,L-1-A Standard Service Rate,,Winter,Variable,305,608,0.1454
+7294,City of Glendale,CA,L-1-A Standard Service Rate,,Winter,Variable,609,,0.1754
+207,City of Alameda,CA,D1B Residential Service,,,Variable,0,259,0.10287
+207,City of Alameda,CA,D1B Residential Service,,,Variable,260,337,0.1169
+207,City of Alameda,CA,D1B Residential Service,,,Variable,338,,0.18293
+14401,City of Palo Alto,CA,E-1 Residential Service,,,Variable,0,300,0.07729
+14401,City of Palo Alto,CA,E-1 Residential Service,,,Variable,301,600,0.10266
+14401,City of Palo Alto,CA,E-1 Residential Service,,,Variable,601,,0.13698
+16088,City of Riverside,CA,Schedule D Domestic Service,,,Fixed,0,,16.35
+16088,City of Riverside,CA,Schedule D Domestic Service,,Summer,Variable,0,750,0.1035
+16088,City of Riverside,CA,Schedule D Domestic Service,,Summer,Variable,751,1500,0.1493
+16088,City of Riverside,CA,Schedule D Domestic Service,,Summer,Variable,1501,,0.1693
+16088,City of Riverside,CA,Schedule D Domestic Service,,Winter,Variable,0,350,0.1035
+16088,City of Riverside,CA,Schedule D Domestic Service,,Winter,Variable,351,500,0.1493
+16088,City of Riverside,CA,Schedule D Domestic Service,,Winter,Variable,501,,0.1693
+590,City of Anaheim,CA,Schedule D Domestic Service,,,Fixed,0,,2.92
+590,City of Anaheim,CA,Schedule D Domestic Service,,,Variable,0,270,0.0805
+590,City of Anaheim,CA,Schedule D Domestic Service,,,Variable,271,,0.1257
+2507,City of Burbank,CA,Residential Service,,,Fixed,0,,4.37465
+2507,City of Burbank,CA,Residential Service,,,Variable,0,250,0.1045856
+2507,City of Burbank,CA,Residential Service,,,Variable,251,750,0.1391768
+2507,City of Burbank,CA,Residential Service,,,Variable,751,,0.158746
+4003,City of Colton,CA,R1 Residential Service,,,Variable,0,250,0.1365312
+4003,City of Colton,CA,R1 Residential Service,,,Variable,251,,0.2052752
+15783,City of Redding,CA,Residential Service,,,Fixed,0,,6.36
+15783,City of Redding,CA,Residential Service,,,Variable,0,,0.0989
+19397,City of Ukiah,CA,E1 Residential Service,,,Minimum,0,,5
+19397,City of Ukiah,CA,E1 Residential Service,,,Variable,0,360,0.1204
+19397,City of Ukiah,CA,E1 Residential Service,,,Variable,361,,0.15321
+9216,Imperial Irrigation District,CA,Schedule D Residential Service,,,Fixed,0,,3.6
+9216,Imperial Irrigation District,CA,Schedule D Residential Service,,,Variable,0,,0.0784
+12745,Modesto Irrigation District,CA,Schedule D Residential Service,,,Fixed,0,,12.5
+12745,Modesto Irrigation District,CA,Schedule D Residential Service,,Summer,Variable,0,500,0.1296
+12745,Modesto Irrigation District,CA,Schedule D Residential Service,,Summer,Variable,501,,0.1421
+12745,Modesto Irrigation District,CA,Schedule D Residential Service,,Winter,Variable,0,500,0.1074
+12745,Modesto Irrigation District,CA,Schedule D Residential Service,,Winter,Variable,501,,0.1178
+19281,Turlock Irrigation District,CA,Schedule DE Residential Service,,,Fixed,0,,11
+19281,Turlock Irrigation District,CA,Schedule DE Residential Service,,Summer,Variable,0,700,0.0981
+19281,Turlock Irrigation District,CA,Schedule DE Residential Service,,Summer,Variable,701,1100,0.1186
+19281,Turlock Irrigation District,CA,Schedule DE Residential Service,,Summer,Variable,1101,,0.1293
+19281,Turlock Irrigation District,CA,Schedule DE Residential Service,,Winter,Variable,0,700,0.0932
+19281,Turlock Irrigation District,CA,Schedule DE Residential Service,,Winter,Variable,701,,0.1001
+14534,City of Pasadena,CA,Schedule R-1 Residential Single-Family Service,,,TieredFixed,0,250,5.6
+14534,City of Pasadena,CA,Schedule R-1 Residential Single-Family Service,,,TieredFixed,251,350,11.46
+14534,City of Pasadena,CA,Schedule R-1 Residential Single-Family Service,,,TieredFixed,351,450,23.19
+14534,City of Pasadena,CA,Schedule R-1 Residential Single-Family Service,,,TieredFixed,451,550,33.45
+14534,City of Pasadena,CA,Schedule R-1 Residential Single-Family Service,,,TieredFixed,551,650,42.25
+14534,City of Pasadena,CA,Schedule R-1 Residential Single-Family Service,,,TieredFixed,651,750,52.51
+14534,City of Pasadena,CA,Schedule R-1 Residential Single-Family Service,,,TieredFixed,751,1000,62.77
+14534,City of Pasadena,CA,Schedule R-1 Residential Single-Family Service,,,TieredFixed,1001,,83.29
+14534,City of Pasadena,CA,Schedule R-1 Residential Single-Family Service,,Summer,Variable,0,,0.07073
+14534,City of Pasadena,CA,Schedule R-1 Residential Single-Family Service,,Winter,Variable,0,,0.06147

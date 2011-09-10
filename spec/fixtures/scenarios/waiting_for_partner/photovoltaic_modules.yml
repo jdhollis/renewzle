@@ -1,0 +1,9 @@
+photovoltaic_module:
+  id: 1
+  ptc_rating: 99.1
+  description: 110W Large Scale Dual Voltage Multi-Si Module
+  manufacturer: Alps Technology Inc
+  stc_rating: 110
+  model_number: ATI 1000-110
+  created_at: 2008-01-11 00:01:51
+  updated_at: 2008-01-11 00:01:51

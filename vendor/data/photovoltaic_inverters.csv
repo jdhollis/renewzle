@@ -1,0 +1,237 @@
+manufacturer,model_number,description,power_rating,weighted_efficiency
+"Advanced Energy Industries, INC.",3159000-104,333 kW 480 Vac Three Phase Utility Interactive Inverter,333000,0.97
+"Alpha Technologies, Inc.",Solaris 3500 XP,"3.5 kW, 240 Vac, NEMA-3R, Grid Interactive PV Inverter & Batt. Backed UPS, MPPT",3500,0.905
+Ballard Power Systems Corporation,EPC-PV-208-30kW,Utility Interactive 208V 30kW PV Power Converter System,30000,0.93
+Ballard Power Systems Corporation,EPC-PV-208-75kW,Utility Interactive 75kW PV Power Converter System,75000,0.915
+Ballard Power Systems Corporation,EPC-PV-480-30kW,Utility Interactive 480V 30kW PV Power Converter System,30000,0.93
+Ballard Power Systems Corporation,EPC-PV-480-75KW,Utility Interactive 480V 75kW PV Power Converter System,75000,0.915
+Beacon Power Corporation,M4,4 kW Power Conversion System,4000,0.9
+Beacon Power Corporation,M4 Plus,4 kW Power Conversion System with Meter,4000,0.915
+Beacon Power Corporation,M5,5 kW Power Conversion System,5000,0.89
+Beacon Power Corporation,M5 Plus,5 kW Power Conversion System with Meter,5000,0.9
+Bergey Windpower Co.,Gridtek 10,"10kW, 240Vac split-phase, utility interactive inverter",10000,0.91
+Connect Renewable Energy,CE 4000,"3000W Grid Tied, 240Vac, low dc voltage Inverter",2850,0.93
+"Fronius USA, LLC",IG 2000,2000W Grid-tied unit with Integrated Disconnects and Performance Meter,2000,0.935
+"Fronius USA, LLC",IG 2000 NEG,2000W Grid-tied unit with Integrated Disconnects and Performance Meter,2000,0.935
+"Fronius USA, LLC",IG 2000 POS,2000W Grid-tied unit with Integrated Disconnects and Performance Meter,2000,0.935
+"Fronius USA, LLC",IG 2500-LV,2350W Grid-tied unit with Integrated Disconnects and Performance Meter,2350,0.93
+"Fronius USA, LLC",IG 2500-LV NEG,2350W Grid-tied unit with Integrated Disconnects and Performance Meter,2350,0.93
+"Fronius USA, LLC",IG 2500-LV POS,2350W Grid-tied unit with Integrated Disconnects and Performance Meter,2350,0.93
+"Fronius USA, LLC",IG 3000,2700W Grid-tied unit with Integrated Disconnects and Performance Meter,2700,0.94
+"Fronius USA, LLC",IG 3000 NEG,2700W Grid-tied unit with Integrated Disconnects and Performance Meter,2700,0.94
+"Fronius USA, LLC",IG 3000 POS,2700W Grid-tied unit with Integrated Disconnects and Performance Meter,2700,0.94
+"Fronius USA, LLC",IG 4000,4000W Grid-tied unit with Integrated Disconnects and Performance Meter,4000,0.94
+"Fronius USA, LLC",IG 4000 NEG,4000W Grid-tied unit with Integrated Disconnects and Performance Meter,4000,0.94
+"Fronius USA, LLC",IG 4000 POS,4000W Grid-tied unit with Integrated Disconnects and Performance Meter,4000,0.94
+"Fronius USA, LLC",IG 4500-LV,4500W Grid-tied unit with Integrated Disconnects and Performance Meter,4500,0.935
+"Fronius USA, LLC",IG 4500-LV NEG,4500W Grid-tied unit with Integrated Disconnects and Performance Meter,4500,0.935
+"Fronius USA, LLC",IG 4500-LV POS,4500W Grid-tied unit with Integrated Disconnects and Performance Meter,4500,0.935
+"Fronius USA, LLC",IG 5100,5100W Grid-tied unit with Integrated Disconnects and Performance Meter,5100,0.945
+"Fronius USA, LLC",IG 5100 NEG,5100W Grid-tied unit with Integrated Disconnects and Performance Meter,5100,0.945
+"Fronius USA, LLC",IG 5100 POS,5100W Grid-tied unit with Integrated Disconnects and Performance Meter,5100,0.945
+GE Energy,GEPVb-2500-NA-240,2.5 kW Brilliance – DC Disconnect - Display,2500,0.94
+GE Energy,GEPVb-2800-NA-240/208-02 (208V),"2.7 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",2700,0.935
+GE Energy,GEPVb-2800-NA-240/208-02 (240V),"2.8 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",2800,0.94
+GE Energy,GEPVb-3000-NA-240,3.0 kW Brilliance – DC Disconnect - Display,3000,0.945
+GE Energy,GEPVb-3300-NA-208,3.3 kW Brilliance – DC Disconnect - Display,3300,0.94
+GE Energy,GEPVb-3300-NA-240,3.3 kW Brilliance – DC Disconnect - Display,3300,0.945
+GE Energy,GEPVb-3300-NA-240/208-02 (208V),"3.1 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",3100,0.95
+GE Energy,GEPVb-3300-NA-240/208-02 (240V),"3.3 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3300,0.955
+GE Energy,GEPVb-3800-NA-240,3.8 kW Brilliance – DC Disconnect - Display,3800,0.95
+GE Energy,GEPVb-4000-NA-240/208-02 (208V),"3.8 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",3800,0.95
+GE Energy,GEPVb-4000-NA-240/208-02 (240V),"4.0 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",4000,0.955
+GE Energy,GEPVb-5000-NA-240/208-02 (240V),"5.0 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",5000,0.955
+GE Energy,GEPVb-5000-NA-240-01,NA,5000,0.955
+GridPoint,Connect C36,3600 W Utility Interactive (w/ battery backup) 48Vdc Inverter,3037,0.91
+Kaco,1501xi,"1.5 kW, 240 Vac, 125-400Vdc Utility Interactive Inverter",1500,0.94
+Kaco,2901xi,"2.9 kW, 240 Vac, 125-400Vdc Utility Interactive Inverter",2864,0.94
+Kaco,3601xi,"3.6 kW, 240 Vac, 125-400Vdc Utility Interactive Inverter",3600,0.935
+Magnetek,PVI-3000-I-OUTD-US,"3 kW, 150-600 VDC Utility Interactive Inverter",2520,0.92
+Magnetek,PVI-3000-I-OUTD-US (208V),"3 kW, 150-600 VDC Utility Interactive Inverter",2500,0.905
+Magnetek,PVI-3000-I-OUTD-US-F (208V),"3 kW, 150-600 VDC Utility Interactive Inverter",2700,0.905
+Magnetek,PVI-3000-I-OUTD-US-F (240V),"3 kW, 150-600 VDC Utility Interactive Inverter",3000,0.91
+Magnetek,PVI-3600-OUTD-US-F (208V),"3.3 kW, 150-600 VDC Utility Interactive Inverter",3300,0.945
+Magnetek,PVI-3600-OUTD-US-F (240V),"3.6 kW, 150-600 VDC Utility Interactive Inverter",3600,0.95
+Magnetek,PVI-3600-US (208V),"3.3 kW, 150-600 VDC Utility Interactive Inverter",3300,0.94
+Magnetek,PVI-3600-US (240V),"3.6 kW, 150-600 VDC Utility Interactive Inverter",3600,0.945
+OutBack Power Systems,GVFX 3648,3600 W Utility Interactive (w/ battery backup) 48vdc Inverter,3037,0.91
+Power-One,PVI-5000-OUTD-US (208 V),5 kW (208Vac) Utility Interactive Inverter,5000,0.96
+Power-One,PVI-5000-OUTD-US (240 V),5 kW (240Vac) Utility Interactive Inverter,5000,0.965
+Power-One,PVI-5000-OUTD-US (277 V),5 kW (277Vac) Utility Interactive Inverter,5000,0.965
+Power-One,PVI-6000-OUTD-US (208 V),6 kW (208Vac) Utility Interactive Inverter,6000,0.96
+Power-One,PVI-6000-OUTD-US (240 V),6 kW (240Vac) Utility Interactive Inverter,6000,0.965
+Power-One,PVI-6000-OUTD-US (277 V),6 kW (277Vac) Utility Interactive Inverter,6000,0.965
+PV Powered LLC,PVP1800,1800W Utility Interactive Inverter,1800,0.92
+PV Powered LLC,PVP2000,2000W (120Vac) Utility Interactive Inverter,2000,0.93
+PV Powered LLC,PVP2500,2500W (240Vac) Utility Interactive Inverter,2500,0.945
+PV Powered LLC,PVP2800-208,2800W (208Vac) Utility Interactive Inverter,2800,0.94
+PV Powered LLC,PVP2800-240,2800W (240Vac) Utility Interactive Inverter,2800,0.94
+PV Powered LLC,PVP2800-XV,2800W (240Vac) Utility Interactive Inverter - expanded voltage version,2800,0.945
+PV Powered LLC,PVP2900-208 or PVP2900,2900W (208Vac) Utility Interactive Inverter,2900,0.94
+PV Powered LLC,PVP30KW-208,30kW (208Vac) 3-Phase Utility Interactive Inverter,30000,0.94
+PV Powered LLC,PVP30KW-480,30kW (480Vac) 3-Phase Utility Interactive Inverter,30000,0.94
+PV Powered LLC,PVP3200-240 or PVP3200,3200W (240Vac) Utility Interactive Inverter,3200,0.945
+PV Powered LLC,PVP3500,3500W (240Vac) Utility Interactive Inverter,3500,0.955
+PV Powered LLC,PVP4600,4600W (208Vac) Utility Interactive Inverter,4600,0.955
+PV Powered LLC,PVP4800,4800W (240Vac) Utility Interactive Inverter,4800,0.96
+PV Powered LLC,PVP5200,5200W (240Vac) Utility Interactive Inverter,5200,0.96
+SatCon Power Systems Canada Ltd.,AE-100-60-PV-A,100kW 480Vac Three phase Utility Interactive inverter,100000,0.945
+SatCon Power Systems Canada Ltd.,AE-100-60-PV-D,100kW 208Vac Three phase Utility Interactive inverter,100000,0.945
+SatCon Power Systems Canada Ltd.,AE-100-60-PV-F,100kW 240Vac Three phase Utility Interactive inverter,100000,0.95
+SatCon Power Systems Canada Ltd.,AE-135-60-PV-A,135 kW 480Vac Three Phase Utility Interactive Inverter,135000,0.955
+SatCon Power Systems Canada Ltd.,AE-135-60-PV-D,135 kW 208Vac Three Phase Utility Interactive Inverter,135000,0.95
+SatCon Power Systems Canada Ltd.,AE-225-60-PV-A,225kW 480Vac Three Phase Utility Interactive Inverter,225000,0.945
+SatCon Power Systems Canada Ltd.,AE-225-60-PV-D,225 kW 208Vac Three Phase Utility Interactive Inverter,225000,0.955
+SatCon Power Systems Canada Ltd.,AE-30-60-PV-A,30 kW 480Vac Three Phase Utility Interactive Inverter,30000,0.93
+SatCon Power Systems Canada Ltd.,AE-30-60-PV-D,30 kW 208Vac Three Phase Utility Interactive Inverter,30000,0.925
+SatCon Power Systems Canada Ltd.,AE-30-60-PV-E,30 kW 240Vac Single Phase Utility Interactive Inverter,30000,0.93
+SatCon Power Systems Canada Ltd.,AE-500-60-PV-A,500 kW 480Vac Three Phase Utility Interactive Inverter,500000,0.95
+SatCon Power Systems Canada Ltd.,AE-50-60-PV-A,50 kW 480Vac Three Phase Utility Interactive Inverter,50000,0.93
+SatCon Power Systems Canada Ltd.,AE-50-60-PV-D,50 kW 208Vac Three Phase Utility Interactive Inverter,50000,0.945
+SatCon Power Systems Canada Ltd.,AE-50-60-PV-F,50 kW 240Vac Three Phase Utility Interactive Inverter,50000,0.93
+SatCon Power Systems Canada Ltd.,AE-75-60-PV-A,75 kW 480Vac Three Phase Utility Interactive Inverter,75000,0.955
+SatCon Power Systems Canada Ltd.,AE-75-60-PV-D,75 kW 208Vac Three Phase Utility Interactive Inverter,75000,0.955
+Schuco USA L.P.,SB3300U (240V),"3.3kW, 240Vac Sunny Boy Utility Interactive Inverter with display",3300,0.945
+Schuco USA L.P.,SB3800U (208V),"3.5kW, 208Vac Sunny Boy Utility Interactive Inverter with display",3500,0.94
+Schuco USA L.P.,SB3800U (240V),"3.8kW, 240Vac Sunny Boy Utility Interactive Inverter with display",3800,0.945
+Schuco USA L.P.,SB6000U (208V),"6kW, 208Vac Sunny Boy Utility Interactive Inverter with display",5200,0.945
+Schuco USA L.P.,SB6000U (240V),"6kW, 240Vac Sunny Boy Utility Interactive Inverter with display",6000,0.945
+Schuco USA L.P.,SB6000U (277V),"6kW, 277Vac Sunny Boy Utility Interactive Inverter with display",6000,0.945
+Schuco USA L.P.,SWR1800U,"1.8kW, 120Vac Sunny Boy String Inverter",1800,0.915
+Schuco USA L.P.,SWR1800U-SBD,"1.8kW, 120Vac Sunny Boy String Inverter with display",1800,0.915
+Schuco USA L.P.,SWR2100U,"2.1kW, 240Vac Sunny Boy String Inverter",2100,0.93
+Schuco USA L.P.,SWR2500U (208V),"2.1kW, 208Vac Sunny Boy String Inverter",2100,0.925
+Schuco USA L.P.,SWR2500U (240V),"2.5kW, 240Vac Sunny Boy String Inverter",2500,0.93
+Schuco USA L.P.,SWR2500U-SBD (208V),"2.1kW, 208Vac Sunny Boy String Inverter with display",2100,0.925
+Schuco USA L.P.,SWR2500U-SBD (240V),"2.5kW, 240Vac Sunny Boy String Inverter with display",2500,0.93
+Sharp Corporation,JH-3500U,"Utility Interactive Inverter 240Vac L-L, 3.5kW",3500,0.91
+SMA America,SB1100U,"1100W, 240Vac Sunny Boy String Inverter",1100,0.91
+SMA America,SB1100U-SBD,"1100W, 240Vac Sunny Boy String Inverter",1100,0.91
+SMA America,SB3000US (208V),"3kW, 208Vac Sunny Boy Utility Interactive Inverter with display",3000,0.95
+SMA America,SB3000US (240V),"3kW, 240Vac Sunny Boy Utility Interactive Inverter with display",3000,0.955
+SMA America,SB3300U,"3.3kW, 240Vac Sunny Boy Utility Interactive Inverter with display",3300,0.945
+SMA America,SB3800U (208V),"3.5kW, 208Vac Sunny Boy Utility Interactive Inverter with display",3500,0.94
+SMA America,SB3800U (240V),"3.8kW, 240Vac Sunny Boy Utility Interactive Inverter with display",3800,0.945
+SMA America,SB4000US (208V),"4kW, 208Vac Sunny Boy Utility Interactive Inverter with display",4000,0.955
+SMA America,SB4000US (240V),"4kW, 240Vac Sunny Boy Utility Interactive Inverter with display",4000,0.96
+SMA America,SB5000US (208V),"5kW, 208Vac Sunny Boy Utility Interactive Inverter with display",5000,0.955
+SMA America,SB5000US (240V),"5kW, 240Vac Sunny Boy Utility Interactive Inverter with display",5000,0.955
+SMA America,SB5000US (277V),"5kW, 277Vac Sunny Boy Utility Interactive Inverter with display",5000,0.955
+SMA America,SB6000U (208V),"6kW, 208Vac Sunny Boy Utility Interactive Inverter with display",5200,0.945
+SMA America,SB6000U (240V),"6kW, 240Vac Sunny Boy Utility Interactive Inverter with display",6000,0.945
+SMA America,SB6000U (277V),"6kW, 277Vac Sunny Boy Utility Interactive Inverter with display",6000,0.945
+SMA America,SB6000US (208V),"6kW, 208Vac Sunny Boy Utility Interactive Inverter with display",6000,0.955
+SMA America,SB6000US (240V),"6kW, 240Vac Sunny Boy Utility Interactive Inverter with display",6000,0.955
+SMA America,SB6000US (277V),"6kW, 277Vac Sunny Boy Utility Interactive Inverter with display",6000,0.96
+SMA America,SB7000US (208V),"7kW, 208Vac Sunny Boy Utility Interactive Inverter with display",7000,0.955
+SMA America,SB7000US (240V),"7kW, 240Vac Sunny Boy Utility Interactive Inverter with display",7000,0.96
+SMA America,SB7000US (277V),"7kW, 277Vac Sunny Boy Utility Interactive Inverter with display",7000,0.96
+SMA America,SB700U,"700W, 120Vac Sunny Boy String Inverter",696,0.915
+SMA America,SB700U-SBD,"700W, 120Vac Sunny Boy String Inverter with display",696,0.915
+SMA America,SC125U (208V),"125 kW 3-phase 208Vac, 275-600Vdc, Utility Interactive Inverter",125000,0.935
+SMA America,SC125U (480V),"125 kW 3-phase 480Vac, 275-600Vdc, Utility Interactive Inverter",125000,0.94
+SMA America,SWR1800U,"1.8kW, 120Vac Sunny Boy String Inverter",1800,0.915
+SMA America,SWR1800U-SBD,"1.8kW, 120Vac Sunny Boy String Inverter with display",1800,0.915
+SMA America,SWR2100U,"2.1kW, 240Vac Sunny Boy String Inverter",2100,0.93
+SMA America,SWR2100U-SBD,"2.1 kW, 240Vac Sunny Boy String Inverter",2100,0.93
+SMA America,SWR2500U (208V),"2.1kW, 208Vac Sunny Boy String Inverter",2100,0.925
+SMA America,SWR2500U (240V),"2.5kW, 240Vac Sunny Boy String Inverter",2500,0.93
+SMA America,SWR2500U-SBD (208V),"2.1kW, 208Vac Sunny Boy String Inverter with display",2100,0.925
+SMA America,SWR2500U-SBD (240V),"2.5kW, 240Vac Sunny Boy String Inverter with display",2500,0.93
+"Solectria Renewables, LLC",PVI13kW,13 kW 208Vac Commercial Grid-Tied Solar PV Inverter,13200,0.91
+"Solectria Renewables, LLC",PVI13kW-208,13 kW 208Vac Commercial Grid-Tied Solar PV Inverter,13200,0.94
+"Solectria Renewables, LLC",PVI13kW-480,13 kW 480Vac Commercial Grid-Tied Solar PV Inverter,13200,0.945
+"Solectria Renewables, LLC",PVI15kW-208,15 kW 208Vac Commercial Grid-Tied Solar PV Inverter,15000,0.94
+"Solectria Renewables, LLC",PVI15kW-480,15 kW 480Vac Commercial Grid-Tied Solar PV Inverter,15000,0.945
+"Solectria Renewables, LLC",PVI1800-208,1800W 208Vac Grid-Tied Solar PV Inverter,1799,0.925
+"Solectria Renewables, LLC",PVI1800-240,1800W 240Vac Grid-Tied Solar PV Inverter,1759,0.925
+"Solectria Renewables, LLC",PVI2500-208,2500W 208Vac Grid-Tied Solar PV Inverter,2485,0.92
+"Solectria Renewables, LLC",PVI2500-240,2500W 240Vac Grid-Tied Solar PV Inverter,2498,0.93
+"Solectria Renewables, LLC",PVI60kW-208,60 kW 208Vac Commercial Grid-Tied Solar PV Inverter,60000,0.94
+"Solectria Renewables, LLC",PVI60kW-480,60 kW 480Vac Commercial Grid-Tied Solar PV Inverter,60000,0.955
+"Solectria Renewables, LLC",PVI77kW-208,82 kW 208Vac Commercial Grid-Tied Solar PV Inverter,82000,0.945
+"Solectria Renewables, LLC",PVI77kW-480,82 kW 480Vac Commercial Grid-Tied Solar PV Inverter,82000,0.955
+"Solectria Renewables, LLC",PVI90kW-208,95 kW 208Vac Commercial Grid-Tied Solar PV Inverter,95000,0.945
+"Solectria Renewables, LLC",PVI90kW-480,95 kW 480Vac Commercial Grid-Tied Solar PV Inverter,95000,0.955
+Southwest Windpower,Skystream 3.7 inverter (208V),"1.8 kW, 208Vac Utility-Interactive Inverter integrated into turbine",1800,0.925
+Southwest Windpower,Skystream 3.7 inverter (240V),"1.8 kW, 240Vac Utility-Interactive Inverter integrated into turbine",1800,0.93
+SunPower Corp. (Original Mfr. - PV Powered LLC),SPR-2000,2000W (120Vac) Utility Interactive Inverter,2000,0.93
+SunPower Corp. (Original Mfr. - PV Powered LLC),SPR-2900,2900W (208Vac) Utility Interactive Inverter,2900,0.94
+SunPower Corp. (Original Mfr. - PV Powered LLC),SPR-3200,3200W (240Vac) Utility Interactive Inverter,3200,0.945
+SunPower Corp. (Original Mfr. - PV Powered LLC),SPR-4600,4600W (208Vac) Utility Interactive Inverter,4600,0.955
+SunPower Corp. (Original Mfr. - PV Powered LLC),SPR-5200,5200W (240Vac) Utility Interactive Inverter,5200,0.96
+SunPower Corp. (Original Mfr. – PV Powered LLC),SPR-2500,2500W (240Vac) Utility Interactive Inverter,2500,0.945
+SunPower Corp. (Original Mfr. – PV Powered LLC),SPR-3500,3500W (240Vac) Utility Interactive Inverter,3500,0.955
+SunPower Corp. (original Mfr.SMA),SPR-3000m (208V),"3kW, 208Vac Utility Interactive Inverter with display",3000,0.95
+SunPower Corp. (original Mfr.SMA),SPR-3000m (240V),"3kW, 240Vac Utility Interactive Inverter with display",3000,0.955
+SunPower Corp. (original Mfr.SMA),SPR-4000m (208V),"4kW, 208Vac Utility Interactive Inverter with display",4000,0.955
+SunPower Corp. (original Mfr.SMA),SPR-4000m (240V),"4kW, 240Vac Utility Interactive Inverter with display",4000,0.96
+SunPower Corp. (original Mfr.SMA),SPR-5000m (208V),"5kW, 208Vac Utility Interactive Inverter with display",5000,0.955
+SunPower Corp. (original Mfr.SMA),SPR-5000m (240V),"5kW, 240Vac Utility Interactive Inverter with display",5000,0.955
+SunPower Corp. (original Mfr.SMA),SPR-5000m (277V),"5kW, 277Vac Utility Interactive Inverter with display",5000,0.955
+SunPower Corp. (original Mfr.SMA),SPR-6000m (208V),"6kW, 208Vac Utility Interactive Inverter with display",6000,0.955
+SunPower Corp. (original Mfr.SMA),SPR-6000m (240V),"6kW, 240Vac Utility Interactive Inverter with display",6000,0.955
+SunPower Corp. (original Mfr.SMA),SPR-6000m (277V),"6kW, 277Vac Utility Interactive Inverter with display",6000,0.96
+SunPower Corp. (original Mfr.SMA),SPR-7000m (208V),"7kW, 208Vac Utility Interactive Inverter with display",7000,0.955
+SunPower Corp. (original Mfr.SMA),SPR-7000m (240V),"7kW, 240Vac Utility Interactive Inverter with display",7000,0.96
+SunPower Corp. (original Mfr.SMA),SPR-7000m (277V),"7kW, 277Vac Utility Interactive Inverter with display",7000,0.96
+SunPower Corp. (Original Mfr.Xantrex),SPR-2500x,"2.5 kW, 240Vac, 195-600Vdc Grid Tie Inverter",2500,0.94
+SunPower Corp. (original Mfr.Xantrex),SPR-2800x (208V),"2.7 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",2700,0.935
+SunPower Corp. (original Mfr.Xantrex),SPR-2800x (240V),"2.8 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",2800,0.94
+SunPower Corp. (original Mfr.Xantrex),SPR-3300x (208V),"3.1 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",3100,0.95
+SunPower Corp. (original Mfr.Xantrex),SPR-3300x (240V),"3.3 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3300,0.955
+SunPower Corp. (Original Mfr.Xantrex),SPR-4000x,"4.0 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",4000,0.95
+SunPower Corp. (original Mfr.Xantrex),SPR-4000x (208V),"3.8 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",3800,0.95
+SunPower Corp. (original Mfr.Xantrex),SPR-4000x (240V),"4.0 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",4000,0.955
+SunPower Corp. (Original Mfr.Xantrex),SPR-5000x,"5.0 kW, 240Vac, 195-600Vdc Grid Tie Inverter",5000,0.955
+SunPower Corp. (original Mfr.Xantrex),SPR-5000x (208V),"4.5 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",4500,0.95
+SunPower Corp. (original Mfr.Xantrex),SPR-5000x (240V),"5.0 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",5000,0.955
+Sunset,SUNstring 4000,"2.9 kW, 240 Vac, 125-400Vdc Utility Interactive Inverter",2864,0.94
+Sunset,SUNstring 5000,"3.6 kW, 240 Vac, 125-400Vdc Utility Interactive Inverter",3600,0.935
+Sysgration LTD.,Soleil 2000-120,2000W (120Vac) Utility Interactive Inverter,2000,0.915
+"Xantrex Technology, Inc.",GT100-480,100 kW 480 Vac Three Phase Utility Interactive Inverter,100000,0.96
+"Xantrex Technology, Inc.",GT100-480-PG,"100 kW 480 Vac Three Phase Utility Interactive Inverter, Positive Ground",100000,0.96
+"Xantrex Technology, Inc.",GT2.5-NA-DS-240,"2.5 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",2500,0.94
+"Xantrex Technology, Inc.",GT2.5-NA-DS-240-P,"2.5 kW, 240 Vac, 195-600Vdc Grid Tie Inverter (positive ground)",2500,0.94
+"Xantrex Technology, Inc.",GT2.8-NA-240/208 (208V) ,"2.7 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",2700,0.935
+"Xantrex Technology, Inc.",GT2.8-NA-240/208 (240V) ,"2.8 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",2800,0.94
+"Xantrex Technology, Inc.",GT250-480,250 kW 480 Vac Three Phase Utility Interactive Inverter,250000,0.96
+"Xantrex Technology, Inc.",GT250-480-PG,"250 kW 480 Vac Three Phase Utility Interactive Inverter, Positive Ground",250000,0.96
+"Xantrex Technology, Inc.",GT3.0-NA-DS-240,"3.0 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3000,0.945
+"Xantrex Technology, Inc.",GT3.0-NA-DS-240-P,"3.0 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3000,0.945
+"Xantrex Technology, Inc.",GT3.3-NA-DS-208,"3.3 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",3300,0.94
+"Xantrex Technology, Inc.",GT3.3-NA-DS-208-P or POS,"3.3 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",3300,0.94
+"Xantrex Technology, Inc.",GT3.3-NA-DS-208-POS,"3.3 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",3300,0.94
+"Xantrex Technology, Inc.",GT3.3-NA-DS-240,"3.3 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3300,0.945
+"Xantrex Technology, Inc.",GT3.3-NA-DS-240-P or POS,"3.3 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3300,0.945
+"Xantrex Technology, Inc.",GT3.3-NA-DS-240-POS,"3.3 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3300,0.945
+"Xantrex Technology, Inc.",GT3.3N-NA-240/208 (208V) ,"3.1 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",3100,0.95
+"Xantrex Technology, Inc.",GT3.3N-NA-240/208 (240V) ,"3.3 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3300,0.955
+"Xantrex Technology, Inc.",GT3.8-NA-DS-240,"3.8 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3800,0.95
+"Xantrex Technology, Inc.",GT3.8-NA-DS-240-P,"3.8 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3800,0.95
+"Xantrex Technology, Inc.",GT3.8-NA-DS-240-POS,"3.8 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",3800,0.95
+"Xantrex Technology, Inc.",GT4.0N-NA-240/208 (208V) ,"3.8 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",3800,0.95
+"Xantrex Technology, Inc.",GT4.0N-NA-240/208 (240V) ,"4.0 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",4000,0.955
+"Xantrex Technology, Inc.",GT5.0-NA-DS-240,"5.0 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",5000,0.955
+"Xantrex Technology, Inc.",GT5.0-NA-DS-240/208 (208V) ,"5.0 kW, 208 Vac, 195-600Vdc Grid Tie Inverter",4500,0.95
+"Xantrex Technology, Inc.",GT5.0-NA-DS-240/208 (240V),"5.0 kW, 240 Vac, 195-600Vdc Grid Tie Inverter",5000,0.955
+"Xantrex Technology, Inc.",PV100S-208,"100kW 208Vac, 330-600Vdc Inverter System with Automatic Transformer Disconnect",100000,0.925
+"Xantrex Technology, Inc.",PV100S-208-HE,"100kW 208Vac, 330-600Vdc Inverter System with Automatic Transformer Disconnect",100000,0.945
+"Xantrex Technology, Inc.",PV100S-480,"100kW 480Vac, 330-600Vdc Inverter System with Automatic Transformer Disconnect",100000,0.93
+"Xantrex Technology, Inc.",PV100S-480-HE,"100kW 480Vac, 330-600Vdc Inverter System with Automatic Transformer Disconnect",100000,0.95
+"Xantrex Technology, Inc.",PV10-208,"10kW, 208Vac/3phase Utility Interactive Inverter with 208Vac Transformer",10000,0.9
+"Xantrex Technology, Inc.",PV10-480,"10kW, 208Vac/3phase Utility Interactive Inverter with 480Vac Transformer",10000,0.92
+"Xantrex Technology, Inc.",PV15-208,"15kW, 208Vac/3phase Utility Interactive Inverter with 208Vac Transformer",15000,0.915
+"Xantrex Technology, Inc.",PV15-480,"15kW, 208Vac/3phase Utility Interactive Inverter with 480Vac Transformer",15000,0.915
+"Xantrex Technology, Inc.",PV20-208,"20kW, 208Vac/3phase Utility Interactive Inverter with 208Vac Transformer",20000,0.92
+"Xantrex Technology, Inc.",PV20-480,"20kW, 208Vac/3phase Utility Interactive Inverter with 480Vac Transformer",20000,0.92
+"Xantrex Technology, Inc.",PV225S-480,"225kW 480Vac, 330-600Vdc Inverter System with Automatic Transformer Disconnect",225000,0.935
+"Xantrex Technology, Inc.",PV225S-480-P,"225kW 480Vac, 330-600Vdc Inverter System with Automatic Transformer Disconnect",225000,0.945
+"Xantrex Technology, Inc.",PV30-208,"30kW, 208Vac/3phase Utility Interactive Inverter with 208Vac Transformer",30000,0.92
+"Xantrex Technology, Inc.",PV30-480,"30kW, 208Vac/3phase Utility Interactive Inverter with 480Vac Transformer",30000,0.92
+"Xantrex Technology, Inc.",PV45-208,45kW 208Vac/3phase Utility Interactive Inverter with 208Vac Transformer,45000,0.925
+"Xantrex Technology, Inc.",PV45-480,45kW 208Vac/3phase Utility Interactive Inverter with 480Vac Transformer,45000,0.92
+"Xantrex Technology, Inc.",SW4024,"4.0 kVA, 24Vdc, 120Vac, Trace Engr. batt bkp, sine wave inverter (w/GTI)",3297,0.89
+"Xantrex Technology, Inc.",SW4048,"4.0 kVA, 48Vdc, 120Vac, Trace Engr. batt bkp, sine wave inverter (w/GTI)",3211,0.905
+"Xantrex Technology, Inc.",SW5548,"5.5 kVA, 48Vdc, 120Vac, Trace Engr. batt bkp, sine wave inverter (w/GTI)",4264,0.91
+"Xantrex Technology, Inc.",XW6048-120/240,"6 kVA, 48Vdc, 120/240Vac, battery backup, utility-interactive inverter",6000,0.925

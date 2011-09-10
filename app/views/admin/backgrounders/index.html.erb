@@ -1,0 +1,54 @@
+<h1>Listing Company Backgrounders</h1>
+
+<ul id="<%= @filter.blank? ? 'all' : @filter %>" class="filters">
+  <li class="all"><%= link_to("All", :filter => "all") %></li>
+  <li class="pending"><%= link_to("Pending Review", :filter => "pending") %></li>
+  <li class="approved"><%= link_to("Approved", :filter => "approved") %></li>
+  <li class="rejected"><%= link_to("Rejected", :filter => "rejected") %></li>
+</ul>
+
+<%= will_paginate(@company_backgrounders, :params => { :filter => @filter }) %>
+
+<table class="data">
+  <thead>
+    <tr class="header">
+      <th>Partner</th>
+      <th>Title</th>
+      <th>Filename / Size / Format</th>
+      <th>Upload Date</th>
+      <th></th>
+      <th>Status</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% for backgrounder in @company_backgrounders %>
+      <tr class="<%= cycle('odd', 'even') %>">
+        <td><%= backgrounder.partner.email %></td>
+        <td><%= backgrounder.title %></td>
+        <td><%= backgrounder.doc.filename %> (<%= number_to_human_size(backgrounder.doc.size) %>, <%= backgrounder.doc.content_type %>)</td>
+        <td><%= backgrounder.created_at %></td>
+        <td><%= link_to("View", backgrounder.doc.url, :target => "_blank") %></td>
+        <td>
+          <% if backgrounder.waiting_approval? %>
+            <%= link_to 'Approve', approve_admin_backgrounder_url(backgrounder) %> | <%= link_to 'Reject', reject_admin_backgrounder_url(backgrounder) %>
+          <% else  %>
+            <% if backgrounder.approved? %>
+              Approved
+            <% else  %>
+              Rejected 
+              <% if backgrounder.comments? %>
+              <br />
+                <%= backgrounder.comments.gsub(/\n/, '<br />') %>
+              <% end %>
+            <% end  %>
+          <% end %>
+        </td>
+        <!-- <td><%= link_to 'Edit', edit_admin_backgrounder_path(backgrounder) %></td> -->
+        <td><%= link_to 'Destroy', admin_backgrounder_url(backgrounder), :confirm => 'Are you sure?', :method => :delete %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= will_paginate(@company_backgrounders, :params => { :filter => @filter }) %>

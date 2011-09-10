@@ -1,0 +1,41 @@
+<p>We are becoming more conscious every day of the impact we have on our environment. Installing a solar energy system will decrease or eliminate your use of utility power. The pie chart below shows you where the electricity used in your home actually comes from. The annual environmental Impact results take into account your energy use as well as the actual emissions rates for your electric utility so you can see the actual environmental impact of actual electricity consumption. You can see the impact today along with the improvement if you install a solar system.</p>
+
+<p class="bottom">The pie chart below shows you where the electricity used in your home actually comes from.</p>
+
+<%= render(:partial => 'profiles/explore/utility_source_mix_chart') %>
+
+<p><small>Source: <cite>Emissions &amp; Generation Resource Integrated Database, United States Environmental Protection Agency, 2006</cite></small></p>
+
+<hr />
+
+<h3>Annual Environmental Impact of Your Electricity Usage</h3>
+
+<div class="span-11 last">
+  <table border="0" cellspacing="0" cellpadding="0" class="accounting">
+    <tr class="header">
+      <th></th>
+      <th>Before</th>
+      <th>After</th>
+    </tr>
+    <tr class="even">
+      <th>Carbon dioxide (CO<sub>2</sub>), the leading greenhouse gas</th>
+      <td><%= number_with_delimiter(number_with_precision(profile.annual_co2_emissions_before, 0)) %> lbs</td>
+      <td><%= number_with_delimiter(number_with_precision(profile.annual_co2_emissions_after, 0)) %> lbs</td>
+    </tr>
+    <tr>
+      <th>Nitrogen oxide (NO<sub>x</sub>), which causes smog</th>
+      <td><%= number_with_delimiter(number_with_precision(profile.annual_nox_emissions_before, 0)) %> lbs</td>
+      <td><%= number_with_delimiter(number_with_precision(profile.annual_nox_emissions_after, 0)) %> lbs</td>
+    </tr>
+    <tr class="even">
+      <th>Sulphur dioxide (SO<sub>x</sub>), which causes acid rain</th>
+      <td><%= number_with_delimiter(number_with_precision(profile.annual_so2_emissions_before, 0)) %> lbs</td>
+      <td><%= number_with_delimiter(number_with_precision(profile.annual_so2_emissions_after, 0)) %> lbs</td>
+    </tr>
+    <tr>
+      <th>Mercury</th>
+      <td><%= number_with_delimiter(number_with_precision(profile.annual_mercury_emissions_before, 0)) %> oz</td>
+      <td><%= number_with_delimiter(number_with_precision(profile.annual_mercury_emissions_after, 0)) %> oz</td>
+    </tr>
+  </table>
+</div>

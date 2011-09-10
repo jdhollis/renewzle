@@ -1,0 +1,8 @@
+<tr id="<%= dom_id(index_quote_template) %>" class="<%= dom_class(index_quote_template) %>">
+  <td style="text-align:left"><%= link_to(index_quote_template.description, edit_retailer_quote_template_url(index_quote_template)) %></td>
+  <td><%= number_with_delimiter(number_with_precision(index_quote_template.nameplate_rating, 1)) %> kW</td>
+  <td><%= number_with_delimiter(number_with_precision(index_quote_template.cec_rating, 1)) %> kW</td>
+  <td><%= number_to_accounting(index_quote_template.system_cost, :precision => 0) %></td>
+  <td><%= number_to_accounting(index_quote_template.installation_cost, :precision => 0) %></td>
+  <td><%= link_to_remote('Remove', :url => { :controller => 'retailer/quote_templates', :action => 'destroy', :id => index_quote_template.id }, :method => :delete, :href => { :controller => 'retailer/quote_templates', :action => 'destroy', :id => index_quote_template.id }) %></td>
+</tr>

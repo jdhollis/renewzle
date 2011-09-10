@@ -1,0 +1,13 @@
+<h1>Editing discount</h1>
+
+<%= error_messages_for :discount %>
+
+<% form_for(:discount, :url => admin_discount_path) do |f| %>
+
+  <%= hidden_field_tag("_method", "put") %>
+  <%= render(:partial => "form", :locals => { :f => f }) %>
+
+  <div class="controls">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>

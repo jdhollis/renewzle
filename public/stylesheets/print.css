@@ -1,0 +1,45 @@
+/* -----------------------------------------------------------------------
+
+   Blueprint CSS Framework 0.7.1
+   http://blueprintcss.googlecode.com
+
+   * Copyright (c) 2007-2008. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+/* print.css */
+body { line-height: 1.5; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000; background: none; font-size: 12pt; }
+.container { background: none; margin: 0 1em; }
+hr { background: #ccc; color: #ccc; width: 100%; height: 1px; margin: 2em 0; padding: 0; border: none; }
+hr.space { background: #fff; color: #fff; }
+hr.top { margin-top: 0; }
+hr.bottom { margin-bottom: 0; }
+h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif; }
+h1, h2 { font-weight: normal; }
+abbr { border-bottom: none; }
+
+th, td { padding: 4px 10px 4px 5px; }
+th small { font-weight: normal; }
+
+.clear { clear: both; }
+
+.results, .accounting { margin-left: -5px; }
+.results th, .accounting th { text-align: left; }
+.results td, .accounting td { text-align: right; }
+
+.accounting th { font-weight: normal; }
+.accounting .header th { text-align: center; font-weight: bold; }
+
+.summary, .recommended { float: left; display: inline; width: 45%; margin-bottom: 2em; }
+.summary { margin-right: 2em; }
+
+.negative { color: red; }
+
+.sub { text-indent: 1em; }
+
+.net th, .net td { font-weight: bold; border-top: 1px solid #ccc; }
+
+.hr th, .hr td { border-top: 1px solid #ccc; }

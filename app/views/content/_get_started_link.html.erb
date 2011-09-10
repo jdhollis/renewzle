@@ -1,0 +1,20 @@
+<div id="call_to_action_get_started_form" class="callout">
+  <div class="top-left">
+    <div class="bottom-right">
+	    <h3 class="top-right">Get Started</h3>
+	    
+	    <p>Are you a California homeowner interested in solar? Get a free solar financial analysis from Renewzle. Enter your zip code here to get started&hellip;</p>
+	    
+	    <% labelled_form_for(@profile, :url => profile_path) do |profile_form| -%>
+	      <fieldset class="bottom bottom-left">
+	        <%= profile_form.hidden_field(:street_address) %>
+        	<%= profile_form.labelled_text_field(:postal_code, :label => 'Zip code', :error_label => 'Zip') %>
+
+          <div class="submit bottom">
+            <input type="image" src="<%= image_path('customer/btn_get_started.gif') %>" alt="Update Profile" class="button" />
+          </div>
+        </fieldset>
+      <% end -%>
+    </div>
+  </div>
+</div>

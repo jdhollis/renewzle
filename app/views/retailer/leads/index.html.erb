@@ -1,0 +1,24 @@
+<h2><%= h(@view_title) %></h2>
+
+<ul id="<%= @filter.blank? ? 'all' : @filter %>" class="filters">
+  <li class="all"><%= link_to("All", :filter => "all") %><%= separator %></li>
+  <li class="open"><%= link_to("Open", :filter => "open") %><%= separator %></li>
+  <li class="closed"><%= link_to("Closed", :filter => "closed") %></li>
+</ul>
+
+<% unless @leads.blank? -%>
+<div class="span-14">
+  <table border="0" cellspacing="0" cellpadding="0" class="accounting">
+    <tr class="header">
+      <th style="text-align:right">City</th>
+      <th style="text-align:right">System Size</th>
+      <th style="text-align:right">CEC Rating</th>
+      <th style="text-align:right">Your Quote</th>
+      <th class="actions"></th>
+    </tr>
+    <%= render(:partial => 'retailer/leads/purchased_lead', :collection => @leads) %>
+  </table>
+</div>
+<% else -%>
+  <p><em>No<%= @filter.blank? || @filter == 'All' ? '' : " #{@filter}" %> leads available.</em></p>
+<% end -%>

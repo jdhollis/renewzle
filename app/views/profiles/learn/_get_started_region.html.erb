@@ -1,0 +1,14 @@
+<% initially_hidden = !initially_hidden.blank? -%>
+<li id="region" class="three<%= profile.beyond_region_stage? ? ' complete' : '' %>"<%= initially_hidden ? ' style="display:none"' : '' %>>  
+  <p>One more detail about your electric utility. Please choose your region from the drop-down list below. You can find the region specified on your utility bill, or use the map below to find your region.</p>
+
+  <% labelled_remote_form_for(profile, :url => profile_path, :loading => "showItemLoadingFor('profile');", :html => { :id => "edit_#{dom_id(@profile)}_region" }) do |profile_form| -%>
+    <p>
+      <%= non_auto_submitting_region_select_for(profile_form, :disabled => profile.beyond_region_stage?, :onchange => "new Effect.ScrollTo('next_step_submit');") %>
+    </p>
+    
+    <%= region_map if profile.getting_started_with_region? %>
+
+    <%= next_step_submit if profile.getting_started_with_region? %>
+  <% end -%>
+</li>

@@ -1,0 +1,11 @@
+<% rfq = rfq_and_quotes -%>
+<% quotes = quotes_by_rfq[rfq.id].to_a -%>
+<% in_area_class = (@partner.company.geo_regions.include?(rfq.geo_region) or !quotes.empty?) ? '' : ' not_in_area' -%>
+<tr id="<%= dom_id(rfq) %>" class="<%= dom_class(rfq) %><%= (rfq_and_quotes_counter + 1) % 2 == 0 ? ' even' : '' %><%= in_area_class %>">
+  <td style="text-align:center"><%= h(rfq.city) %><br /><%= h(rfq.postal_code) %></td>
+  <td><%= number_with_delimiter(number_with_precision(rfq.nameplate_rating, 1)) %> kW</td>
+  <td><%= number_with_delimiter(number_with_precision(rfq.cec_rating, 1)) %> kW</td>
+  <td colspan="7"></td>
+  <td class="button"><%= make_quote_link_for(rfq, quotes) %></td>
+</tr>
+<%= render(:partial => 'retailer/profiles/quote', :collection => quotes, :locals => { :parent_counter => rfq_and_quotes_counter, :parent_class => in_area_class }) %>

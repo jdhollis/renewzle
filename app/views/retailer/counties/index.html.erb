@@ -1,0 +1,60 @@
+<script type="text/javascript">
+//<![CDATA[
+function enableSelectedCounty()
+{
+    for (var i=0; i < $('counties_disabled').length; i++)
+    {
+        var option = $('counties_disabled').options[i];
+        if (option.selected)
+        {
+            new Ajax.Request('/retailer/counties', 
+            {
+                asynchronous:   true, 
+                evalScripts:    true, 
+                parameters:     '?region_id=' + option.value + '&update=enable', // + '&authenticity_token=' + encodeURIComponent('2c9392cad5a71a77e035322356362b31dda366fb'),
+                method:         "post"
+            });
+            return;
+        }
+    }
+}
+
+function disableSelectedCounty()
+{
+    for (var i=0; i < $('counties_enabled').length; i++)
+    {
+        var option = $('counties_enabled').options[i];
+        if (option.selected)
+        {
+            new Ajax.Request('/retailer/counties', 
+            {
+                asynchronous:   true, 
+                evalScripts:    true, 
+                parameters:     '?region_id=' + option.value + '&update=disable', // + '&authenticity_token=' + encodeURIComponent('2c9392cad5a71a77e035322356362b31dda366fb'),
+                method:         "post"
+            });
+            return;
+        }
+    }
+}
+</script>
+
+<h2>Service Area</h2>
+<form id="form">
+  <div class="span-6 append-1" style="display: none;">
+    <fieldset>
+      <legend>State</legend>
+
+      <div class="field required">
+        <label for="counties_state_id">State</label>
+        <%= collection_select("counties", "state_id", @states, 'id', 'state_code', {:include_blank => true}, {:style => "width: 100px;", :onchange => "showItemLoadingFor('counties_state_id');"}) %>
+        <%= loading_span_of_size(24, :for => 'counties_state_id') %>
+        <%= observe_field(:counties_state_id, :with => "Form.serialize('form') + '&update=counties'", :url => { :action => 'index' }) %>
+      </div>
+    </fieldset>
+  </div>
+
+  <div class="span-16 last" id="manage_counties">
+    <%= render :partial => 'retailer/counties/counties', :enabled_counties => @enabled_counties, :disabled_counties => @disabled_counties %>
+  </div>
+</form>

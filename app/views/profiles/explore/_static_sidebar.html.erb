@@ -1,0 +1,103 @@
+<div class="callout">
+  <div class="top-left">
+    <div class="bottom-right">
+	    <h3 class="top-right">What&rsquo;s next?</h3>
+	    
+	    <div class="bottom-left">
+        <p><%= link_to("Review quotes made on your profile", shop_url) %>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="settings">
+  <div class="top-left">
+    <div class="bottom-right">
+      <h3 class="top-right">Your Current Settings</h3>
+      
+      <h4>System Size</h4>
+      
+      <table border="0" cellspacing="0" cellpadding="0" class="span-8 results">
+        <tr>
+          <th>Percentage of electricity from solar:</th>
+          <td><%= number_with_precision(profile.percentage_to_offset * 100, 0) %> %</td>
+        </tr>
+      </table>
+
+      <hr />
+      
+      <h4>Energy Usage</h4>
+
+      <table border="0" cellspacing="0" cellpadding="0" class="span-6 results">
+        <tr>
+          <th>Average monthly bill:</th>
+          <td><%= number_to_currency(profile.average_monthly_bill, :precision => 2) %></td>
+        </tr>
+      </table>
+
+      <hr />
+      
+      <h4>Tax Status</h4>
+
+      <table border="0" cellspacing="0" cellpadding="0" class="span-5 results">
+        <tr>
+          <th>Income:</th>
+          <td><%= number_to_currency(profile.income, :precision => 0) %></td>
+        </tr>
+        <tr>
+          <th>Filing status:</th>
+          <td><%= h(profile.filing_status) %></td>
+        </tr>
+      </table>
+
+      <hr />
+      
+      <h4>Financing</h4>
+
+      <table border="0" cellspacing="0" cellpadding="0" class="span-6 results">
+        <tr>
+          <th>Loan term in years:</th>
+          <td><%= number_with_delimiter(profile.loan_term) %></td>
+        </tr>
+        <tr>
+          <th>Annual interest rate:</th>
+          <td><%= number_with_precision(profile.annual_interest_rate * 100, 1) %> %</td>
+        </tr>
+      </table>
+
+      <hr />
+      
+      <h4>Energy Provider</h4>
+
+      <table border="0" cellspacing="0" cellpadding="0" class="span-8 results">
+        <tr>
+          <th>Electric utility:</th>
+          <td><%= h(profile.utility.name) %></td>
+        </tr>
+      <% unless profile.region.blank? -%>
+        <tr>
+          <th>Region:</th>
+          <td><%= h(profile.region) %></td>
+        </tr>
+      <% end -%>
+      </table>
+
+      <hr />
+      
+      <div class="bottom-left">
+        <h4>Location</h4>
+
+        <table border="0" cellspacing="0" cellpadding="0" class="results">
+          <tr>
+            <th>Site location:</th>
+            <td><%= h(profile.city) %>, <%= h(full_state_name_for(profile.state)) %> <%= h(profile.postal_code) %></td>
+          </tr>
+          <tr>
+            <th>Solar output adjustment:</th>
+            <td><%= number_with_precision(profile.system_performance_derate * 100, 0) %> %</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

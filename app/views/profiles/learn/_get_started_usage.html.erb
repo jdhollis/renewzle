@@ -1,0 +1,12 @@
+<% initially_hidden = !initially_hidden.blank? -%>
+<li id="usage" class="<%= profile.region.blank? ? 'three' : 'four' %>"<%= initially_hidden ? ' style="display:none"' : '' %>>
+  <p>Enter the approximate amount of your monthly electric bill in the field below.</p>
+
+  <% labelled_remote_form_for(profile, :url => profile_path, :loading => "showItemLoadingFor('profile');", :html => { :id => "edit_#{dom_id(@profile)}_usage" }) do |profile_form| -%>
+    <p>
+      <%= profile_form.labelled_dollar_text_field(:average_monthly_bill) %>
+    </p>
+    
+    <%= view_my_results_submit %>
+  <% end -%>
+</li>

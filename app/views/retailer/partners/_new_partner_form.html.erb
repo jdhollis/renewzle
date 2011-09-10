@@ -1,0 +1,31 @@
+<% errors = errors.blank? ? false : errors -%>
+<div id="new_partner_form"<%= errors ? '' : ' style="display:none"' %>>
+  <% labelled_remote_form_for(partner, :url => retailer_partners_path, :loading => "showItemLoadingFor('new_partner');") do |partner_form| -%>
+    <fieldset>
+      <legend>New User</legend>
+    
+      <%= hidden_field_tag('company_id', company.id) %>
+      
+      <%= partner_form.required_text_field(:first_name, :input_class => 'name') %>
+      <%= partner_form.required_text_field(:last_name, :input_class => 'name') %>
+      <%= partner_form.required_text_field(:email, :input_class => 'email') %>
+      <br />
+      <%= partner_form.required_password_fields(:password, :input_class => 'password') %>
+      <br />
+      <%= partner_form.required_text_field(:phone_number, :input_class => 'phone_number') %>
+      <%= partner_form.labelled_text_field(:fax_number, :input_class => 'fax_number') %>
+      <br />
+      <%= partner_form.labelled_check_box(:can_submit_quotes, :label => 'May submit quotes') %>
+      <%= partner_form.labelled_check_box(:can_purchase_leads, :label => 'May purchase leads') %>
+      <%= partner_form.labelled_check_box(:can_update_company_profile, :label => 'May update the company profile') %>
+  
+      <div class="submit bottom">
+        <a class="cancel button" href="#" onclick="return Company.hideUserFormFor('new_partner');"><%= image_tag('btn_cancel.png', :alt => 'Cancel') %></a>
+        <input type="image" src="<%= image_path('partner/btn_add_user.png') %>" alt="Add User" class="button" />
+        <%= loading_span_of_size(24, :for => 'new_partner') %>
+      </div>
+    </fieldset>
+  <% end -%>
+</div>
+
+<p id="new_partner_link"<%= errors ? ' style="display:none"' : '' %>><a href="#new_partner_form" onclick="Company.showUserFormFor('new_partner');">Add a user</a></p>

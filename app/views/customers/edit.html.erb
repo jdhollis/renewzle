@@ -1,0 +1,31 @@
+<div class="span-12">
+  <h2><%= h(@view_title) %></h2>
+  
+  <% @page_javascript << "Form.focusFirstElement('edit_#{dom_id(@customer)}');" -%>
+  <% labelled_form_for(@customer, :url => customer_path) do |customer_form| -%>    
+    <fieldset>
+      <legend>Name &amp; Login</legend>
+      
+      <%= customer_form.required_text_field(:first_name) %>
+      <%= customer_form.required_text_field(:last_name) %>
+      <%= customer_form.required_text_field(:email) %>
+      <%= customer_form.required_password_fields(:password) %>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Contact Information</legend>
+      
+      <%= customer_form.required_text_field(:street_address) %>
+      <%= customer_form.required_text_field(:city) %>
+      <%= customer_form.required_text_field(:state) %>
+      <%= customer_form.required_text_field(:postal_code) %>
+      <br />
+      <%= customer_form.required_text_field(:phone_number) %>
+    </fieldset>
+    
+    <div class="submit">
+      <p><%= submit_button('Save') %> or <%= link_to('Go back', home_url) %></p>
+      <p><small><%= link_to('Cancel my account', cancel_account_url) %></small></p>
+    </div>
+  <% end -%>
+</div>

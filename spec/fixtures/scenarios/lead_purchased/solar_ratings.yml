@@ -1,0 +1,19 @@
+solar_rating:
+  id: 57151
+  jan: 3508.4
+  feb: 3729
+  mar: 5619.8
+  apr: 6168.3
+  may: 6426
+  jun: 6919
+  jul: 7168.5
+  aug: 7120.1
+  sep: 6721
+  oct: 5906
+  nov: 4304.5
+  dec: 3648.7
+  annual: 5612
+  potential: Very Good
+  lng: 122.05
+  lat: 37.25
+  distance:

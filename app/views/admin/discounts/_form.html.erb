@@ -1,0 +1,29 @@
+<%= hidden_field_tag('discount[type]', @type) %>
+
+<div class="fieldgrp">
+  <label>&nbsp;</label>
+  <div class="field">
+    <%= f.check_box(:global, :onclick => "Element.toggle($('company'))") %> Global Discount?
+  </div>
+</div>
+
+<div id="company" class="fieldgrp" <%= (@discount.global?) ? 'style="display:none;"' : '' %>>
+  <%= f.label(:company_id) %>
+  <div class="field">
+    <%= f.select(:company_id, Company.find_all_by_claimed(true).collect {|p| [ p.name, p.id ] }) %>
+  </div>
+</div>
+
+<div class="fieldgrp">
+  <%= f.label(:percentage) %>
+  <div class="field">
+    <%= f.text_field(:percentage) %>%
+  </div>
+</div>
+
+<div class="fieldgrp">
+  <%= f.label(:price) %>
+  <div class="field">
+    $<%= f.text_field(:price) %>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<h1>Incentives</h1>
+
+<%= will_paginate(@incentives) %>
+
+<table class="data">
+  <tr>
+    <th>Type</th>
+    <th>Description</th>
+    <th>State</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <% @incentives.each do |incentive| %>
+    <tr class="<%= cycle('odd', 'even') %>">
+      <td><%= incentive.type.to_s.underscore.humanize %></td>
+      <td><%= incentive.description %></td>
+      <td><%= incentive.state %></td>
+      <td><%= link_to('Show', admin_incentive_url(incentive)) %></td>
+      <td><%= link_to('Edit', edit_admin_incentive_path(incentive)) %></td>
+      <td><%= link_to('Destroy', admin_incentive_url(incentive), :confirm => 'Are you sure?', :method => :delete) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= will_paginate(@incentives) %>

@@ -1,0 +1,98 @@
+<%= purchasing_partner_contact_information %>
+
+<div class="span-7 append-1">
+  <fieldset class="results">
+  	<legend>Recommended System</legend>
+
+  	<table cellspacing="0" cellpadding="0" border="0" class="results bottom">
+  		<tr>
+  			<th>System size:</th>
+        <td><%= number_with_delimiter(number_with_precision(@profile.nameplate_rating, 1)) %> DC kW</td>
+  		</tr>
+  		<tr>
+        <th>Annual output:</th>
+        <td><%= number_with_delimiter(number_with_precision(@profile.annual_output, 0)) %> kWh</td>
+      </tr>
+  	</table>	
+  </fieldset>
+</div>
+
+<div class="span-10 pull-half">
+  <fieldset class="results">
+    <legend>System Specifications</legend>
+  
+    <table border="0" cellspacing="0" cellpadding="0" class="results bottom">
+      <tr>
+  			<th style="width:110px">System size:</th>
+        <td><%= number_with_delimiter(number_with_precision(quote.nameplate_rating, 1)) %> DC kW</td>
+  		</tr>
+  		<tr>
+        <th style="width:110px">Annual output:</th>
+        <td><%= number_with_delimiter(number_with_precision(quote.annual_output, 0)) %> kWh</td>
+      </tr>
+      <tr>
+        <td colspan="2"><hr class="bottom" /></td>
+      </tr>
+    	<tr>
+    	  <th style="width:110px; vertical-align:top">Module:</th>
+    		<td><%= number_with_delimiter(quote.number_of_modules) %> &times; <%= quote.module_type %></td>
+    	</tr>
+    	<tr>
+    		<th style="width:110px; vertical-align:top">Inverter:</th>
+    		<td><%= number_with_delimiter(quote.number_of_inverters) %> &times; <%= quote.inverter_type %></td>
+    	</tr>
+    </table>
+  </fieldset>
+</div>
+
+<hr />
+
+<div class="span-7 append-1">
+  <fieldset class="results">
+    <legend>Pricing</legend>
+
+    <table border="0" cellspacing="0" cellpadding="0" class="results bottom">
+    	<tr>
+    		<th>System price:</th>
+    		<td><%= number_to_accounting(quote.system_price, :precision => 0) %></td>
+    	</tr>
+    	<tr>
+    		<th>
+    		  Installation estimate:<br />
+    		  <small><%= quote.installation_available? ? 'Installation available' : 'Installation unavailable' %></small>
+    		</th>
+    		<td><%= number_to_accounting(quote.installation_estimate, :precision => 0) %></td>
+    	</tr>
+    	<tr>
+    		<th>Project cost:</th>
+    		<td><%= number_to_accounting(quote.project_cost, :precision => 0) %></td>
+    	</tr>
+    	<tr>
+    		<th>
+    		  Upfront cost / cash outlay:<br />
+    		  <small><%= quote.will_accept_rebate_assignment? ? 'Rebate assignment accepted' : 'Rebate assignment not accepted' %></small>
+    		</th>
+    		<td><%= number_to_accounting(quote.cash_outlay, :precision => 0) %></td>
+    	</tr>
+    </table>
+  </fieldset>
+</div>
+
+<div class="span-6 pull-half last">
+  <fieldset class="results">
+    <legend>Savings</legend>
+
+    <table border="0" cellspacing="0" cellpadding="0" class="results bottom">
+    	<tr>
+    		<th>First year savings:</th>
+    		<td><%= number_to_accounting(quote.first_year_savings, :precision => 0) %></td>
+    	</tr>
+    	<tr>
+    		<th>
+    		  Lifetime savings:
+    		</th>
+    		<td><%= number_to_accounting(quote.lifetime_savings, :precision => 0) %></td>
+    	</tr>
+    </table>
+  </fieldset>
+</div>
